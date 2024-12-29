@@ -2,24 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Oracles on amardeepsidhu.com</title>
-    <link>http://localhost:1313/website-static/oracle/</link>
+    <link>http://localhost:1313/oracle/</link>
     <description>Recent content in Oracles on amardeepsidhu.com</description>
     <generator>Hugo -- 0.140.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Sep 2023 15:48:11 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/website-static/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 22:11:47 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/oracle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testpost2</title>
+      <link>http://localhost:1313/oracle/testpost2/</link>
+      <pubDate>Sat, 28 Dec 2024 22:11:47 +0530</pubDate>
+      <guid>http://localhost:1313/oracle/testpost2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testpost</title>
+      <link>http://localhost:1313/oracle/testpost/</link>
+      <pubDate>Sat, 28 Dec 2024 19:50:41 +0530</pubDate>
+      <guid>http://localhost:1313/oracle/testpost/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Extended memory VM instances in OCI</title>
-      <link>http://localhost:1313/website-static/oracle/2023/09/21/extended-memory-vm-instances-in-oci/</link>
+      <link>http://localhost:1313/oracle/2023/09/21/extended-memory-vm-instances-in-oci/</link>
       <pubDate>Thu, 21 Sep 2023 15:48:11 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2023/09/21/extended-memory-vm-instances-in-oci/</guid>
+      <guid>http://localhost:1313/oracle/2023/09/21/extended-memory-vm-instances-in-oci/</guid>
       <description>&lt;p&gt;While provisioning compute instances in OCI, you may come across scenarios which need more memory and cores than what the standard shapes provide. Extended memory VMs are meant to solve that problem. Such VMs are able to access cores and memory across a single physical socket and it allows them to go beyond the limits of standard shapes. There are no additional charges for using this specific feature. Customer is charged on the basis of total number of cores and total amount of memory used.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Can’t su to oracle user</title>
-      <link>http://localhost:1313/website-static/oracle/2023/01/20/cant-su-to-oracle-user/</link>
+      <link>http://localhost:1313/oracle/2023/01/20/cant-su-to-oracle-user/</link>
       <pubDate>Fri, 20 Jan 2023 16:55:50 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2023/01/20/cant-su-to-oracle-user/</guid>
+      <guid>http://localhost:1313/oracle/2023/01/20/cant-su-to-oracle-user/</guid>
       <description>&lt;p&gt;Last week, got this issue reported by a DBA that he wasn&amp;rsquo;t able to su to oracle user from root on a Oracle Base Database VM in OCI. The login of opc user worked fine and he could do sudo su to root but he couldn&amp;rsquo;t su to oracle. When he did it just came back to root shell.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[root@xxx ~]# su - oracle
 Last login: Fri Jan 12 10:20:38 UTC 2023
@@ -28,23 +42,23 @@ Last login: Fri Jan 12 10:20:38 UTC 2023
     </item>
     <item>
       <title>Adding a new cell to Exadata with asm scoped security enabled</title>
-      <link>http://localhost:1313/website-static/oracle/2022/05/09/adding-a-new-cell-to-exadata-with-asm-scoped-security-enabled/</link>
+      <link>http://localhost:1313/oracle/2022/05/09/adding-a-new-cell-to-exadata-with-asm-scoped-security-enabled/</link>
       <pubDate>Mon, 09 May 2022 13:26:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2022/05/09/adding-a-new-cell-to-exadata-with-asm-scoped-security-enabled/</guid>
+      <guid>http://localhost:1313/oracle/2022/05/09/adding-a-new-cell-to-exadata-with-asm-scoped-security-enabled/</guid>
       <description>&lt;p&gt;A customer is using an Exadata X8M-2 machine with multiple VMs (hence multiple clusters). I was working on adding a new storage cell to the configuration. After creating griddisks on the new cell and updating cellip.ora on all the VMs, I noticed that none of the clusters was able to see the new griddisks. I checked the usual suspects like if asm_diskstring was set properly, private network subnet mask on new cell was same as the old ones. All looked good. I started searching about the issue and stumbled upon some references mentioning &lt;a href=&#34;https://mudasirhakakblog.wordpress.com/2019/03/01/asm-scoped-security/&#34;&gt;ASM scoped security&lt;/a&gt;. I checked on one of the existing cells and that actually was the issue. The existing nodes had it enabled while the new one hadn&amp;rsquo;t. Running this command on an existing cell&lt;/p&gt;</description>
     </item>
     <item>
       <title>Smokescreen detects traffic from an Exadata VM</title>
-      <link>http://localhost:1313/website-static/oracle/2022/03/21/smokescreen-detects-traffic-from-an-exadata-vm/</link>
+      <link>http://localhost:1313/oracle/2022/03/21/smokescreen-detects-traffic-from-an-exadata-vm/</link>
       <pubDate>Mon, 21 Mar 2022 19:30:16 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2022/03/21/smokescreen-detects-traffic-from-an-exadata-vm/</guid>
+      <guid>http://localhost:1313/oracle/2022/03/21/smokescreen-detects-traffic-from-an-exadata-vm/</guid>
       <description>&lt;p&gt;A customer who is using an Exadata X8M-2 with multiple VMs had Smokescreen deployed in their company recently and they reported an issue that one of the Smokescreen decoy servers in their DC was seeing traffic from one of the Exadata VMs on a certain port. That was rather confusing as that port was the database listener port on that VM and why would a VM with Oracle RAC deployed try to access any random IP on the listener port. Also it was happening only for this VM. Nothing for so many other VMs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unable to connect to the database with SQLPlus</title>
-      <link>http://localhost:1313/website-static/oracle/2022/01/06/unable-to-connect-to-the-database-with-sqlplus/</link>
+      <link>http://localhost:1313/oracle/2022/01/06/unable-to-connect-to-the-database-with-sqlplus/</link>
       <pubDate>Thu, 06 Jan 2022 18:41:09 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2022/01/06/unable-to-connect-to-the-database-with-sqlplus/</guid>
+      <guid>http://localhost:1313/oracle/2022/01/06/unable-to-connect-to-the-database-with-sqlplus/</guid>
       <description>&lt;p&gt;I was working on configuring a new database for backup to ZDLRA and hit this issue while testing a controlfile backup via Enterprise Manager -&amp;gt; Schedule backup. It could happen in any environment.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Unable to connect to the database with SQLPlus, either because the database is down or due to an environment issue such as incorrectly specified...
 If the database is up, check the database target monitoring properties and verify that the Oracle Home value is correct.
@@ -52,33 +66,33 @@ If the database is up, check the database target monitoring properties and verif
     </item>
     <item>
       <title>File system already present at specified mount point /dbfs_direct</title>
-      <link>http://localhost:1313/website-static/oracle/2021/06/05/file-system-already-present-at-specified-mount-point-dbfs_direct/</link>
+      <link>http://localhost:1313/oracle/2021/06/05/file-system-already-present-at-specified-mount-point-dbfs_direct/</link>
       <pubDate>Sat, 05 Jun 2021 20:19:37 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2021/06/05/file-system-already-present-at-specified-mount-point-dbfs_direct/</guid>
+      <guid>http://localhost:1313/oracle/2021/06/05/file-system-already-present-at-specified-mount-point-dbfs_direct/</guid>
       <description>&lt;p&gt;It was actually funny. So thought about posting it that sometimes how we can miss the absolute basics. This customer is using a virtualized Exadata with multiple VMs. One VM hosts the database meant to be used for dbfs and another VM connects to this DB over IB to mount dbfs file system using dbfs_client. One day VMs were rebooted and due to some reason the dbfs filesystem didn&amp;rsquo;t mount on startup. It went on for few days and they couldn&amp;rsquo;t mount it. One day I got a chance to look at it and the error they were facing was:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Database performance degradation due to multipath issues</title>
-      <link>http://localhost:1313/website-static/oracle/2021/03/22/database-performance-degradation-due-to-multipath-issues/</link>
+      <link>http://localhost:1313/oracle/2021/03/22/database-performance-degradation-due-to-multipath-issues/</link>
       <pubDate>Mon, 22 Mar 2021 12:54:19 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2021/03/22/database-performance-degradation-due-to-multipath-issues/</guid>
+      <guid>http://localhost:1313/oracle/2021/03/22/database-performance-degradation-due-to-multipath-issues/</guid>
       <description>&lt;p&gt;To put it in bit of an Indian context, database is not your daughter-in-law that you can blame it for every performance issue that occurs in the environment. But it does happen. Most of the time it is the database that is blamed for all such issues. Many times, the issues are in some other layer like OS, network or storage.&lt;/p&gt;
 &lt;p&gt;Faced this issue recently at one of the customer sites where performance in one of the databases went down suddenly. It was a 2 node RAC on 12.1.0.2 running on Linux 7 using some kind of Hitachi SSD storage array. There were no changes as per DBA, application, OS and storage teams. But something must have changed somewhere. Otherwise why would performance degrade just like that. I &amp;amp; my colleague checked some details and found that something happened in the morning a day before. Starting from that point in time, the execution time for all the commonly run queries shot up. Generally speaking, when all the queries are doing bad and you are sure that nothing has been changed on the database side, the reasons could be outside the database. But being a DBA, it is not easy to prove that. We took AWRs from good and bad times and the wait events section looked like this:&lt;/p&gt;</description>
     </item>
     <item>
       <title>ZDLRA patching</title>
-      <link>http://localhost:1313/website-static/oracle/2021/03/12/zdlra-patching/</link>
+      <link>http://localhost:1313/oracle/2021/03/12/zdlra-patching/</link>
       <pubDate>Fri, 12 Mar 2021 22:30:52 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2021/03/12/zdlra-patching/</guid>
+      <guid>http://localhost:1313/oracle/2021/03/12/zdlra-patching/</guid>
       <description>&lt;p&gt;To be honest, Fernando Simon has already documented all the steps needed in ZDLRA patching . So this post is more like a reference post for me and it points to the links on &lt;a href=&#34;http://www.fernandosimon.com/blog/&#34;&gt;his blog&lt;/a&gt;. One thing he could change though are the post titles. He also agrees ;)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/amardeep&#34;&gt;https://twitter.com/amardeep&lt;/a&gt;_sidhu/status/1370304085245661192&lt;/p&gt;
 &lt;p&gt;ZDLRA patching is broadly divided into two parts. First part is where you patch the RA library and Grid &amp;amp; DB homes. Second part includes compute node &amp;amp; storage cell image patch and patches for IB/RoCE switches. Second part is exactly similar to Exadata except that it is bit restricted in terms of image versions that you can use. Only the versions that are certified for ZDLRA can be used. Also the RA library version and the Exadata image version should be compatible with each other. So if you are planning to patch only one part; RA library or the image, make sure that both the components stay compatible. The MOS note that has all these details is 1927416.1. This note should be the first place to go when you are planning to patch a ZDLRA. The steps for upgrade/patch, image patching are given in MOS note 2028931.1. There is another note 2639262.1 that discusses some of the known issues that you may face while doing the patching. It is important to review all three notes before you plan to patch.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[FATAL] [INS-44000] Passwordless SSH connectivity is not setup</title>
-      <link>http://localhost:1313/website-static/oracle/2021/03/10/fatal-ins-44000-passwordless-ssh-connectivity-is-not-setup/</link>
+      <link>http://localhost:1313/oracle/2021/03/10/fatal-ins-44000-passwordless-ssh-connectivity-is-not-setup/</link>
       <pubDate>Wed, 10 Mar 2021 18:17:34 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2021/03/10/fatal-ins-44000-passwordless-ssh-connectivity-is-not-setup/</guid>
+      <guid>http://localhost:1313/oracle/2021/03/10/fatal-ins-44000-passwordless-ssh-connectivity-is-not-setup/</guid>
       <description>&lt;p&gt;Faced this while running installer for setting up a 2 node RAC setup (version 19.8) on an Oracle SuperCluster. The error reported in the log is:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[FATAL] [INS-44000] Passwordless SSH connectivity is not setup from the local node node1 to the following nodes:
 [node2]
@@ -87,18 +101,18 @@ If the database is up, check the database target monitoring properties and verif
     </item>
     <item>
       <title>Doing an Exadata mixed cells config with OEDA</title>
-      <link>http://localhost:1313/website-static/oracle/2020/10/27/doing-an-exadata-mixed-cells-config-with-oeda/</link>
+      <link>http://localhost:1313/oracle/2020/10/27/doing-an-exadata-mixed-cells-config-with-oeda/</link>
       <pubDate>Tue, 27 Oct 2020 18:53:37 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2020/10/27/doing-an-exadata-mixed-cells-config-with-oeda/</guid>
+      <guid>http://localhost:1313/oracle/2020/10/27/doing-an-exadata-mixed-cells-config-with-oeda/</guid>
       <description>&lt;p&gt;Earlier versions of OEDA didn&amp;rsquo;t allow you to have mixed cells in the configuration i.e. High Capacity (HC) and Extreme Flash (EF). The way to deal with that configuration was that deploy the system with either HC or EF cells and then manually configure the remaining cells.&lt;/p&gt;
 &lt;p&gt;I am not sure when did it change but the newer versions allow you have mixed type of cells in a single OEDA configuration. Once you select the hardware, there is an additional option called &lt;strong&gt;Enable Additional Storage&lt;/strong&gt;, where you can select the other type of cells. The minimum number of cells has to be three to use this option. Also the cells that are at the bottom of the rack physically should be selected as main storage and the other cells should be added as additional storage as that is how OEDA builds the configuration files.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Implementing ZDLRA – Part 2</title>
-      <link>http://localhost:1313/website-static/oracle/2020/10/06/implementing-zdlra-part-2/</link>
+      <link>http://localhost:1313/oracle/2020/10/06/implementing-zdlra-part-2/</link>
       <pubDate>Tue, 06 Oct 2020 18:06:53 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2020/10/06/implementing-zdlra-part-2/</guid>
-      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/website-static/blog/2020/09/09/implementing-zdlra-part-1/&#34;&gt;part 1&lt;/a&gt;, we discussed few things that you should take care before implementation of a ZDLRA. In this post, we will discuss few more things that you should review before or at the time of implementation:&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2020/10/06/implementing-zdlra-part-2/</guid>
+      <description>&lt;p&gt;In &lt;a href=&#34;http://localhost:1313/blog/2020/09/09/implementing-zdlra-part-1/&#34;&gt;part 1&lt;/a&gt;, we discussed few things that you should take care before implementation of a ZDLRA. In this post, we will discuss few more things that you should review before or at the time of implementation:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;If you are getting two ZDLRAs (one each for primary and standby sites), there are two ways they can be deployed. One scenario is where all the primary databases (or the database that have no standby) backup to RA at the primary site and then the data is replicated from primary RA to RA at the standby site. This works well for the DBs that have no standby database. For the DBs where there is a standby database, there is a better architecture that can be deployed. In that scenario, primary databases backup to primary RA and the standby databases backup to standby RA. That saves you all the traffic over replication network. Oracle has published a whitepaper on how to do this configuration. Few of the instructions in this paper are a bit dated but it gives a good overall idea of how to do the implementation.&lt;/li&gt;
 &lt;li&gt;Keep an eye on the features supported for different DB versions. An interesting one is that real-time redo shipping from standby databases is supported on 12c+ databases only. It is not supported for 11g. There could be other similar things. MOS note 1995866.1 has these details.&lt;/li&gt;
@@ -112,32 +126,32 @@ If the database is up, check the database target monitoring properties and verif
     </item>
     <item>
       <title>PRVF-4657 : Name resolution setup check for “db-scan” (IP address: x.x.x.101) failed</title>
-      <link>http://localhost:1313/website-static/oracle/2020/09/25/prvf-4657-name-resolution-setup-check-for-db-scan-ip-address-x-x-x-101-failed/</link>
+      <link>http://localhost:1313/oracle/2020/09/25/prvf-4657-name-resolution-setup-check-for-db-scan-ip-address-x-x-x-101-failed/</link>
       <pubDate>Fri, 25 Sep 2020 19:41:28 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2020/09/25/prvf-4657-name-resolution-setup-check-for-db-scan-ip-address-x-x-x-101-failed/</guid>
+      <guid>http://localhost:1313/oracle/2020/09/25/prvf-4657-name-resolution-setup-check-for-db-scan-ip-address-x-x-x-101-failed/</guid>
       <description>&lt;p&gt;A quick note about an error I faced while running root.sh on an Exadata machine. The configuration tools failed with the following error:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Error is PRVF-4657 : Name resolution setup check for &amp;#34;db-scan&amp;#34; (IP address: x.x.x.101) failed
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I did nslookup on the scan name and it all seemed good. So why the error ? After spending another 5 minutes, I looked at /etc/hosts and there was it. Someone had populated /etc/hosts of DB nodes with all the hostnames entries including the scan name. Something like:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Implementing ZDLRA – Part 1</title>
-      <link>http://localhost:1313/website-static/oracle/2020/09/09/implementing-zdlra-part-1/</link>
+      <link>http://localhost:1313/oracle/2020/09/09/implementing-zdlra-part-1/</link>
       <pubDate>Wed, 09 Sep 2020 18:33:39 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2020/09/09/implementing-zdlra-part-1/</guid>
+      <guid>http://localhost:1313/oracle/2020/09/09/implementing-zdlra-part-1/</guid>
       <description>&lt;p&gt;Zero Data Loss Recovery Appliance (ZDLRA) is Oracle&amp;rsquo;s solution for database backups. It has many advantages over other backup solutions that are available in the market. &lt;a href=&#34;https://blogs.oracle.com/frankwickham/zero-data-loss-recovery-appliance-zdlra&#34;&gt;This post&lt;/a&gt; has a brief introduction to ZDLRA and few links for further reading. This is a quick post about few of things that you should keep in mind if you are planning to get a ZDLRA (RA in short). Of course, there is a lot more that is needed while executing the whole plan, but these are some of the basics:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using Secure Fabric for network isolation in KVM environments on Exadata</title>
-      <link>http://localhost:1313/website-static/oracle/2020/07/17/using-secure-fabric-for-network-isolation-in-kvm-environments-on-exadata/</link>
+      <link>http://localhost:1313/oracle/2020/07/17/using-secure-fabric-for-network-isolation-in-kvm-environments-on-exadata/</link>
       <pubDate>Fri, 17 Jul 2020 21:21:03 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2020/07/17/using-secure-fabric-for-network-isolation-in-kvm-environments-on-exadata/</guid>
+      <guid>http://localhost:1313/oracle/2020/07/17/using-secure-fabric-for-network-isolation-in-kvm-environments-on-exadata/</guid>
       <description>&lt;p&gt;Exadata storage software version 20.1 introduces a new feature called &amp;ldquo;Secure Fabric&amp;rdquo; for KVM based multi cluster deployments (Exadata X8M). It enables network isolation between multiple tenants (i.e. KVM VMs based RAC clusters). This feature aligns with Infiniband Partitioning on OVM based systems. There are customers who in such scenarios want that VMs of one RAC shouldn&amp;rsquo;t be able to see traffic of the other RAC VMs. This feature achieves that. Similar to Pkeys in IB switches, here it uses a double VLAN tagging system where the first tag identiefies the network partition and the second tag is used to denote membership level of the VM. &lt;a href=&#34;https://docs.oracle.com/en/engineered-systems/exadata-database-machine/dbmin/exadata-network-requirements.html#GUID-75CC8740-CC7F-4A7B-B69B-B93E927E80EC&#34;&gt;Exadata documention&lt;/a&gt; has more details.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exadata Virtualized DB node restore</title>
-      <link>http://localhost:1313/website-static/oracle/2020/05/11/exadata-virtualized-db-node-restore/</link>
+      <link>http://localhost:1313/oracle/2020/05/11/exadata-virtualized-db-node-restore/</link>
       <pubDate>Mon, 11 May 2020 21:31:43 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2020/05/11/exadata-virtualized-db-node-restore/</guid>
+      <guid>http://localhost:1313/oracle/2020/05/11/exadata-virtualized-db-node-restore/</guid>
       <description>&lt;p&gt;There are two common scenarios when we may need this:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;An existing DB node has crashed and is unrecoverable (due to some failure and non-availability of any backups. Though some of the things may need to be done even if the backups were available).&lt;/li&gt;
@@ -147,9 +161,9 @@ If the database is up, check the database target monitoring properties and verif
     </item>
     <item>
       <title>dbnodeupdate.sh appears to be stuck</title>
-      <link>http://localhost:1313/website-static/oracle/2019/12/21/dbnodeupdate-sh-appears-to-be-stuck/</link>
+      <link>http://localhost:1313/oracle/2019/12/21/dbnodeupdate-sh-appears-to-be-stuck/</link>
       <pubDate>Sat, 21 Dec 2019 06:37:33 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/12/21/dbnodeupdate-sh-appears-to-be-stuck/</guid>
+      <guid>http://localhost:1313/oracle/2019/12/21/dbnodeupdate-sh-appears-to-be-stuck/</guid>
       <description>&lt;p&gt;I was patching an Exadata db node from 18.1.5.0.0.180506 to 19.3.2.0.0.191119. It had been more than an hour and dbnodeupdate.sh appeared to be stuck. Trying to ssh to the node was giving &amp;ldquo;connection refused&amp;rdquo; and the console had this output (some output removed for brevity):&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[  458.006444] upgrade[8876]: [642/676] (72%) installing exadata-sun-computenode-19.3.2.0.0.191119-1...
 &amp;lt;&amp;gt;
@@ -177,33 +191,33 @@ If the database is up, check the database target monitoring properties and verif
     </item>
     <item>
       <title>AVDF installation error</title>
-      <link>http://localhost:1313/website-static/oracle/2019/12/05/avdf-installation-error/</link>
+      <link>http://localhost:1313/oracle/2019/12/05/avdf-installation-error/</link>
       <pubDate>Thu, 05 Dec 2019 20:18:12 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/12/05/avdf-installation-error/</guid>
+      <guid>http://localhost:1313/oracle/2019/12/05/avdf-installation-error/</guid>
       <description>&lt;p&gt;I was installing Database Firewall version 12.2.0.11.0 on a Dell x86 machine (with 5 * 500 GB local HDDs configured in RAID 10) and it got successfully installed. Later on, I came to know that this version &lt;a href=&#34;https://docs.oracle.com/cd/E69292_01/doc.122/e41705/host_con.htm#SIGAD40830&#34;&gt;doesn&amp;rsquo;t support&lt;/a&gt; host monitor functionality on Windows hosts. The latest version that supports that is 12.2.0.10.0. So that was the time to download and install 12.2.0.10.0. The installation started fine but it failed with an error:&lt;/p&gt;</description>
     </item>
     <item>
       <title>OGB Appreciation Day : Thank you community ! (#ThanksOGB)</title>
-      <link>http://localhost:1313/website-static/oracle/2019/10/10/ogb-appreciation-day-thank-you-community-thanksogb/</link>
+      <link>http://localhost:1313/oracle/2019/10/10/ogb-appreciation-day-thank-you-community-thanksogb/</link>
       <pubDate>Thu, 10 Oct 2019 19:40:04 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/10/10/ogb-appreciation-day-thank-you-community-thanksogb/</guid>
+      <guid>http://localhost:1313/oracle/2019/10/10/ogb-appreciation-day-thank-you-community-thanksogb/</guid>
       <description>&lt;p&gt;It was &lt;a href=&#34;https://oracle-base.com/blog/2019/09/30/ogb-appreciation-day-2019-thanksogb/&#34;&gt;started by Tim Hall&lt;/a&gt; in 2016. This is a Thank you community post. There are so many experts posting on Oracle related forums, doing blog posts, sharing their scripts with everyone. All of you are doing a great job. I would like to mention three names especially:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://oracle-base.com/&#34;&gt;Tim Hall&lt;/a&gt; : Tim is a legend ! I don&amp;rsquo;t consider something a new feature until Tim writes about it :D&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://jonathanlewis.wordpress.com/all-postings/&#34;&gt;Jonathan Lewis&lt;/a&gt; : I don&amp;rsquo;t think there is anyone on this planet who has even once worked on a performance problem and hasn&amp;rsquo;t gained something from the knowledge shared by him on forums or in one of the blog posts.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Understanding grid disks in Exadata</title>
-      <link>http://localhost:1313/website-static/oracle/2019/02/18/understanding-grid-disks-in-exadata/</link>
+      <link>http://localhost:1313/oracle/2019/02/18/understanding-grid-disks-in-exadata/</link>
       <pubDate>Mon, 18 Feb 2019 18:37:25 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/02/18/understanding-grid-disks-in-exadata/</guid>
+      <guid>http://localhost:1313/oracle/2019/02/18/understanding-grid-disks-in-exadata/</guid>
       <description>&lt;p&gt;Use of Exadata storage cells seems to be a very poorly understood concept. A lot of people have confusions about how exactly ASM makes uses of disks from storage cells. Many folks assume there is some sort of RAID configured in the storage layer whereas there is nothing like that. I will try to explain some of the concepts in this post.&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s take an example of an Exadata quarter rack that has 2 db and 3 storage nodes (node means a server here). Few things to note:&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-04080: trigger ‘PRICE_HISTORY_TRIGGERV1’ does not exist</title>
-      <link>http://localhost:1313/website-static/oracle/2019/01/22/ora-04080-trigger-price_history_triggerv1-does-not-exist/</link>
+      <link>http://localhost:1313/oracle/2019/01/22/ora-04080-trigger-price_history_triggerv1-does-not-exist/</link>
       <pubDate>Tue, 22 Jan 2019 19:15:51 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/01/22/ora-04080-trigger-price_history_triggerv1-does-not-exist/</guid>
+      <guid>http://localhost:1313/oracle/2019/01/22/ora-04080-trigger-price_history_triggerv1-does-not-exist/</guid>
       <description>&lt;p&gt;It is actually a dumb one. I was disabling triggers in a schema and ran this SQL to generate the disable statements. (Example from &lt;a href=&#34;http://plsql-tutorial.com/plsql-triggers.htm&#34;&gt;here&lt;/a&gt;)&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;HR@test&amp;gt; select &amp;#39;alter trigger &amp;#39;||trigger_name|| &amp;#39; disable;&amp;#39; from user_triggers where table_name=&amp;#39;PRODUCT&amp;#39;;
 
@@ -222,9 +236,9 @@ HR@test&amp;gt;
     </item>
     <item>
       <title>Error while running ggsci</title>
-      <link>http://localhost:1313/website-static/oracle/2019/01/12/error-while-running-ggsci/</link>
+      <link>http://localhost:1313/oracle/2019/01/12/error-while-running-ggsci/</link>
       <pubDate>Sat, 12 Jan 2019 19:51:49 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/01/12/error-while-running-ggsci/</guid>
+      <guid>http://localhost:1313/oracle/2019/01/12/error-while-running-ggsci/</guid>
       <description>&lt;p&gt;This was another issue that I faced while trying to configure GoldenGate in HA mode. ggsci was working fine after normal installation but after configuring it in HA mode and trying to run ggsci, it resulted in this:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[oragg@node2 product]$ ggsci
  Oracle GoldenGate Command Interpreter for Oracle
@@ -242,9 +256,9 @@ HR@test&amp;gt;
     </item>
     <item>
       <title>Failed to execute the command “”/u01/app/xag/bin/clsecho”</title>
-      <link>http://localhost:1313/website-static/oracle/2019/01/08/failed-to-execute-the-command-u01-app-xag-bin-clsecho/</link>
+      <link>http://localhost:1313/oracle/2019/01/08/failed-to-execute-the-command-u01-app-xag-bin-clsecho/</link>
       <pubDate>Tue, 08 Jan 2019 22:52:14 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2019/01/08/failed-to-execute-the-command-u01-app-xag-bin-clsecho/</guid>
+      <guid>http://localhost:1313/oracle/2019/01/08/failed-to-execute-the-command-u01-app-xag-bin-clsecho/</guid>
       <description>&lt;p&gt;I was configuring GoldenGate in HA mode by following &lt;a href=&#34;https://www.oracle.com/technetwork/database/features/availability/maa-wp-gg-oracledbm-128760.pdf&#34;&gt;this document&lt;/a&gt;. Everything worked ok but in the end while running agctl config goldengate to view the configuration of GoldenGate resource, it was failing with the following error:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[oracle@exadatadb02 ~]$ agctl config goldengate GG_TARGET
  Failed to execute the command &amp;#34;&amp;#34;/u01/app/xag/bin/clsecho&amp;#34; -p xag -f xag -m 5080 &amp;#34;GG_TARGET&amp;#34;&amp;#34; (rc=134), with the message:
@@ -255,9 +269,9 @@ HR@test&amp;gt;
     </item>
     <item>
       <title>dbca doesn’t list diskgroups</title>
-      <link>http://localhost:1313/website-static/oracle/2018/12/26/dbca-doesnt-list-diskgroups/</link>
+      <link>http://localhost:1313/oracle/2018/12/26/dbca-doesnt-list-diskgroups/</link>
       <pubDate>Wed, 26 Dec 2018 21:01:20 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2018/12/26/dbca-doesnt-list-diskgroups/</guid>
+      <guid>http://localhost:1313/oracle/2018/12/26/dbca-doesnt-list-diskgroups/</guid>
       <description>&lt;p&gt;This is an Exadata machine running GI version 18.3.0.0.180717 and DB version 12.1.0.2.180717. On one of the DB nodes while running dbca, it doesn&amp;rsquo;t list the diskgroups. it works fine on the other node.&lt;/p&gt;
 &lt;p&gt;I cheked the dbca trace and found that the kfod command was failing. I tried to run it manually and got the same error:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[oracle@exadb01 ~]$ /u01/app/18.0.0.0/grid/bin/kfod op=groups verbose=true
@@ -269,18 +283,18 @@ KFOD-00105: Could not open pfile &amp;#39;init@.ora&amp;#39;
     </item>
     <item>
       <title>New web based OEDA for Exadata</title>
-      <link>http://localhost:1313/website-static/oracle/2018/11/21/new-web-based-oeda-for-exadata/</link>
+      <link>http://localhost:1313/oracle/2018/11/21/new-web-based-oeda-for-exadata/</link>
       <pubDate>Wed, 21 Nov 2018 14:47:18 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2018/11/21/new-web-based-oeda-for-exadata/</guid>
+      <guid>http://localhost:1313/oracle/2018/11/21/new-web-based-oeda-for-exadata/</guid>
       <description>&lt;p&gt;It started with an xls sheet (that was called dbm configurator) . Then OEDA (Oracle Exadata Deployment Assistant) was introduced that was a Java based GUI tool to enter all the information needed to configure an Exadata machine. Now with the latest patch released in Oct, OEDA has changed again; to become a web based tool. It is deployed on WebLogic and comes with some new features as well. SuperCluster deployments will continue to use the Java based OEDA tool.  The new interface has support for Exadata, ZDLRA and ExaCC. It is backward compatible and can import the XMLs generated by older versions of OEDA. Some of the new features include the ability to configure single instance homes, create more than 2 diskgroups, create more than 1 database homes and databases, allow ILOMs to have a different subnet etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Garbled display while running FMW installer on Linux</title>
-      <link>http://localhost:1313/website-static/oracle/2017/11/18/garbled-display-while-running-fmw-installer-on-linux/</link>
+      <link>http://localhost:1313/oracle/2017/11/18/garbled-display-while-running-fmw-installer-on-linux/</link>
       <pubDate>Sat, 18 Nov 2017 16:26:02 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/11/18/garbled-display-while-running-fmw-installer-on-linux/</guid>
+      <guid>http://localhost:1313/oracle/2017/11/18/garbled-display-while-running-fmw-installer-on-linux/</guid>
       <description>&lt;p&gt;A colleague faced this while running FMW installer on a Linux machine. The display appeared like this&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2017/11/fmw_installer.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2017/11/fmw_installer.jpg&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://stackoverflow.com/questions/46270769/weblogic-12c-12-1-3-installation-on-unix-garbled-character-in-gui-over-xming&#34;&gt;This thread&lt;/a&gt; gave a clue that it could have something to do with fonts. So I checked what all fonts related stuff was installed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/wp-content/uploads/2017/11/fmw_installer.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2017/11/fmw_installer.jpg&#34;&gt;&lt;/a&gt;&lt;a href=&#34;https://stackoverflow.com/questions/46270769/weblogic-12c-12-1-3-installation-on-unix-garbled-character-in-gui-over-xming&#34;&gt;This thread&lt;/a&gt; gave a clue that it could have something to do with fonts. So I checked what all fonts related stuff was installed.&lt;/p&gt;
 &lt;p&gt;[bash][root@someserver ~]# rpm -aq |grep -i font
 stix-fonts-1.1.0-5.el7.noarch
 xorg-x11-font-utils-7.5-20.el7.x86_64
@@ -307,9 +321,9 @@ xorg-x11-fonts-ISO8859-15-75dpi-7.5-9.el7.noarch
     </item>
     <item>
       <title>root.sh fails with CRS-2101:The OLR was formatted using version 3</title>
-      <link>http://localhost:1313/website-static/oracle/2017/11/18/root-sh-fails-with-crs-2101-the-olr-was-formatted-using-version-3/</link>
+      <link>http://localhost:1313/oracle/2017/11/18/root-sh-fails-with-crs-2101-the-olr-was-formatted-using-version-3/</link>
       <pubDate>Sat, 18 Nov 2017 16:03:33 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/11/18/root-sh-fails-with-crs-2101-the-olr-was-formatted-using-version-3/</guid>
+      <guid>http://localhost:1313/oracle/2017/11/18/root-sh-fails-with-crs-2101-the-olr-was-formatted-using-version-3/</guid>
       <description>&lt;p&gt;Got this while trying to install 11.2.0.4 RAC on Redhat Linux 7.2. root.sh fails with a message like&lt;/p&gt;
 &lt;p&gt;[sql]ohasd failed to start
 Failed to start the Clusterware. Last 20 lines of the alert log follow:
@@ -319,49 +333,49 @@ Failed to start the Clusterware. Last 20 lines of the alert log follow:
     </item>
     <item>
       <title>Presenting at Cloud day event of North India Chapter of AIOUG</title>
-      <link>http://localhost:1313/website-static/oracle/2017/11/06/presenting-at-cloud-day-event-of-north-india-chapter-of-aioug/</link>
+      <link>http://localhost:1313/oracle/2017/11/06/presenting-at-cloud-day-event-of-north-india-chapter-of-aioug/</link>
       <pubDate>Mon, 06 Nov 2017 17:17:07 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/11/06/presenting-at-cloud-day-event-of-north-india-chapter-of-aioug/</guid>
+      <guid>http://localhost:1313/oracle/2017/11/06/presenting-at-cloud-day-event-of-north-india-chapter-of-aioug/</guid>
       <description>&lt;p&gt;I will be presenting a session titled &lt;strong&gt;&amp;ldquo;An 18 pointers guide to setting up an Exadata machine&amp;rdquo;&lt;/strong&gt; at Cloud Day being organized by North India chapter of AIOUG. &lt;a href=&#34;https://viveklsharma.wordpress.com/&#34;&gt;Vivek Sharma&lt;/a&gt; is doing multiple sessions on various cloud and performance related topics. You can register for the event here&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.meraevents.com/event/aioug-nic-cloud-day&#34;&gt;https://www.meraevents.com/event/aioug-nic-cloud-day&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>ksplice kernel updates and Exadata patching</title>
-      <link>http://localhost:1313/website-static/oracle/2017/11/05/ksplice-kernel-updates-and-exadata-patching/</link>
+      <link>http://localhost:1313/oracle/2017/11/05/ksplice-kernel-updates-and-exadata-patching/</link>
       <pubDate>Sun, 05 Nov 2017 23:02:05 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/11/05/ksplice-kernel-updates-and-exadata-patching/</guid>
+      <guid>http://localhost:1313/oracle/2017/11/05/ksplice-kernel-updates-and-exadata-patching/</guid>
       <description>&lt;p&gt;If you have installed some one off ksplice fix for kernel on Exadata, remember to uninstall it before you do a kernel upgrade  eg regular Exadata patching. As such fixes are kernel version specific so they may not work with the newer version of the kernel.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-15040 ORA-15042 with EXTERNAL redundancy Diskgroup</title>
-      <link>http://localhost:1313/website-static/oracle/2017/11/03/ora-15040-ora-15042-with-external-redundancy-diskgroup/</link>
+      <link>http://localhost:1313/oracle/2017/11/03/ora-15040-ora-15042-with-external-redundancy-diskgroup/</link>
       <pubDate>Fri, 03 Nov 2017 23:27:13 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/11/03/ora-15040-ora-15042-with-external-redundancy-diskgroup/</guid>
+      <guid>http://localhost:1313/oracle/2017/11/03/ora-15040-ora-15042-with-external-redundancy-diskgroup/</guid>
       <description>&lt;p&gt;A colleague was working on an ASM issue (Standalone one, Version 11.2.0.3 on AIX) at one of the customer sites. Later on, I also joined him. The issue was that the customer added few news disks to an existing diskgroup. Everything went well and the rebalance kicked in. After some time, something happened and all of a sudden the diskgroup was dismounted. While trying the mount the diskgroup again, it was giving&lt;/p&gt;</description>
     </item>
     <item>
       <title>TNS-12543: TNS:destination host unreachable</title>
-      <link>http://localhost:1313/website-static/oracle/2017/07/15/tns-12543-tns-destination-host-unreachable/</link>
+      <link>http://localhost:1313/oracle/2017/07/15/tns-12543-tns-destination-host-unreachable/</link>
       <pubDate>Sat, 15 Jul 2017 10:23:36 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/07/15/tns-12543-tns-destination-host-unreachable/</guid>
+      <guid>http://localhost:1313/oracle/2017/07/15/tns-12543-tns-destination-host-unreachable/</guid>
       <description>&lt;p&gt;Scenario : Setting up a physical standby from Exadata to a non-Exadata single instance. tnsping from standby to primary works fine but tnsping from primary to standby fails with:&lt;/p&gt;
 &lt;p&gt;[sql]TNS-12543: TNS:destination host unreachable[/sql]&lt;/p&gt;
 &lt;p&gt;I am able to ssh standby from primary, can ping as well but tnsping doesn&amp;rsquo;t work.  From the error description we can figure out that something is blocking the access. In this case it was iptables that was enabled on the standby server.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-12154 in Data Guard environment</title>
-      <link>http://localhost:1313/website-static/oracle/2017/05/31/ora-12154-in-data-guard-environment/</link>
+      <link>http://localhost:1313/oracle/2017/05/31/ora-12154-in-data-guard-environment/</link>
       <pubDate>Wed, 31 May 2017 21:24:54 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/05/31/ora-12154-in-data-guard-environment/</guid>
+      <guid>http://localhost:1313/oracle/2017/05/31/ora-12154-in-data-guard-environment/</guid>
       <description>&lt;p&gt;Hit this silly issue in one of the data guard environments today. Primary is a 2 node RAC running 11.2.0.4 and standby is also a 2 node RAC. Archive logs from node2 aren&amp;rsquo;t shipping and the error being reported is&lt;/p&gt;
 &lt;p&gt;[sql]ORA-12154: TNS:could not resolve the connect identifier specified[/sql]&lt;/p&gt;
 &lt;p&gt;We tried usual things like going to $TNS_ADMIN, checking the entry in tnsnames.ora and then also trying to connect using sqlplus sys@target as sysdba. Everything seemed to be good but logs were not shipping and the same problem was being reported repeatedly. As everything on node1 was working fine so it looked even more weird.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Failed to create voting files on disk group RECOC1</title>
-      <link>http://localhost:1313/website-static/oracle/2017/04/28/failed-to-create-voting-files-on-disk-group-recoc1/</link>
+      <link>http://localhost:1313/oracle/2017/04/28/failed-to-create-voting-files-on-disk-group-recoc1/</link>
       <pubDate>Fri, 28 Apr 2017 14:31:20 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/04/28/failed-to-create-voting-files-on-disk-group-recoc1/</guid>
+      <guid>http://localhost:1313/oracle/2017/04/28/failed-to-create-voting-files-on-disk-group-recoc1/</guid>
       <description>&lt;p&gt;Long story short, faced this issue while running OneCommand for one Exadata system. The root.sh step (Initialize Cluster Software) was failing with the following error on the screen&lt;/p&gt;
 &lt;p&gt;Checking file root_dm01dbadm02.in.oracle.com_2017-04-27_18-13-27.log on node dm01dbadm02.somedomain.com
 Error: Error running root scripts, please investigate&amp;hellip;
@@ -374,20 +388,20 @@ Errors occurred. Send /u01/onecommand/linux-x64/WorkDir/Diag-170427_181710.zip t
     </item>
     <item>
       <title>OneCommand Step 1 error</title>
-      <link>http://localhost:1313/website-static/oracle/2017/04/10/onecommand-step-1-error/</link>
+      <link>http://localhost:1313/oracle/2017/04/10/onecommand-step-1-error/</link>
       <pubDate>Mon, 10 Apr 2017 22:20:41 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/04/10/onecommand-step-1-error/</guid>
+      <guid>http://localhost:1313/oracle/2017/04/10/onecommand-step-1-error/</guid>
       <description>&lt;p&gt;Hit this silly issue while doing an Exadata deployment for a customer. Step 1 was giving the following error:&lt;/p&gt;
 &lt;p&gt;ERROR: 192.168.99.102 configured on dm01celadm01.example.com as dm01dbadm02 does not match expected value dm01dbadm02.example.com&lt;/p&gt;
 &lt;p&gt;I wasn&amp;rsquo;t able to make sense of it for quite some time until a colleague pointed out that the reverse lookup entries should be done for FQDN only. As it is clear in the above message reverse lookup of the IP 192.168.99.102 returns dm01dbadm02 instead of dm01dbadm02.example.com. Fixing this in DNS resolved the issue.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle RAC 12.1 – lsnodes exited with code 9</title>
-      <link>http://localhost:1313/website-static/oracle/2017/03/28/oracle-rac-12-1-lsnodes-exited-with-code-9/</link>
+      <link>http://localhost:1313/oracle/2017/03/28/oracle-rac-12-1-lsnodes-exited-with-code-9/</link>
       <pubDate>Tue, 28 Mar 2017 22:01:35 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2017/03/28/oracle-rac-12-1-lsnodes-exited-with-code-9/</guid>
+      <guid>http://localhost:1313/oracle/2017/03/28/oracle-rac-12-1-lsnodes-exited-with-code-9/</guid>
       <description>&lt;p&gt;I was trying to do a 2 node RAC setup on Solaris 11.3 where Oracle Solaris Cluster 4.3 was already configured. Installed was running but the Cluster Node Information screen was appearing like this&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2017/03/error.jpg&#34;&gt;&lt;img alt=&#34;error&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2017/03/error_thumb.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/wp-content/uploads/2017/03/error.jpg&#34;&gt;&lt;img alt=&#34;error&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2017/03/error_thumb.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The install log shows this:&lt;/p&gt;
 &lt;p&gt;INFO: Checking cluster configuration details&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;INFO: Found Vendor Clusterware. Fetching Cluster Configuration&lt;/strong&gt;&lt;/p&gt;
@@ -396,25 +410,25 @@ Errors occurred. Send /u01/onecommand/linux-x64/WorkDir/Diag-170427_181710.zip t
     </item>
     <item>
       <title>ERROR: SPFile in diskgroup &lt;&gt; does not match the specified spfile</title>
-      <link>http://localhost:1313/website-static/oracle/2016/09/20/error-spfile-in-diskgroup-does-not-match-the-specified-spfile/</link>
+      <link>http://localhost:1313/oracle/2016/09/20/error-spfile-in-diskgroup-does-not-match-the-specified-spfile/</link>
       <pubDate>Tue, 20 Sep 2016 22:12:50 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2016/09/20/error-spfile-in-diskgroup-does-not-match-the-specified-spfile/</guid>
+      <guid>http://localhost:1313/oracle/2016/09/20/error-spfile-in-diskgroup-does-not-match-the-specified-spfile/</guid>
       <description>&lt;p&gt;Just a stupid error. Posting it so that someone else googling for the same thing can get a clue.&lt;/p&gt;
 &lt;p&gt;An ASM instance running with default parameters (no pfile, no spfile). Updated spfile for the instance with asmcmd spset command and bounced crs. After reboot also, it still wasn&amp;rsquo;t using spfile. Got puzzled and checked GPnP settings again. All looked good. Then in alert log came across this&lt;/p&gt;
 &lt;p&gt;[text]ERROR: SPFile in diskgroup &amp;lt;&amp;gt; does not match the specified spfile +DATA/asm/asmparameterfile/registry.253.769187275[/text]&lt;/p&gt;</description>
     </item>
     <item>
       <title>addNode.sh, failed root.sh and IB listener</title>
-      <link>http://localhost:1313/website-static/oracle/2016/09/13/addnode-sh-failed-root-sh-and-ib-listener/</link>
+      <link>http://localhost:1313/oracle/2016/09/13/addnode-sh-failed-root-sh-and-ib-listener/</link>
       <pubDate>Tue, 13 Sep 2016 19:44:56 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2016/09/13/addnode-sh-failed-root-sh-and-ib-listener/</guid>
+      <guid>http://localhost:1313/oracle/2016/09/13/addnode-sh-failed-root-sh-and-ib-listener/</guid>
       <description>&lt;p&gt;So this customer has an Exadata quarter rack and they have an IB listener configured on both DB nodes (for DB connections from a multi-racked Exalogic system). We were adding a new DB node to this rack. So just followed the standard procedure of creating users, directories etc on the new node, setting up ssh equivalence and running addNode.sh. All went fine but root.sh failed. Little looking into the logs revealed that it failed while running &lt;strong&gt;srvctl start listener –n &amp;lt;node_name&amp;gt;&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>OEDA&amp;ndash;Things to keep an eye on</title>
-      <link>http://localhost:1313/website-static/oracle/2016/09/08/oeda-things-to-keep-an-eye-on/</link>
+      <link>http://localhost:1313/oracle/2016/09/08/oeda-things-to-keep-an-eye-on/</link>
       <pubDate>Thu, 08 Sep 2016 15:44:15 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2016/09/08/oeda-things-to-keep-an-eye-on/</guid>
+      <guid>http://localhost:1313/oracle/2016/09/08/oeda-things-to-keep-an-eye-on/</guid>
       <description>&lt;p&gt;So if you are filling an &lt;strong&gt;OEDA&lt;/strong&gt; for Exadata deployment there are few things you should take care of. Most of the screens are self explanatory but there are some bits where one should focus little more. I am running the Aug version of it and the screenshots below are from that version.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -422,16 +436,16 @@ Errors occurred. Send /u01/onecommand/linux-x64/WorkDir/Diag-170427_181710.zip t
     </item>
     <item>
       <title>ORA-56841: Master Diskmon cannot connect to a CELL</title>
-      <link>http://localhost:1313/website-static/oracle/2016/05/19/ora-56841-master-diskmon-cannot-connect-to-a-cell/</link>
+      <link>http://localhost:1313/oracle/2016/05/19/ora-56841-master-diskmon-cannot-connect-to-a-cell/</link>
       <pubDate>Thu, 19 May 2016 22:15:05 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2016/05/19/ora-56841-master-diskmon-cannot-connect-to-a-cell/</guid>
+      <guid>http://localhost:1313/oracle/2016/05/19/ora-56841-master-diskmon-cannot-connect-to-a-cell/</guid>
       <description>&lt;p&gt;Faced this error while querying v$asm_disk after adding new storage cell IPs to cellip.ora on DB nodes of an existing cluster on Exadata. Query ends with &lt;em&gt;ORA-03113 end-of-file on communication channel&lt;/em&gt; and &lt;em&gt;ORA-56841&lt;/em&gt; is reported in &lt;em&gt;$ORA_CRS_HOME/log/&lt;!-- raw HTML omitted --&gt;/diskmon/diskmon.log&lt;/em&gt;. Reason in my case was that the new cell was using different subnet for IB. It was pingable from the db nodes but querying v$asm_disk wasn&amp;rsquo;t working. Changing the subnet for IB on new cell to the one on existing cells fixed the issue.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-01671 while creating cascaded standby from standby using RMAN DUPLICATE</title>
-      <link>http://localhost:1313/website-static/oracle/2015/12/19/ora-01671-while-creating-cascaded-standby-from-standby-using-rman-duplicate/</link>
+      <link>http://localhost:1313/oracle/2015/12/19/ora-01671-while-creating-cascaded-standby-from-standby-using-rman-duplicate/</link>
       <pubDate>Sat, 19 Dec 2015 20:50:17 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2015/12/19/ora-01671-while-creating-cascaded-standby-from-standby-using-rman-duplicate/</guid>
+      <guid>http://localhost:1313/oracle/2015/12/19/ora-01671-while-creating-cascaded-standby-from-standby-using-rman-duplicate/</guid>
       <description>&lt;p&gt;On a T5 Super Cluster (running 11.2.0.3) I was creating a cascaded standby from an already functional standby using RMAN DUPLICATE and it errored out with&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ORA-01671: control file is a backup, cannot make a standby control file
@@ -440,16 +454,16 @@ Errors occurred. Send /u01/onecommand/linux-x64/WorkDir/Diag-170427_181710.zip t
     </item>
     <item>
       <title>Sangam 15</title>
-      <link>http://localhost:1313/website-static/oracle/2015/11/24/sangam-15/</link>
+      <link>http://localhost:1313/oracle/2015/11/24/sangam-15/</link>
       <pubDate>Tue, 24 Nov 2015 19:04:30 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2015/11/24/sangam-15/</guid>
+      <guid>http://localhost:1313/oracle/2015/11/24/sangam-15/</guid>
       <description>&lt;p&gt;This was my 6th year at Sangam and as always was good fun. We were a group of 4 people who were traveling from Delhi and we reached Hyderabad on Friday morning. Just wanted to keep a day for visiting &lt;a href=&#34;http://ramojifilmcity.com/&#34;&gt;Ramoji Film City&lt;/a&gt; and also wanted to avoid the rush that morning travel on the conference&amp;rsquo;s starting day brings. So after dropping the luggage at the hotel we hired a taxi and reached Ramoji Film City. It is a huge place and it is tiring to move around checking everything. But fortunately on that day the weather was very pleasant so moving around was good fun. We took a ride what they call as Space Walk and watched few sets where some movies were shot. Also they have a pretty good bird sanctuary over there where they have pretty good number of beautiful birds. Spending time there was nice and fun.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MRP process on standby stops with ORA-00600</title>
-      <link>http://localhost:1313/website-static/oracle/2015/08/20/mrp-process-on-standby-stops-with-ora-00600/</link>
+      <link>http://localhost:1313/oracle/2015/08/20/mrp-process-on-standby-stops-with-ora-00600/</link>
       <pubDate>Thu, 20 Aug 2015 14:33:45 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2015/08/20/mrp-process-on-standby-stops-with-ora-00600/</guid>
+      <guid>http://localhost:1313/oracle/2015/08/20/mrp-process-on-standby-stops-with-ora-00600/</guid>
       <description>&lt;p&gt;A rather not so great post about an ORA-00600 error i faced on a standby database. Environement was 11.2.0.3 on Sun Super Cluster machine. MRP process was hitting ORA-00600 while trying to apply a specific archive log.&lt;/p&gt;
 &lt;p&gt;The error message was something like this&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;MRP0: Background Media Recovery terminated with error 600
@@ -460,25 +474,25 @@ Recovery interrupted!
     </item>
     <item>
       <title>Writing tips</title>
-      <link>http://localhost:1313/website-static/oracle/2015/05/19/writing-tips/</link>
+      <link>http://localhost:1313/oracle/2015/05/19/writing-tips/</link>
       <pubDate>Tue, 19 May 2015 14:44:32 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2015/05/19/writing-tips/</guid>
-      <description>&lt;p&gt;Tim Hall has written some brilliant posts about getting going with writing (blogs, whitepapers etc). This post is the result of inspiration from there only. Tim says that just get started with whatever &lt;img alt=&#34;Winking smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2015/05/wlEmoticon-winkingsmile.png&#34;&gt;.&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2015/05/19/writing-tips/</guid>
+      <description>&lt;p&gt;Tim Hall has written some brilliant posts about getting going with writing (blogs, whitepapers etc). This post is the result of inspiration from there only. Tim says that just get started with whatever &lt;img alt=&#34;Winking smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2015/05/wlEmoticon-winkingsmile.png&#34;&gt;.&lt;/p&gt;
 &lt;p&gt;If you are into blogging and no so active or even if you aren&amp;rsquo;t you may want to take a look at all the posts to get some inspiration to document the knowledge you gain on day to day basis.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Want to learn Exadata ?</title>
-      <link>http://localhost:1313/website-static/oracle/2015/01/02/want-to-learn-exadata/</link>
+      <link>http://localhost:1313/oracle/2015/01/02/want-to-learn-exadata/</link>
       <pubDate>Fri, 02 Jan 2015 14:49:15 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2015/01/02/want-to-learn-exadata/</guid>
+      <guid>http://localhost:1313/oracle/2015/01/02/want-to-learn-exadata/</guid>
       <description>&lt;p&gt;Many people have asked me this question that how they can learn Exadata ? It starts sounding even more difficult as a lot of people don’t have access to Exadata environments. So thought about writing a small post on the same.&lt;/p&gt;
 &lt;p&gt;It actually is not as difficult as it sounds. There are a lot of really good resources available from where you can learn about Exadata architecture and the things that work differently from any non-Exadata platform. You might be able to do lot more RnD if you have got access to an Exadata environment but don’t worry if you haven&amp;rsquo;t. Without that also there is a lot that you can explore. So here we go:&lt;/p&gt;</description>
     </item>
     <item>
       <title>VirtualBox and Windows driver verifier</title>
-      <link>http://localhost:1313/website-static/oracle/2014/12/03/virtualbox-and-windows-driver-verifier/</link>
+      <link>http://localhost:1313/oracle/2014/12/03/virtualbox-and-windows-driver-verifier/</link>
       <pubDate>Wed, 03 Dec 2014 16:04:56 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2014/12/03/virtualbox-and-windows-driver-verifier/</guid>
+      <guid>http://localhost:1313/oracle/2014/12/03/virtualbox-and-windows-driver-verifier/</guid>
       <description>&lt;p&gt;I was troubleshooting some Windows hangs on my Desktop system running Windows 8 and enabled driver verifier. Today when I tried to start VirtualBox it failed with this error message.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Failed to load VMMR0.r0 (VERR_LDR_MISMATCH_NATIVE)&lt;/p&gt;
@@ -487,18 +501,18 @@ Recovery interrupted!
     </item>
     <item>
       <title>Oracle GoldenGate 11g Handbook</title>
-      <link>http://localhost:1313/website-static/oracle/2013/07/18/oracle-goldengate-11g-handbook/</link>
+      <link>http://localhost:1313/oracle/2013/07/18/oracle-goldengate-11g-handbook/</link>
       <pubDate>Thu, 18 Jul 2013 20:32:33 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2013/07/18/oracle-goldengate-11g-handbook/</guid>
-      <description>&lt;p&gt;Few months ago I contributed a chapter (on Monitoring, Troubleshooting and Performance tuning) to a GoldenGate book on Oracle Press that &lt;a href=&#34;http://robertgfreeman.blogspot.in/&#34;&gt;Robert Freeman&lt;/a&gt; was authoring. Thought of posting a small update that the book is now out. My name doesn’t appear on the main page &lt;img alt=&#34;Sad smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2013/07/wlEmoticon-sadsmile.png&#34;&gt; but you will see it in the Acknowledgements section &lt;img alt=&#34;Winking smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2013/07/wlEmoticon-winkingsmile.png&#34;&gt; Below is a screenshot taken from Amazon preview &lt;img alt=&#34;Smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2013/07/wlEmoticon-smile.png&#34;&gt;.&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2013/07/18/oracle-goldengate-11g-handbook/</guid>
+      <description>&lt;p&gt;Few months ago I contributed a chapter (on Monitoring, Troubleshooting and Performance tuning) to a GoldenGate book on Oracle Press that &lt;a href=&#34;http://robertgfreeman.blogspot.in/&#34;&gt;Robert Freeman&lt;/a&gt; was authoring. Thought of posting a small update that the book is now out. My name doesn’t appear on the main page &lt;img alt=&#34;Sad smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2013/07/wlEmoticon-sadsmile.png&#34;&gt; but you will see it in the Acknowledgements section &lt;img alt=&#34;Winking smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2013/07/wlEmoticon-winkingsmile.png&#34;&gt; Below is a screenshot taken from Amazon preview &lt;img alt=&#34;Smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2013/07/wlEmoticon-smile.png&#34;&gt;.&lt;/p&gt;
 &lt;p&gt;You may want to grab a copy if you are using/planning to use Oracle GoldenGate 11g.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle database 12c</title>
-      <link>http://localhost:1313/website-static/oracle/2013/06/27/oracle-database-12c/</link>
+      <link>http://localhost:1313/oracle/2013/06/27/oracle-database-12c/</link>
       <pubDate>Thu, 27 Jun 2013 07:28:45 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2013/06/27/oracle-database-12c/</guid>
-      <description>&lt;p&gt;So there is a new toy in the market for database geeks : Oracle has released database 12c. Every social platform is abuzz with the 12c activity. So thought that I should also complete the ritual &lt;img alt=&#34;Winking smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2013/06/wlEmoticon-winkingsmile.png&#34;&gt;&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2013/06/27/oracle-database-12c/</guid>
+      <description>&lt;p&gt;So there is a new toy in the market for database geeks : Oracle has released database 12c. Every social platform is abuzz with the 12c activity. So thought that I should also complete the ritual &lt;img alt=&#34;Winking smile&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2013/06/wlEmoticon-winkingsmile.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In &lt;a href=&#34;http://blog.aristadba.com/?p=254&#34;&gt;this post&lt;/a&gt; Aman has already summed up many important links.&lt;/p&gt;
 &lt;p&gt;Maria Colgan has posted some useful links &lt;a href=&#34;https://blogs.oracle.com/optimizer/entry/oracle_database_12c_is_here&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;And &lt;a href=&#34;http://apex.oracle.com/pls/apex/f?p=202202:2:::::P2_SUCHWORT:migrate12c&#34;&gt;here is a link&lt;/a&gt; to a slidedeck about Upgrading and Migrating to 12c.&lt;/p&gt;
@@ -506,16 +520,16 @@ Recovery interrupted!
     </item>
     <item>
       <title>agent deployment error in EM 12c</title>
-      <link>http://localhost:1313/website-static/oracle/2013/06/16/agent-deployment-error-in-em-12c/</link>
+      <link>http://localhost:1313/oracle/2013/06/16/agent-deployment-error-in-em-12c/</link>
       <pubDate>Sun, 16 Jun 2013 22:34:56 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2013/06/16/agent-deployment-error-in-em-12c/</guid>
+      <guid>http://localhost:1313/oracle/2013/06/16/agent-deployment-error-in-em-12c/</guid>
       <description>&lt;p&gt;Yesterday I was configuring EM 12c for a Sun Super Cluster system. There were a total of 4 LDOMs where I needed to deploy the agent (Setup –&amp;gt; Add targets –&amp;gt; Add targets manually). Out of these 4 everything went fine for 2 LDOMs but for the other two it failed with an error message. It didn’t give much details on the EM screen but rather gave a message to try to secure/start the agent manually. When I tried to do that manually the secure agent part worked fine but the start agent command failed with the following error message:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Updating to Exadata 11.2.3.1.1</title>
-      <link>http://localhost:1313/website-static/oracle/2012/08/19/updating-to-exadata-11-2-3-1-1/</link>
+      <link>http://localhost:1313/oracle/2012/08/19/updating-to-exadata-11-2-3-1-1/</link>
       <pubDate>Sun, 19 Aug 2012 22:37:41 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2012/08/19/updating-to-exadata-11-2-3-1-1/</guid>
+      <guid>http://localhost:1313/oracle/2012/08/19/updating-to-exadata-11-2-3-1-1/</guid>
       <description>&lt;p&gt;Just a quick note about change in the way the compute nodes are patched starting from version 11.2.3.1.1. For earlier versions Oracle provided the minimal pack for patching the compute nodes. Starting with version 11.2.3.1.1 Oracle has discontinued the minimal pack and the updates to compute nodes are done via Unbreakable Linux Network (ULN).&lt;/p&gt;
 &lt;p&gt;Now there are three ways to update the compute nodes:&lt;/p&gt;
 &lt;ol&gt;
@@ -524,9 +538,9 @@ Recovery interrupted!
     </item>
     <item>
       <title>ORA-01422 while compiling objects</title>
-      <link>http://localhost:1313/website-static/oracle/2012/07/31/ora-01422-while-compiling-objects/</link>
+      <link>http://localhost:1313/oracle/2012/07/31/ora-01422-while-compiling-objects/</link>
       <pubDate>Tue, 31 Jul 2012 22:04:28 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2012/07/31/ora-01422-while-compiling-objects/</guid>
+      <guid>http://localhost:1313/oracle/2012/07/31/ora-01422-while-compiling-objects/</guid>
       <description>&lt;p&gt;There was an interesting issue at one of the customer sites. Few tables in the database were altered and the dependent objects became invalid. But the attempts to compile the objects using utlrp.sql or manually were failing. In all the cases it was giving the same error:&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;SQL&amp;gt; alter function SCOTT.SOME_FUNCTION compile;
  alter function SCOTT.SOME_FUNCTION compile
@@ -541,38 +555,38 @@ SQL&amp;gt;
     </item>
     <item>
       <title>Configure GoldenGate Extract to read from remote logs</title>
-      <link>http://localhost:1313/website-static/oracle/2012/05/26/configure-goldengate-extract-to-read-from-remote-logs/</link>
+      <link>http://localhost:1313/oracle/2012/05/26/configure-goldengate-extract-to-read-from-remote-logs/</link>
       <pubDate>Sat, 26 May 2012 18:13:02 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2012/05/26/configure-goldengate-extract-to-read-from-remote-logs/</guid>
+      <guid>http://localhost:1313/oracle/2012/05/26/configure-goldengate-extract-to-read-from-remote-logs/</guid>
       <description>&lt;p&gt;Sometimes you may need to run GoldenGate on some different machine than the one that hosts the database. It is very much possible but some kind of restrictions apply. First is that the Endian order of both the systems should be same and the second is the bit width has to be same. For example it is not possible to run GoldenGate on a 32 bit system to read from a database that runs on some 64 bit platform. Assuming that the environemnt satisfies the above two conditions; we can use the LOGSOURCE option of TRANSLOGOPTIONS to achieve this.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tuning GoldenGate Extract Pump performance</title>
-      <link>http://localhost:1313/website-static/oracle/2012/05/25/tuning-goldengate-extract-pump-performance/</link>
+      <link>http://localhost:1313/oracle/2012/05/25/tuning-goldengate-extract-pump-performance/</link>
       <pubDate>Fri, 25 May 2012 20:38:18 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2012/05/25/tuning-goldengate-extract-pump-performance/</guid>
+      <guid>http://localhost:1313/oracle/2012/05/25/tuning-goldengate-extract-pump-performance/</guid>
       <description>&lt;p&gt;Just a quick note/post about the significance of COMPRESS and TCPBUFSIZE parameter in performance of a GoldenGate Extract Pump process. COMPRESS helps in compressing the outgoing blocks hence helping in better utilization of the bandwidth from source to target. GG is going to uncompress the blocks before writing them to the remote trail file on the target. Compression ratios of 4:1 or better can be achieved. Of course, use of COMPRESS may result in increased CPU usage on both the sides.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DML and HCC – Exadata</title>
-      <link>http://localhost:1313/website-static/oracle/2011/12/22/dml-and-hcc-exadata/</link>
+      <link>http://localhost:1313/oracle/2011/12/22/dml-and-hcc-exadata/</link>
       <pubDate>Thu, 22 Dec 2011 00:01:11 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/12/22/dml-and-hcc-exadata/</guid>
+      <guid>http://localhost:1313/oracle/2011/12/22/dml-and-hcc-exadata/</guid>
       <description>&lt;p&gt;Hybrid Columnar Compression (HCC) is a new awesome feature in Exadata that helps in saving a lot of storage space in your environment. &lt;a href=&#34;http://www.oracle.com/technetwork/middleware/bi-foundation/ehcc-twp-131254.pdf&#34;&gt;This whitepaper&lt;/a&gt; on Oracle website explains this feature in detail. Also Uwe Hesse has an excellent &lt;em&gt;how to use all this&lt;/em&gt; &lt;a href=&#34;http://uhesse.wordpress.com/2011/01/21/exadata-part-iii-compression/&#34;&gt;post on his blog&lt;/a&gt;. You can see the compression levels one can achive by making use of HCC. It is very simple to use feature but one needs to be aware of few things before using HCC extensively as otherwise all your storage calculations may go weird. Here are few of the things to keep in mind:&lt;/p&gt;</description>
     </item>
     <item>
       <title>OGG-01004  Aborted grouped transaction on &lt;table_name&gt;‘, Database error 1403 ()</title>
-      <link>http://localhost:1313/website-static/oracle/2011/11/04/ogg-01004-aborted-grouped-transaction-on-database-error-1403/</link>
+      <link>http://localhost:1313/oracle/2011/11/04/ogg-01004-aborted-grouped-transaction-on-database-error-1403/</link>
       <pubDate>Fri, 04 Nov 2011 16:38:39 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/11/04/ogg-01004-aborted-grouped-transaction-on-database-error-1403/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://localhost:1313/website-static/blog/2011/11/04/expdp-not-consistent/&#34;&gt;last post&lt;/a&gt; was just like that. It was this GoldenGate issue that woke me up from the deep sleep to do a post after a long time :P .&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2011/11/04/ogg-01004-aborted-grouped-transaction-on-database-error-1403/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://localhost:1313/blog/2011/11/04/expdp-not-consistent/&#34;&gt;last post&lt;/a&gt; was just like that. It was this GoldenGate issue that woke me up from the deep sleep to do a post after a long time :P .&lt;/p&gt;
 &lt;p&gt;Well it was a simple schema to schema replication setup using GoldenGate. We were using the SCN method (Metalink Doc ID 1276058.1 &amp;amp; 1347191.1) to do the intial load so that there is no overlvapping of transactions and the replicat runs with minimum issues. Even after following this method, the replicat was hitting&lt;/p&gt;</description>
     </item>
     <item>
       <title>expdp not consistent</title>
-      <link>http://localhost:1313/website-static/oracle/2011/11/04/expdp-not-consistent/</link>
+      <link>http://localhost:1313/oracle/2011/11/04/expdp-not-consistent/</link>
       <pubDate>Fri, 04 Nov 2011 15:10:26 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/11/04/expdp-not-consistent/</guid>
+      <guid>http://localhost:1313/oracle/2011/11/04/expdp-not-consistent/</guid>
       <description>&lt;p&gt;Came across this small oddity that documentation of 10.2 and 11.2 states that expdp by default takes consistent image of the database. But actually it is not so. You need to use flashback_scn/flashback_time for that. Metalink doc 377218.1 explains the scenario.&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
 &lt;h3 id=&#34;comment-by-chris-fischer-on-2011-11-04-194712-0530&#34;&gt;Comment by Chris Fischer on 2011-11-04 19:47:12 +0530&lt;/h3&gt;
@@ -580,24 +594,24 @@ SQL&amp;gt;
     </item>
     <item>
       <title>dbc_min_pct and dbc_max_pct in HP-UX</title>
-      <link>http://localhost:1313/website-static/oracle/2011/05/25/dbc_min_pct-and-dbc_max_pct-in-hp-ux/</link>
+      <link>http://localhost:1313/oracle/2011/05/25/dbc_min_pct-and-dbc_max_pct-in-hp-ux/</link>
       <pubDate>Wed, 25 May 2011 16:45:56 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/05/25/dbc_min_pct-and-dbc_max_pct-in-hp-ux/</guid>
+      <guid>http://localhost:1313/oracle/2011/05/25/dbc_min_pct-and-dbc_max_pct-in-hp-ux/</guid>
       <description>&lt;p&gt;It was a 10g (10.2.0.5 on HP-UX 11.23 RISC) database which was recently upgraded from 9.2.0.8. The CPU and memory utilization was going really high. After tuning few of the queries coming in top, CPU usage was coming within accetable limits but the memory usage was still high. There was a total of 16 GB of RAM on the server and the usage was above 90%, constantly. One of the reasons behind high usage was increase in the SGA size. It was increased from 2.5 GB (in 9i) to around 5 GB (in 10g). Another major chunk was being eaten by OS buffer cache. While looking at the memory usage with kmeminfo:[bash]Buffer cache        =  1048448    4.0g  25%  details with -bufcache[/bash]&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-12547: TNS:lost contact</title>
-      <link>http://localhost:1313/website-static/oracle/2011/05/18/ora-12547-tns-lost-contact/</link>
+      <link>http://localhost:1313/oracle/2011/05/18/ora-12547-tns-lost-contact/</link>
       <pubDate>Wed, 18 May 2011 11:13:08 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/05/18/ora-12547-tns-lost-contact/</guid>
+      <guid>http://localhost:1313/oracle/2011/05/18/ora-12547-tns-lost-contact/</guid>
       <description>&lt;p&gt;Very simple issue but took some amount of time in troubleshooting so thought about posting it here. May be it proves to be useful for someone.&lt;/p&gt;
 &lt;p&gt;Scenario was: Oracle is installed from &amp;ldquo;oracle&amp;rdquo; user and all runs well. There is a new OS user &amp;ldquo;test1&amp;rdquo; that also needs to use sqlplus. So granted the necessary permissions on ORACLE_HOME to test1. Tried to connect sqlplus scott/tiger@DB and yes it works. But while trying sqlplus scott/tiger it throws:&lt;/p&gt;</description>
     </item>
     <item>
       <title>waiting for resmgr:become active – can’t login</title>
-      <link>http://localhost:1313/website-static/oracle/2011/03/04/waiting-for-resmgr-become-active-cant-login/</link>
+      <link>http://localhost:1313/oracle/2011/03/04/waiting-for-resmgr-become-active-cant-login/</link>
       <pubDate>Fri, 04 Mar 2011 17:19:33 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/03/04/waiting-for-resmgr-become-active-cant-login/</guid>
+      <guid>http://localhost:1313/oracle/2011/03/04/waiting-for-resmgr-become-active-cant-login/</guid>
       <description>&lt;p&gt;Some time back, I was at a client where the customer complained that no one was able to log in to the database. It was Oracle 10.2.0.4 running on HP-Ux. I logged in to the database and checked the wait events:&lt;/p&gt;
 &lt;p&gt;[sql]SQL&amp;gt; @wait&lt;/p&gt;
 &lt;p&gt;EVENT COUNT(*)
@@ -616,9 +630,9 @@ resmgr:become active 322&lt;/p&gt;</description>
     </item>
     <item>
       <title>Issues in upgrading from 9i to 10g</title>
-      <link>http://localhost:1313/website-static/oracle/2011/01/29/issues-in-upgrading-from-9i-to-10g/</link>
+      <link>http://localhost:1313/oracle/2011/01/29/issues-in-upgrading-from-9i-to-10g/</link>
       <pubDate>Sat, 29 Jan 2011 22:30:29 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2011/01/29/issues-in-upgrading-from-9i-to-10g/</guid>
+      <guid>http://localhost:1313/oracle/2011/01/29/issues-in-upgrading-from-9i-to-10g/</guid>
       <description>&lt;p&gt;Last week I had a chance to upgrade a 9.2.0.7 database to 10.2.0.5. The size of the database was around 800 GB. The major applications connecting to the database were developed in Pro*C and Oracle Forms. The upgrade itself pretty smooth but there were few glitches around that needed to be handled. Just thought about documenting all the issues:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -626,9 +640,9 @@ resmgr:become active 322&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-39083: Object type INDEX failed to create with error</title>
-      <link>http://localhost:1313/website-static/oracle/2010/12/04/ora-39083-object-type-index-failed-to-create-with-error/</link>
+      <link>http://localhost:1313/oracle/2010/12/04/ora-39083-object-type-index-failed-to-create-with-error/</link>
       <pubDate>Sat, 04 Dec 2010 17:22:56 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2010/12/04/ora-39083-object-type-index-failed-to-create-with-error/</guid>
+      <guid>http://localhost:1313/oracle/2010/12/04/ora-39083-object-type-index-failed-to-create-with-error/</guid>
       <description>&lt;p&gt;Another let-us-help-Google post ;).&lt;/p&gt;
 &lt;p&gt;While running impdp import in 11g, you hit:&lt;/p&gt;
 &lt;p&gt;[sql]ORA-39083: Object type INDEX failed to create with error:
@@ -637,9 +651,9 @@ ORA-14102: only one LOGGING or NOLOGGING clause may be specified[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>EXP-00056: ORACLE error 28002 encountered</title>
-      <link>http://localhost:1313/website-static/oracle/2010/11/14/exp-00056-oracle-error-28002-encountered/</link>
+      <link>http://localhost:1313/oracle/2010/11/14/exp-00056-oracle-error-28002-encountered/</link>
       <pubDate>Sun, 14 Nov 2010 00:24:30 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2010/11/14/exp-00056-oracle-error-28002-encountered/</guid>
+      <guid>http://localhost:1313/oracle/2010/11/14/exp-00056-oracle-error-28002-encountered/</guid>
       <description>&lt;p&gt;Yesterday, a friend of mine asked me about an error he was getting while running a schema level export in Oracle 8i:&lt;/p&gt;
 &lt;p&gt;[sql]exp system/manager@DB owner=ABC file=ABC.dmp log =ABC.log&lt;/p&gt;
 &lt;p&gt;Export: Release 8.1.7.1.0 - Production on Fri Nov 12 04:21:05 2010&lt;/p&gt;
@@ -652,16 +666,16 @@ EXP-00000: Export terminated unsuccessfully[/sql]&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sangam 10</title>
-      <link>http://localhost:1313/website-static/oracle/2010/09/12/sangam-10/</link>
+      <link>http://localhost:1313/oracle/2010/09/12/sangam-10/</link>
       <pubDate>Sun, 12 Sep 2010 16:57:12 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2010/09/12/sangam-10/</guid>
+      <guid>http://localhost:1313/oracle/2010/09/12/sangam-10/</guid>
       <description>&lt;p&gt;It has been almost an year since i posted something (useful) here. The last post was also a crappy one :) . Well, it all boils down to sheer laziness ;) . Now, i think the time has come to be regular again. Here i am getting a good start talking about &lt;a href=&#34;http://www.aioug.org/sangam10.php&#34;&gt;Sangam10&lt;/a&gt;, i attended last week. It was a great opportunity to meet so many fellow Oracle professionals and most awesomely to meet &amp;amp; see &lt;a href=&#34;http://jonathanlewis.wordpress.com/&#34;&gt;Jonathan Lewis&lt;/a&gt; talk about Performance &amp;amp; Tuning. As expected the whole experience was amazing. It was a 2 day event where Jonathan was delivering 2 half day seminars on SQL Tuning and there were other break out sessions as well. We had planned to go a day in advance so me, &lt;a href=&#34;http://blog.aristadba.com/&#34;&gt;Aman&lt;/a&gt;, &lt;a href=&#34;http://ankitkgoel.wordpress.com/&#34;&gt;Ankit&lt;/a&gt; &amp;amp; &lt;a href=&#34;http://neerajbhatia.wordpress.com&#34;&gt;Neeraj&lt;/a&gt; reached Hyderabad on 2nd Sep.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Delete Delete Faster Faster ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2009/10/08/delete-delete-faster-faster/</link>
+      <link>http://localhost:1313/oracle/2009/10/08/delete-delete-faster-faster/</link>
       <pubDate>Thu, 08 Oct 2009 20:53:36 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/10/08/delete-delete-faster-faster/</guid>
+      <guid>http://localhost:1313/oracle/2009/10/08/delete-delete-faster-faster/</guid>
       <description>&lt;p&gt;2-3 days ago, I came across a code, intended to make delete faster. Just have a look ;)&lt;/p&gt;
 &lt;p&gt;[sql].
 .
@@ -689,9 +703,9 @@ END LOOP;
     </item>
     <item>
       <title>wrap’ed code and SQL trace</title>
-      <link>http://localhost:1313/website-static/oracle/2009/09/18/wraped-code-and-sql-trace/</link>
+      <link>http://localhost:1313/oracle/2009/09/18/wraped-code-and-sql-trace/</link>
       <pubDate>Fri, 18 Sep 2009 21:42:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/09/18/wraped-code-and-sql-trace/</guid>
+      <guid>http://localhost:1313/oracle/2009/09/18/wraped-code-and-sql-trace/</guid>
       <description>&lt;p&gt;Yesterday, one of my colleague asked that if he traced a wrap&amp;rsquo;ed PL/SQL procedure, would the SQL statements show up in the trace ? Very simple thing but at that moment i got, sort of into doubt. So i ran a simple test and yes they do show up ;)&lt;/p&gt;
 &lt;p&gt;[sql]CREATE OR REPLACE PROCEDURE wrap1
 AS
@@ -707,9 +721,9 @@ END;
     </item>
     <item>
       <title>ORA-30019: Illegal rollback Segment operation in Automatic Undo mode</title>
-      <link>http://localhost:1313/website-static/oracle/2009/07/09/ora-30019-illegal-rollback-segment-operation-in-automatic-undo-mode/</link>
+      <link>http://localhost:1313/oracle/2009/07/09/ora-30019-illegal-rollback-segment-operation-in-automatic-undo-mode/</link>
       <pubDate>Thu, 09 Jul 2009 23:26:59 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/07/09/ora-30019-illegal-rollback-segment-operation-in-automatic-undo-mode/</guid>
+      <guid>http://localhost:1313/oracle/2009/07/09/ora-30019-illegal-rollback-segment-operation-in-automatic-undo-mode/</guid>
       <description>&lt;p&gt;Today i was refreshing a MVIEW (Oracle 9.2.0.1.0 on Windows 2000) and instead of writing&lt;/p&gt;
 &lt;p&gt;[sql]exec dbms_mview.refresh(&amp;lsquo;SCHEMA1.MVIEW1&amp;rsquo;,&amp;lsquo;C&amp;rsquo;); [/sql]&lt;/p&gt;
 &lt;p&gt;i wrote&lt;/p&gt;
@@ -730,9 +744,9 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;</description>
     </item>
     <item>
       <title>GATHER_SCHEMA_STATS &amp; ORA-03001: unimplemented feature</title>
-      <link>http://localhost:1313/website-static/oracle/2009/07/08/gather_schema_stats-ora-03001-unimplemented-feature/</link>
+      <link>http://localhost:1313/oracle/2009/07/08/gather_schema_stats-ora-03001-unimplemented-feature/</link>
       <pubDate>Wed, 08 Jul 2009 23:33:47 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/07/08/gather_schema_stats-ora-03001-unimplemented-feature/</guid>
+      <guid>http://localhost:1313/oracle/2009/07/08/gather_schema_stats-ora-03001-unimplemented-feature/</guid>
       <description>&lt;p&gt;Today i was gathering stats on one schema (10.2.0.3 on AIX 5.3, 64 bit) and it said:&lt;/p&gt;
 &lt;p&gt;[sql]ERROR at line 1:
 ORA-03001: unimplemented feature
@@ -745,9 +759,9 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>DBMS_SCHEDULER, DBMS_RLS and SYS_CONTEXT</title>
-      <link>http://localhost:1313/website-static/oracle/2009/06/19/dbms_scheduler-dbms_rls-and-sys_context/</link>
+      <link>http://localhost:1313/oracle/2009/06/19/dbms_scheduler-dbms_rls-and-sys_context/</link>
       <pubDate>Fri, 19 Jun 2009 23:42:40 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/06/19/dbms_scheduler-dbms_rls-and-sys_context/</guid>
+      <guid>http://localhost:1313/oracle/2009/06/19/dbms_scheduler-dbms_rls-and-sys_context/</guid>
       <description>&lt;p&gt;Today one of my colleague was working on development of a screen in Oracle Forms to give the end user an option to schedule a job using dbms_scheduler. With the hope that i would be able to explain it properly, the whole scenario is like this:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;User will log in to the application with his username (Lets say USER01) and password (basically every application user is a database user).&lt;/li&gt;
@@ -759,19 +773,19 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>Take care of a slash in a SQL script</title>
-      <link>http://localhost:1313/website-static/oracle/2009/06/14/take-care-of-a-slash-in-a-sql-script/</link>
+      <link>http://localhost:1313/oracle/2009/06/14/take-care-of-a-slash-in-a-sql-script/</link>
       <pubDate>Sun, 14 Jun 2009 17:31:49 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/06/14/take-care-of-a-slash-in-a-sql-script/</guid>
+      <guid>http://localhost:1313/oracle/2009/06/14/take-care-of-a-slash-in-a-sql-script/</guid>
       <description>&lt;p&gt;Since long time i have almost been writing useless posts only. Now, i guess my blog doesn&amp;rsquo;t even look like an Oracle blog. So thought about posting something related to Oracle ;)&lt;/p&gt;
 &lt;p&gt;Day before yesterday a colleague at my workplace asked that she was running an SQL script (which contained a simple DBMS_MVIEW.REFRESH() statement to refresh an MVIEW), it ran successfully but after completion re-ran the last command run in the session. I was also puzzled and checked the SQL script but it contained simple DBMS_MVIEW.REFRESH() statement. Next try revealed that the script actually had a / (slash) in the second line (with no semi-colon at the end of the first line). Something like this (I used dbms_stats instead of dbms_mview):&lt;/p&gt;</description>
     </item>
     <item>
       <title>Required ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2009/02/23/required/</link>
+      <link>http://localhost:1313/oracle/2009/02/23/required/</link>
       <pubDate>Mon, 23 Feb 2009 23:42:28 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/02/23/required/</guid>
+      <guid>http://localhost:1313/oracle/2009/02/23/required/</guid>
       <description>&lt;p&gt;On the wall just outside my office. Who says there is recession ? ;)&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;required&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2009/02/required.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;required&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2009/02/required.jpg&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
 &lt;h3 id=&#34;comment-by-dan-norris-on-2009-02-23-234004-0530&#34;&gt;Comment by Dan Norris on 2009-02-23 23:40:04 +0530&lt;/h3&gt;
 &lt;p&gt;Forms and Reports? For what? How old is this picture? 🙂&lt;/p&gt;
@@ -783,9 +797,9 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>Quote modified for S/W industry</title>
-      <link>http://localhost:1313/website-static/oracle/2009/02/22/quote-modified-for-sw-industry/</link>
+      <link>http://localhost:1313/oracle/2009/02/22/quote-modified-for-sw-industry/</link>
       <pubDate>Sun, 22 Feb 2009 12:35:28 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2009/02/22/quote-modified-for-sw-industry/</guid>
+      <guid>http://localhost:1313/oracle/2009/02/22/quote-modified-for-sw-industry/</guid>
       <description>&lt;p&gt;Got this in a forward mail. Good one.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Forgiving or punishing&lt;/strong&gt; &lt;strong&gt;the terrorists&lt;/strong&gt; &lt;strong&gt;is left to God.&lt;/strong&gt; &lt;strong&gt;But,&lt;/strong&gt; &lt;strong&gt;fixing their appointment&lt;/strong&gt; &lt;strong&gt;with God&lt;/strong&gt; &lt;strong&gt;is our responsibility&lt;/strong&gt; &lt;strong&gt;- Indian Army&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Updated statement for this in S/W INDUSTRY&amp;hellip;&lt;/p&gt;
@@ -816,23 +830,23 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>Manually booting an OS from GRUB</title>
-      <link>http://localhost:1313/website-static/oracle/2008/12/14/manually-booting-an-os-from-grub/</link>
+      <link>http://localhost:1313/oracle/2008/12/14/manually-booting-an-os-from-grub/</link>
       <pubDate>Sun, 14 Dec 2008 19:28:25 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/12/14/manually-booting-an-os-from-grub/</guid>
+      <guid>http://localhost:1313/oracle/2008/12/14/manually-booting-an-os-from-grub/</guid>
       <description>&lt;p&gt;One of my friend today asked me about removing Linux partitions &amp;amp; GRUB (from a dual boot system) and return back to windows alone. Removing Linux involves just formatting/removing the partitions. Now to remove GRUB either do &lt;strong&gt;fdisk /mbr&lt;/strong&gt; from a Windows 98 bootable CD or do &lt;strong&gt;fixmbr&lt;/strong&gt; after booting into repair mode with Windows XP CD. But if you have none then to remove GRUB you will need some utility like &lt;a href=&#34;http://www.ambience.sk/fdisk-master-boot-record-windows-linux-lilo-fixmbr.php&#34;&gt;this one&lt;/a&gt; and if you reboot before doing that it might make GRUB unable to boot into Windows. It will get stuck at GRUB&amp;gt; prompt only. So there is an option: to manually boot the OS you want (ie Windows). A quick search gave link to &lt;a href=&#34;http://www.ntcompatible.com/How_to_remove_GRUB_loader_t28242.html#150012&#34;&gt;this thread&lt;/a&gt;. It involves few commands on the GRUB prompt:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My re-designed website ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2008/12/09/my-re-designed-website/</link>
+      <link>http://localhost:1313/oracle/2008/12/09/my-re-designed-website/</link>
       <pubDate>Tue, 09 Dec 2008 20:39:40 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/12/09/my-re-designed-website/</guid>
+      <guid>http://localhost:1313/oracle/2008/12/09/my-re-designed-website/</guid>
       <description>&lt;p&gt;Since long time i have been struggling to learn CSS and make &lt;a href=&#34;http://www.amardeepsidhu.com&#34;&gt;my website&lt;/a&gt; look great. The efforts did succeed but not in a way i wanted. After playing with CSS for few months i finally switched to Joomla and yes, in a week my website looks pretty cool. CSS automated ;) . Joomla installation is pretty next-next job. Then play around a bit and you are done. Next game is to choose a nice looking template according to your taste and addition of few extensions to make yours tasks easier. (Wordpress &amp;amp; Joomla rock because of these free extensions). So after long time i feel satisfied with the way my website looks. Here are the screenshots of the old and present new look for archives ;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>where 1=2 ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2008/12/06/where-1-2/</link>
+      <link>http://localhost:1313/oracle/2008/12/06/where-1-2/</link>
       <pubDate>Sat, 06 Dec 2008 12:58:26 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/12/06/where-1-2/</guid>
+      <guid>http://localhost:1313/oracle/2008/12/06/where-1-2/</guid>
       <description>&lt;p&gt;A small post to let everybody know that I am alive ;) .&lt;/p&gt;
 &lt;p&gt;Few weeks back, in office we were looking at one procedure which was supposed to do a lot but if executed it finished in a sec (or less ;) ). I started looking into it and just opened the procedure and started scrolling to find that the last line of the very first cursor read:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;where 1=2;&lt;/strong&gt;&lt;/p&gt;
@@ -840,31 +854,31 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>OTN forums suck ?</title>
-      <link>http://localhost:1313/website-static/oracle/2008/09/14/otn-forums-suck/</link>
+      <link>http://localhost:1313/oracle/2008/09/14/otn-forums-suck/</link>
       <pubDate>Sun, 14 Sep 2008 18:41:35 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/09/14/otn-forums-suck/</guid>
+      <guid>http://localhost:1313/oracle/2008/09/14/otn-forums-suck/</guid>
       <description>&lt;p&gt;Okay, so kids have stopped crying as they got some milk from their mommy: forums are better now (than when came back after an upgrade). There are reasons that it takes time for the things to be smooth. Fine. But what drives me mad is the way Oracle handled this and now ? The font size and those bloody bullets on left side which tell you if you have read the post before ? Please let me know if someone can interpret what those bullets tell and can read the forum without doing Ctrl + in Mozilla/Chrome and suffering from reading everything in large font size in IE 6 ?&lt;/p&gt;</description>
     </item>
     <item>
       <title>OTN forums – 2nd upgrade attempt</title>
-      <link>http://localhost:1313/website-static/oracle/2008/08/28/otn-forums-2nd-upgrade-attempt/</link>
+      <link>http://localhost:1313/oracle/2008/08/28/otn-forums-2nd-upgrade-attempt/</link>
       <pubDate>Thu, 28 Aug 2008 07:28:39 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/08/28/otn-forums-2nd-upgrade-attempt/</guid>
+      <guid>http://localhost:1313/oracle/2008/08/28/otn-forums-2nd-upgrade-attempt/</guid>
       <description>&lt;p&gt;Well, as everybody has seen, last week they have again upgraded the OTN forums. And sadly it has been handled in a very poor manner. End result is that it is running terribly slow and throwing some errors many times. In my office, i cant even open it properly may be its too heavy or some issue with the internet. Also there has been lots of hues and cries about the new point system and all. That in my opinion is fine except that speed at which forums are running should be fine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lotus notes and sametime</title>
-      <link>http://localhost:1313/website-static/oracle/2008/08/20/lotus-notes-and-sametime/</link>
+      <link>http://localhost:1313/oracle/2008/08/20/lotus-notes-and-sametime/</link>
       <pubDate>Wed, 20 Aug 2008 23:00:49 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/08/20/lotus-notes-and-sametime/</guid>
+      <guid>http://localhost:1313/oracle/2008/08/20/lotus-notes-and-sametime/</guid>
       <description>&lt;p&gt;My company uses Lotus Notes for email and Sametime connect as messenger for all the internal communication. Both are stupid applications and are a big resource hogs. Most of the systems are P IV with 512 MB RAM. You just run Lotus and Sametime 7 and it eats up everything. The system moves like a 386 based machine.&lt;/p&gt;
 &lt;p&gt;Moreover, i was looking for Lotus short cuts today and found that there is no short cut in Lotus for &lt;strong&gt;Send/Receive&lt;/strong&gt; mail.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OTN forums under maintenance</title>
-      <link>http://localhost:1313/website-static/oracle/2008/08/10/otn-forums-under-maintenance/</link>
+      <link>http://localhost:1313/oracle/2008/08/10/otn-forums-under-maintenance/</link>
       <pubDate>Sun, 10 Aug 2008 07:58:28 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/08/10/otn-forums-under-maintenance/</guid>
+      <guid>http://localhost:1313/oracle/2008/08/10/otn-forums-under-maintenance/</guid>
       <description>&lt;p&gt;I was just wondering what kind of maintenance OTN forums are undergoing ? It is 2nd day today and still not available. I checked it yesterday morning and now today morning still under maintenance.&lt;/p&gt;
 &lt;p&gt;Is another new design on the way ? ;)&lt;/p&gt;
 &lt;p&gt;What you say !&lt;/p&gt;
@@ -873,46 +887,46 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>Conducting my first interview ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2008/07/29/conducting-my-first-interview/</link>
+      <link>http://localhost:1313/oracle/2008/07/29/conducting-my-first-interview/</link>
       <pubDate>Tue, 29 Jul 2008 07:19:08 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/07/29/conducting-my-first-interview/</guid>
+      <guid>http://localhost:1313/oracle/2008/07/29/conducting-my-first-interview/</guid>
       <description>&lt;p&gt;Last week i had a chance to conduct my life&amp;rsquo;s first interview. The guy was a DBA with 2 years of experience and it was supposed to be a telephonic call. I checked out his CV and wrote down around 8 questions on a paper, just to make sure that i myself don&amp;rsquo;t get confused during the interview  ;) . So i called him in the evening and started with introduction and his present job profile. Then i started with the questions from the projects he had done. He was confident about the stuff he was handling and replied all the questions honestly, saying NO at points where he didn&amp;rsquo;t know or was not involved in something. One of such thing was testing the backups. He said there is no testing done as such.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Accessing outside DocumentRoot files in Apache HTTP server</title>
-      <link>http://localhost:1313/website-static/oracle/2008/07/22/accessing-outside-documentroot-files-in-apache-http-server/</link>
+      <link>http://localhost:1313/oracle/2008/07/22/accessing-outside-documentroot-files-in-apache-http-server/</link>
       <pubDate>Tue, 22 Jul 2008 21:51:10 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/07/22/accessing-outside-documentroot-files-in-apache-http-server/</guid>
+      <guid>http://localhost:1313/oracle/2008/07/22/accessing-outside-documentroot-files-in-apache-http-server/</guid>
       <description>&lt;p&gt;I don&amp;rsquo;t know a bit about Apache HTTP server but faced one issue in office&amp;hellip;so thought about writing it here ;)&lt;/p&gt;
 &lt;p&gt;We are having a 3 tier setup where Oracle Application Server 10g was there on AIX 5.3. It runs Apache HTTP server and we needed to access the files outside DocumentRoot. A bit of googling revealed that we could use &lt;a href=&#34;http://httpd.apache.org/docs/2.2/mod/mod_alias.html#alias&#34;&gt;Alias&lt;/a&gt; for that. Basically we need to add the following small piece of text to httpd.conf file:&lt;/p&gt;</description>
     </item>
     <item>
       <title>DBA_MVIEW_COMMENTS view in 10g</title>
-      <link>http://localhost:1313/website-static/oracle/2008/07/21/dba_mview_comments-view-in-10g/</link>
+      <link>http://localhost:1313/oracle/2008/07/21/dba_mview_comments-view-in-10g/</link>
       <pubDate>Mon, 21 Jul 2008 07:28:32 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/07/21/dba_mview_comments-view-in-10g/</guid>
+      <guid>http://localhost:1313/oracle/2008/07/21/dba_mview_comments-view-in-10g/</guid>
       <description>&lt;p&gt;Our application (3 tier, Front end Forms10g and back end 10gR2) provides user with a front end to refresh the mviews. That form has 2 columns showing mview name and the comment against it. Recently i saw that while opening this front end ORA-01403 NO DATA FOUND was being raised.&lt;/p&gt;
 &lt;p&gt;I opened the fmb and found that it was populating comments from DBA_TAB_COMMENTS. In 10g the comments against mviews are stored in DBA_MVIEW_COMMENTS unlike till 9i where it was in ALL_TAB_COMMENTS. So there was a little modification required.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Upgrade to WordPress 2.6</title>
-      <link>http://localhost:1313/website-static/oracle/2008/07/15/upgrade-to-wordpress-2-6/</link>
+      <link>http://localhost:1313/oracle/2008/07/15/upgrade-to-wordpress-2-6/</link>
       <pubDate>Tue, 15 Jul 2008 22:28:06 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/07/15/upgrade-to-wordpress-2-6/</guid>
+      <guid>http://localhost:1313/oracle/2008/07/15/upgrade-to-wordpress-2-6/</guid>
       <description>&lt;p&gt;Just upgraded my blog to Wordpress 2.6. There are few new things. This video from Wordpress summarizes the new stuff:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Commenting on my blog</title>
-      <link>http://localhost:1313/website-static/oracle/2008/07/08/commenting-on-my-blog/</link>
+      <link>http://localhost:1313/oracle/2008/07/08/commenting-on-my-blog/</link>
       <pubDate>Tue, 08 Jul 2008 23:28:54 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/07/08/commenting-on-my-blog/</guid>
+      <guid>http://localhost:1313/oracle/2008/07/08/commenting-on-my-blog/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://amansharma.wordpress.com/&#34;&gt;Aman&lt;/a&gt; made me aware about not being able to post any comments on my blog. I checked and found that everything was fine with Firefox but in IE 6 it was not possible to post a comment. I was using &lt;a href=&#34;http://www.herod.net/dypm/&#34; title=&#34;Visit plugin homepage&#34;&gt;Did You Pass Math&lt;/a&gt; plugin to stop comment spam and it had some problems in IE. I disabled it for the time being and installed &lt;a href=&#34;http://www.hybrid6.com/webgeek/plugins/wp-spamfree&#34;&gt;WP-SpamFree&lt;/a&gt;. Everything seems to be fine except that it doesn&amp;rsquo;t allow very small comments and i haven&amp;rsquo;t been able to figure out where that setting is ? (yea&amp;hellip;i am really poor with this web stuff :( ).&lt;/p&gt;</description>
     </item>
     <item>
       <title>OTN forums get a new look</title>
-      <link>http://localhost:1313/website-static/oracle/2008/06/29/otn-forums-get-a-new-look/</link>
+      <link>http://localhost:1313/oracle/2008/06/29/otn-forums-get-a-new-look/</link>
       <pubDate>Sun, 29 Jun 2008 20:25:25 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/06/29/otn-forums-get-a-new-look/</guid>
+      <guid>http://localhost:1313/oracle/2008/06/29/otn-forums-get-a-new-look/</guid>
       <description>&lt;p&gt;Just had a glimpse. OTN forums has got a new look. A bunch of new features has also been added. Some of the new things i noticed are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;That simple editor is now rich text editor. Also supports emoticons.&lt;/li&gt;
@@ -925,18 +939,18 @@ ORA-06512: at line 1[/sql]&lt;/p&gt;
     </item>
     <item>
       <title>High Availability – Live ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2008/06/28/high-availability-live/</link>
+      <link>http://localhost:1313/oracle/2008/06/28/high-availability-live/</link>
       <pubDate>Sat, 28 Jun 2008 08:15:21 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/06/28/high-availability-live/</guid>
+      <guid>http://localhost:1313/oracle/2008/06/28/high-availability-live/</guid>
       <description>&lt;p&gt;I just opened OTN forums and found:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/06/ha.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2008/06/ha.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;High availability live ;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>A database – one tablespace &amp; one datafile</title>
-      <link>http://localhost:1313/website-static/oracle/2008/06/10/a-database-one-tablespace-one-datafile/</link>
+      <link>http://localhost:1313/oracle/2008/06/10/a-database-one-tablespace-one-datafile/</link>
       <pubDate>Tue, 10 Jun 2008 21:32:24 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/06/10/a-database-one-tablespace-one-datafile/</guid>
+      <guid>http://localhost:1313/oracle/2008/06/10/a-database-one-tablespace-one-datafile/</guid>
       <description>&lt;p&gt;author: Sidhu
 category:&lt;/p&gt;
 &lt;ul&gt;
@@ -954,18 +968,18 @@ url: /blog/a-database-one-tablespace-one-datafile/&lt;/li&gt;
     </item>
     <item>
       <title>Import and default values for columns</title>
-      <link>http://localhost:1313/website-static/oracle/2008/05/10/import-and-default-values-for-columns/</link>
+      <link>http://localhost:1313/oracle/2008/05/10/import-and-default-values-for-columns/</link>
       <pubDate>Sat, 10 May 2008 14:47:59 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/05/10/import-and-default-values-for-columns/</guid>
+      <guid>http://localhost:1313/oracle/2008/05/10/import-and-default-values-for-columns/</guid>
       <description>&lt;p&gt;I had got an export of a database and had to import it to a new database. The only difference was that in new database few of the large tables were partitioned. So instead of partitioning it after the import, i thought about pre-creating the tables (with partitioning) and then run import with ignore=Y . Everything went fine. But later on the front end application gave some error and we came to know that default values for columns in some tables were not set. I did some googling and didn&amp;rsquo;t find much. Then i &lt;a href=&#34;http://forums.oracle.com/forums/message.jspa?messageID=25113&#34;&gt;posted&lt;/a&gt; the same to OTN forums and came to know that if the table pre-exists, import doesn&amp;rsquo;t take care of default values of columns. Metalink note &lt;a href=&#34;https://metalink.oracle.com/metalink/plsql/f?p=130:14:4379750739032245945::::p14_database_id,p14_docid,p14_show_header,p14_show_help,p14_black_frame,p14_font:NOT,224727.1,1,1,1,helvetica&#34;&gt;224727.1&lt;/a&gt; discusses this. So if you are pre-creating the tables and there are some default values for any columns, set it manually, don&amp;rsquo;t rely on import for this. Same is true for impdp as well.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Maintenance…is everywhere ;)</title>
-      <link>http://localhost:1313/website-static/oracle/2008/04/22/maintenance-is-everywhere/</link>
+      <link>http://localhost:1313/oracle/2008/04/22/maintenance-is-everywhere/</link>
       <pubDate>Tue, 22 Apr 2008 22:34:41 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/04/22/maintenance-is-everywhere/</guid>
+      <guid>http://localhost:1313/oracle/2008/04/22/maintenance-is-everywhere/</guid>
       <description>&lt;p&gt;I just opened the &lt;a href=&#34;http://www.oraclecommunity.net/&#34;&gt;Oracle Community&lt;/a&gt; page and :&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/04/ocm.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/04/ocm.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/wp-content/uploads/2008/04/ocm.jpg&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2008/04/ocm.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
 &lt;h3 id=&#34;comment-by-eddie-awad-on-2008-04-22-234433-0530&#34;&gt;Comment by Eddie Awad on 2008-04-22 23:44:33 +0530&lt;/h3&gt;
 &lt;p&gt;Hi Amardeep,&lt;/p&gt;
@@ -978,45 +992,45 @@ url: /blog/a-database-one-tablespace-one-datafile/&lt;/li&gt;
     </item>
     <item>
       <title>Have you searched “%” in metalink ?</title>
-      <link>http://localhost:1313/website-static/oracle/2008/04/18/have-you-searched-in-metalink/</link>
+      <link>http://localhost:1313/oracle/2008/04/18/have-you-searched-in-metalink/</link>
       <pubDate>Fri, 18 Apr 2008 20:43:33 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/04/18/have-you-searched-in-metalink/</guid>
+      <guid>http://localhost:1313/oracle/2008/04/18/have-you-searched-in-metalink/</guid>
       <description>&lt;p&gt;Today I was searching for an error message in metalink and it was giving strange messages. Then i came to know that the error message contained &amp;ldquo;%&amp;rdquo; character and metalink was not really happy searching for it. Rather it showed a confusing message:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/04/noname.gif&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/04/noname.gif&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/wp-content/uploads/2008/04/noname.gif&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2008/04/noname.gif&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Pretty strange&amp;hellip;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Unxutils for Windows</title>
-      <link>http://localhost:1313/website-static/oracle/2008/04/10/unxutils-for-windows/</link>
+      <link>http://localhost:1313/oracle/2008/04/10/unxutils-for-windows/</link>
       <pubDate>Thu, 10 Apr 2008 21:57:25 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/04/10/unxutils-for-windows/</guid>
+      <guid>http://localhost:1313/oracle/2008/04/10/unxutils-for-windows/</guid>
       <description>&lt;p&gt;If you are used to work in Unix enviroment and then sometime, in between have to sit on Windows and tail -f alert_DB.log, its a real pain. There is a small bundle of utilities, called &lt;a href=&#34;http://unxutils.sourceforge.net/&#34;&gt;Unxutils&lt;/a&gt; which can make you feel at home in Windows too. These are the exe&amp;rsquo;s of all major commands in Unix like more, less, ls, grep etc&amp;hellip;&lt;/p&gt;
 &lt;p&gt;To use it just download the zip file from the link above, extract it to some folder and add the path of exe&amp;rsquo;s to your Windows PATH. Restart your machine and you are done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Automating WordPress 2.5 upgrade</title>
-      <link>http://localhost:1313/website-static/oracle/2008/04/06/automating-wordpress-2-5-upgrade/</link>
+      <link>http://localhost:1313/oracle/2008/04/06/automating-wordpress-2-5-upgrade/</link>
       <pubDate>Sun, 06 Apr 2008 11:59:44 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/04/06/automating-wordpress-2-5-upgrade/</guid>
-      <description>&lt;p&gt;I recently &lt;a href=&#34;http://localhost:1313/website-static/blog/2008/03/30/upgrading-to-wordpress-25/&#34;&gt;upgraded&lt;/a&gt; my blog to Wordpress 2.5. The manual process is real cumbersome. Today I came across few plugins which help in almost automating the upgrade stuff.&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2008/04/06/automating-wordpress-2-5-upgrade/</guid>
+      <description>&lt;p&gt;I recently &lt;a href=&#34;http://localhost:1313/blog/2008/03/30/upgrading-to-wordpress-25/&#34;&gt;upgraded&lt;/a&gt; my blog to Wordpress 2.5. The manual process is real cumbersome. Today I came across few plugins which help in almost automating the upgrade stuff.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://wordpress.org/extend/plugins/wordpress-automatic-upgrade/&#34;&gt;Wordpress Automatic upgrade:&lt;/a&gt; As per description this plugin first takes backup and then upgrades. I didn&amp;rsquo;t try this one, though.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.zirona.com/software/wordpress-instant-upgrade/&#34;&gt;Instant Upgrade:&lt;/a&gt; I upgraded one of my blog using this. It doesn&amp;rsquo;t take care of backup but otherwise the upgrade was super smooth. Just few clicks and you are done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>OTN forums etiquettes</title>
-      <link>http://localhost:1313/website-static/oracle/2008/04/04/otn-forums-etiquettes/</link>
+      <link>http://localhost:1313/oracle/2008/04/04/otn-forums-etiquettes/</link>
       <pubDate>Fri, 04 Apr 2008 07:09:52 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/04/04/otn-forums-etiquettes/</guid>
+      <guid>http://localhost:1313/oracle/2008/04/04/otn-forums-etiquettes/</guid>
       <description>&lt;p&gt;Finally finally finally a &lt;a href=&#34;http://forums.oracle.com/forums/ann.jspa?annID=718&#34;&gt;small sticky&lt;/a&gt; has been posted on OTN Database forums homepage. But its there only on Database forums page not on PL/SQL. It reads like:&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Posters, please mind these common-sense rules when participating here:&lt;/em&gt; &lt;em&gt;- When asking a question, provide all the details that someone would need to answer it. Consulting documentation first is highly recommended. (See &lt;a href=&#34;http://blogs.oracle.com/shay/2007/03/02&#34;&gt;http://blogs.oracle.com/shay/2007/03/02&lt;/a&gt; for more hints.)&lt;/em&gt;
 &lt;em&gt;- When answering a question, please be courteous; there are different levels of experience represented here. A poorly worded question is better ignored than flamed - or better yet, help the poster ask a better question.&lt;/em&gt; &lt;em&gt;Thanks for doing your part to make this community as valuable as possible for everyone!&lt;/em&gt; &lt;em&gt;- OTN&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>DBAzine.com is back :)</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/31/dbazine-com-is-back/</link>
+      <link>http://localhost:1313/oracle/2008/03/31/dbazine-com-is-back/</link>
       <pubDate>Mon, 31 Mar 2008 21:54:31 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/31/dbazine-com-is-back/</guid>
-      <description>&lt;p&gt;Few days ago i &lt;a href=&#34;http://localhost:1313/website-static/blog/2008/03/22/dbazinecom-has-expired/&#34;&gt;posted&lt;/a&gt; about &lt;a href=&#34;http://www.dbazine.com/&#34;&gt;DBAzine&lt;/a&gt; being down. I was just checking to see if its back.&lt;/p&gt;
+      <guid>http://localhost:1313/oracle/2008/03/31/dbazine-com-is-back/</guid>
+      <description>&lt;p&gt;Few days ago i &lt;a href=&#34;http://localhost:1313/blog/2008/03/22/dbazinecom-has-expired/&#34;&gt;posted&lt;/a&gt; about &lt;a href=&#34;http://www.dbazine.com/&#34;&gt;DBAzine&lt;/a&gt; being down. I was just checking to see if its back.&lt;/p&gt;
 &lt;p&gt;Its rocking now.&lt;/p&gt;
 &lt;p&gt;Welcome back DBAzine.com :)&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -1031,17 +1045,17 @@ now I wanyt to move text to my document like it would had been through mail-merg
     </item>
     <item>
       <title>Upgrading to WordPress 2.5</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/30/upgrading-to-wordpress-2-5/</link>
+      <link>http://localhost:1313/oracle/2008/03/30/upgrading-to-wordpress-2-5/</link>
       <pubDate>Sun, 30 Mar 2008 17:46:14 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/30/upgrading-to-wordpress-2-5/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/30/upgrading-to-wordpress-2-5/</guid>
       <description>&lt;p&gt;Just finished upgrading to Wordpress 2.5. Everything seems to be working fine.&lt;/p&gt;
-&lt;p&gt;Another issue I just came to know that wherever i am using &lt;a href=&#34;http://localhost:1313/website-static/blog/2008/03/03/syntax-highlighting-for-code-in-wordpress/&#34;&gt;syntaxhighlighter&lt;/a&gt; to format the code, it doesn&amp;rsquo;t display properly in Internet Explorer. May be something to do with the plugin. Will try to fix it. It works fine in Mozilla.&lt;/p&gt;</description>
+&lt;p&gt;Another issue I just came to know that wherever i am using &lt;a href=&#34;http://localhost:1313/blog/2008/03/03/syntax-highlighting-for-code-in-wordpress/&#34;&gt;syntaxhighlighter&lt;/a&gt; to format the code, it doesn&amp;rsquo;t display properly in Internet Explorer. May be something to do with the plugin. Will try to fix it. It works fine in Mozilla.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Upgrade 10gR1 to 10gR2 – DBUA error</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/27/upgrade-10gr1-to-10gr2-dbua-error/</link>
+      <link>http://localhost:1313/oracle/2008/03/27/upgrade-10gr1-to-10gr2-dbua-error/</link>
       <pubDate>Thu, 27 Mar 2008 22:53:01 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/27/upgrade-10gr1-to-10gr2-dbua-error/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/27/upgrade-10gr1-to-10gr2-dbua-error/</guid>
       <description>&lt;p&gt;Today I was upgrading 10gR1 to 10gR2 (10.2.0.1) on Linux x86. The upgrade went almost fine (except that I had to install one package and change few kernel parameters) but while running DBUA to upgrade databases, it gave an error:&lt;/p&gt;
 &lt;p&gt;[sourcecode language=&amp;lsquo;css&amp;rsquo;]Could not get database version from the Oracle Server component. The CEP file rdbmsup.sql does not provide the version directive&lt;/p&gt;
 &lt;p&gt;and&lt;/p&gt;
@@ -1050,9 +1064,9 @@ now I wanyt to move text to my document like it would had been through mail-merg
     </item>
     <item>
       <title>EXP-00008: ORACLE error 600 encountered</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/24/exp-00008-oracle-error-600-encountered/</link>
+      <link>http://localhost:1313/oracle/2008/03/24/exp-00008-oracle-error-600-encountered/</link>
       <pubDate>Mon, 24 Mar 2008 23:06:50 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/24/exp-00008-oracle-error-600-encountered/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/24/exp-00008-oracle-error-600-encountered/</guid>
       <description>&lt;p&gt;Today I was running export of an Oracle 9.2.0.1 database. The export completed but with an ORA-600 error:&lt;/p&gt;
 &lt;p&gt;[sourcecode language=&amp;lsquo;css&amp;rsquo;]&lt;/p&gt;
 &lt;p&gt;EXP-00008: ORACLE error 600 encountered
@@ -1066,26 +1080,26 @@ EXP-00083: The previous problem occurred when calling SYS.DBMS_AW_EXP.schema_inf
     </item>
     <item>
       <title>Get rid of your copy paste woes in Windows</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/23/get-rid-of-your-copy-paste-woes-in-windows/</link>
+      <link>http://localhost:1313/oracle/2008/03/23/get-rid-of-your-copy-paste-woes-in-windows/</link>
       <pubDate>Sun, 23 Mar 2008 22:19:31 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/23/get-rid-of-your-copy-paste-woes-in-windows/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/23/get-rid-of-your-copy-paste-woes-in-windows/</guid>
       <description>&lt;p&gt;I was copying some data from a DVD and it stopped in between due to some error with some file. Then I was reminded of &lt;a href=&#34;http://www.ranvik.net/totalcopy/&#34;&gt;Total Copy&lt;/a&gt; (A small alternate utility to Windows copy) but even thats is not much stable and you have to right click &amp;amp; drag for copy/paste.&lt;/p&gt;
 &lt;p&gt;I googled a bit and came across another small utility called &lt;a href=&#34;http://www.codesector.com/teracopy.php&#34;&gt;Tera Copy&lt;/a&gt;. Its just 1 MB download and replaces Windows copy/paste. It provides many options like skipping a file, resuming copy and some other stuff. A must have for all Windows users. There is a pro version too.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Solid state cooling for processors</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/23/solid-state-cooling-for-processors/</link>
+      <link>http://localhost:1313/oracle/2008/03/23/solid-state-cooling-for-processors/</link>
       <pubDate>Sun, 23 Mar 2008 11:40:52 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/23/solid-state-cooling-for-processors/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/23/solid-state-cooling-for-processors/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.dailytech.com/Engineers+Develop+Solidstate+Fan+That+Puts+Traditional+Coolers+to+Shame/article11158.htm&#34;&gt;Engineers Develop Solid-state Fan That Puts Traditional Coolers to Shame&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Cool ! isn&amp;rsquo;t it ?&lt;/p&gt;
 &lt;p&gt;Soon we may be using 5 Ghz super cool processors in our desktop box :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>dbazine.com has expired</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/22/dbazine-com-has-expired/</link>
+      <link>http://localhost:1313/oracle/2008/03/22/dbazine-com-has-expired/</link>
       <pubDate>Sat, 22 Mar 2008 15:45:17 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/22/dbazine-com-has-expired/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/22/dbazine-com-has-expired/</guid>
       <description>&lt;p&gt;Today I was googling about Oracle Data Guard and came across an article on dbazine.com. I opened the link and it showed some stupid page. I checked again and again. Finally I noticed a message on top right:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;dbazine.com&lt;/strong&gt; expired on 03/13/2008 and is pending renewal or deletion.&lt;/p&gt;
 &lt;p&gt;:(&lt;/p&gt;
@@ -1093,9 +1107,9 @@ EXP-00083: The previous problem occurred when calling SYS.DBMS_AW_EXP.schema_inf
     </item>
     <item>
       <title>Autonomous Transactions in Oracle</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/04/autonomous-transactions-in-oracle/</link>
+      <link>http://localhost:1313/oracle/2008/03/04/autonomous-transactions-in-oracle/</link>
       <pubDate>Tue, 04 Mar 2008 20:33:23 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/04/autonomous-transactions-in-oracle/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/04/autonomous-transactions-in-oracle/</guid>
       <description>&lt;p&gt;I came across a very nice post about Autonomous Transactions in Oracle written by &lt;a href=&#34;http://www.orafaq.com/blog/kevin_meade&#34;&gt;Kevin Meade&lt;/a&gt; on &lt;a href=&#34;http://www.orafaq.com&#34;&gt;orafaq&lt;/a&gt;. Thought about sharing &lt;a href=&#34;http://www.orafaq.com/node/1915&#34;&gt;the link&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;His &lt;a href=&#34;http://www.orafaq.com/blog/kevin_meade&#34;&gt;blog&lt;/a&gt; also has some very nice stuff.&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -1107,29 +1121,29 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>Syntax highlighting for code in WordPress</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/03/syntax-highlighting-for-code-in-wordpress/</link>
+      <link>http://localhost:1313/oracle/2008/03/03/syntax-highlighting-for-code-in-wordpress/</link>
       <pubDate>Mon, 03 Mar 2008 22:07:13 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/03/syntax-highlighting-for-code-in-wordpress/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/03/syntax-highlighting-for-code-in-wordpress/</guid>
       <description>&lt;p&gt;I came across &lt;a href=&#34;http://www.oraclerant.com/?p=26&#34;&gt;a post&lt;/a&gt; about syntax highlighting for code in Wordpress on &lt;a href=&#34;http://www.oraclerant.com&#34;&gt;Thomas Roach&amp;rsquo;s blog&lt;/a&gt; who in turn saw it on &lt;a href=&#34;http://tylermuth.wordpress.com/&#34;&gt;Tyler Muth&amp;rsquo;s blog.&lt;/a&gt; There is a plugin called &lt;a href=&#34;http://wordpress.org/extend/plugins/syntaxhighlighter/&#34;&gt;syntax highlighter&lt;/a&gt; which does all the beauty. Use is very simple:&lt;/p&gt;
 &lt;p&gt;Download it from &lt;a href=&#34;http://downloads.wordpress.org/plugin/syntaxhighlighter.zip&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Upload to your blog&amp;rsquo;s plugins folder and extract it over there.&lt;/p&gt;
 &lt;p&gt;Now (on Wordpress) go to Plugins page and activate the plugin.&lt;/p&gt;
 &lt;p&gt;To use it wrap your code like&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/03/code.JPG&#34; title=&#34;code.JPG&#34;&gt;&lt;img alt=&#34;code.JPG&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/website-static/blog/wp-content/uploads/2008/03/code.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/blog/wp-content/uploads/2008/03/code.JPG&#34; title=&#34;code.JPG&#34;&gt;&lt;img alt=&#34;code.JPG&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/blog/wp-content/uploads/2008/03/code.JPG&#34;&gt;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Missing grants</title>
-      <link>http://localhost:1313/website-static/oracle/2008/03/03/missing-grants/</link>
+      <link>http://localhost:1313/oracle/2008/03/03/missing-grants/</link>
       <pubDate>Mon, 03 Mar 2008 20:37:15 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/03/03/missing-grants/</guid>
+      <guid>http://localhost:1313/oracle/2008/03/03/missing-grants/</guid>
       <description>&lt;p&gt;Today one of my colleague was working on a simple PL/SQL procedure. Based on some logic it was returning count(*) from all_tab_columns for few tables. It gave count incorrectly for one table out of around fifty in total. He just hard coded the table name and ran it but again it showed count as zero.&lt;/p&gt;
 &lt;p&gt;Then he took the code out of procedure and wrote it in DECLARE, BEGIN, END and after running it showed the correct count. But ran as database procedure it always shows incorrectly.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning Regular Expressions</title>
-      <link>http://localhost:1313/website-static/oracle/2008/02/27/learning-regular-expressions/</link>
+      <link>http://localhost:1313/oracle/2008/02/27/learning-regular-expressions/</link>
       <pubDate>Wed, 27 Feb 2008 21:29:50 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/02/27/learning-regular-expressions/</guid>
+      <guid>http://localhost:1313/oracle/2008/02/27/learning-regular-expressions/</guid>
       <description>&lt;p&gt;From &lt;a href=&#34;http://awads.net/wp/2008/02/25/5-useful-links-for-2008-02-25/&#34; title=&#34;Eddie&#39;s blog&#34;&gt;Eddie&amp;rsquo;s blog&lt;/a&gt; I got a link to 3 posts on Regular Expressions on OTN written by &lt;a href=&#34;http://www.l2is.com/apex/f?p=999:3:3754894570320873::NO::P3_NAME:ARTICLE46&#34; title=&#34;CD&#39;s blog&#34;&gt;CD&lt;/a&gt;. Wonderful stuff. Check out.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?threadID=427716&#34; title=&#34;Part 1&#34;&gt;Part 1&lt;/a&gt; &lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?threadID=430647&#34; title=&#34;Part 2&#34;&gt;Part 2&lt;/a&gt; &lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?threadID=435109&#34; title=&#34;Part 3&#34;&gt;Part 3&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;amp; Thanks CD&amp;hellip;wonderful work buddy !&lt;/p&gt;
@@ -1139,9 +1153,9 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome to my new website &amp; blog…</title>
-      <link>http://localhost:1313/website-static/oracle/2008/02/06/welcome-to-my-new-website-blog/</link>
+      <link>http://localhost:1313/oracle/2008/02/06/welcome-to-my-new-website-blog/</link>
       <pubDate>Wed, 06 Feb 2008 20:42:47 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/02/06/welcome-to-my-new-website-blog/</guid>
+      <guid>http://localhost:1313/oracle/2008/02/06/welcome-to-my-new-website-blog/</guid>
       <description>&lt;p&gt;Well, it was in my mind for some time, to register my domain name and finally its here :) . I have imported all the posts from &lt;a href=&#34;http://amardeepsidhu.blogspot.com&#34; title=&#34;My blogger blog&#34;&gt;my blog&lt;/a&gt; on blogger. I will be checking and editing all the posts for any kind of issues with wordpress. If you see anything out of the way do let me know :)&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
 &lt;h3 id=&#34;comment-by-amritpal-singh-on-2008-02-06-205722-0530&#34;&gt;Comment by Amritpal Singh on 2008-02-06 20:57:22 +0530&lt;/h3&gt;
@@ -1149,9 +1163,9 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle from Dizwell…</title>
-      <link>http://localhost:1313/website-static/oracle/2008/01/03/oracle-from-dizwell/</link>
+      <link>http://localhost:1313/oracle/2008/01/03/oracle-from-dizwell/</link>
       <pubDate>Thu, 03 Jan 2008 22:41:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/01/03/oracle-from-dizwell/</guid>
+      <guid>http://localhost:1313/oracle/2008/01/03/oracle-from-dizwell/</guid>
       <description>&lt;p&gt;Howard has posted &lt;a href=&#34;http://www.dizwell.net/prod/concepts&#34;&gt;a pdf&lt;/a&gt; on Oracle Administration on his &lt;a href=&#34;http://www.dizwell.net/prod/&#34;&gt;new website&lt;/a&gt;. Do check out. Its awesome.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Howard has &lt;a href=&#34;http://dizwell.net/&#34;&gt;shutdown&lt;/a&gt; his website, so unfortunately this pdf is not available.&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;
@@ -1165,23 +1179,23 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>ORA-03113 Refresh of a mview in Oracle 10g</title>
-      <link>http://localhost:1313/website-static/oracle/2008/01/03/ora-03113-refresh-of-a-mview-in-oracle-10g/</link>
+      <link>http://localhost:1313/oracle/2008/01/03/ora-03113-refresh-of-a-mview-in-oracle-10g/</link>
       <pubDate>Thu, 03 Jan 2008 07:33:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2008/01/03/ora-03113-refresh-of-a-mview-in-oracle-10g/</guid>
+      <guid>http://localhost:1313/oracle/2008/01/03/ora-03113-refresh-of-a-mview-in-oracle-10g/</guid>
       <description>&lt;p&gt;At my workplace we were facing a problem with refresh of a mview. Say it was created in schema of user1 but when I tried to refresh it from user2 it would give ORA-03113: end-of-file on communication channel. Then we raised a SR and have been following up with Oracle support for long but it was not getting anywhere. Yesterday that guy seemed to have reached some point. The mviews that we have created and are having problem with refresh are created on top of both local &amp;amp; remote objects and he said that up to 11gr2 there is no possibility of creating mviews on both local and remote objects. I did validate this thing. All the mviews failing to refresh are created on top of both local &amp;amp; remote objects. But again from the owner the refresh is fine but from another user it gives problem. By the way that guy hinted at &lt;a href=&#34;https://metalink.oracle.com/metalink/plsql/f?p=130:15:3284197721413823598::::p15_database_id,p15_docid,p15_show_header,p15_show_help,p15_black_frame,p15_font:BUG,4084125,1,1,1,helvetica&#34;&gt;bug 4084125&lt;/a&gt; and also suggested a work around. I haven&amp;rsquo;t tried that yet. Will try and update about the results.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Trained in AIX…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/11/27/trained-in-aix/</link>
+      <link>http://localhost:1313/oracle/2007/11/27/trained-in-aix/</link>
       <pubDate>Tue, 27 Nov 2007 20:56:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/11/27/trained-in-aix/</guid>
+      <guid>http://localhost:1313/oracle/2007/11/27/trained-in-aix/</guid>
       <description>&lt;p&gt;Last week I attended a training on AIX system administration from IBM (organized by company, obviously ;) It was a 7 days course covering all of the system administration stuff. There was a lot of new stuff to learn, LVM being the most number of times uttered word, once we did the chapter on LVM. It was a nice experience as a whole as for the first time I attended any training on Unix.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle from Eddie Awad…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/11/27/oracle-from-eddie-awad/</link>
+      <link>http://localhost:1313/oracle/2007/11/27/oracle-from-eddie-awad/</link>
       <pubDate>Tue, 27 Nov 2007 20:45:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/11/27/oracle-from-eddie-awad/</guid>
+      <guid>http://localhost:1313/oracle/2007/11/27/oracle-from-eddie-awad/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://awads.net/wp/&#34;&gt;Eddie Awad&lt;/a&gt; started a new series &lt;a href=&#34;http://awads.net/wp/2007/11/26/oracle-in-3-minutes-multi-versioning/&#34;&gt;Oracle in 3 minutes&lt;/a&gt; on his &lt;a href=&#34;http://awads.net/wp/&#34;&gt;blog&lt;/a&gt;. In the first post he has discussed about multi-versioning. Its a must watch for everyone who is working on Oracle. Hoping to get more of such stuff from Eddie.&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -1193,9 +1207,9 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>Howard’s decision…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/10/23/howards-decision/</link>
+      <link>http://localhost:1313/oracle/2007/10/23/howards-decision/</link>
       <pubDate>Tue, 23 Oct 2007 07:40:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/10/23/howards-decision/</guid>
+      <guid>http://localhost:1313/oracle/2007/10/23/howards-decision/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.dizwell.com/&#34;&gt;Howard Rogers&lt;/a&gt; has done &lt;a href=&#34;http://www.dizwell.com/prod/node/1058&#34;&gt;a post&lt;/a&gt; on his &lt;a href=&#34;http://www.dizwell.com/prod/blog&#34;&gt;blog&lt;/a&gt; that is the site &lt;a href=&#34;http://www.dizwell.com/&#34;&gt;Dizwell&lt;/a&gt; worth it ? Do post your opinion. If he plans to close it down, we will miss a great resource for Oracle.&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -1206,17 +1220,17 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>Asking Tom ? Read this !</title>
-      <link>http://localhost:1313/website-static/oracle/2007/10/16/asking-tom-read-this/</link>
+      <link>http://localhost:1313/oracle/2007/10/16/asking-tom-read-this/</link>
       <pubDate>Tue, 16 Oct 2007 13:39:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/10/16/asking-tom-read-this/</guid>
+      <guid>http://localhost:1313/oracle/2007/10/16/asking-tom-read-this/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://tkyte.blogspot.com/&#34;&gt;Tom Kyte&lt;/a&gt; did &lt;a href=&#34;http://tkyte.blogspot.com/2007/10/new-policy-of-sorts.html&#34;&gt;a post&lt;/a&gt; on &lt;a href=&#34;http://tkyte.blogspot.com/&#34;&gt;his blog&lt;/a&gt; about posting of reviews of questions on &lt;a href=&#34;http://asktom.oracle.com/&#34;&gt;Asktom&lt;/a&gt;. In a nutshell the reviews not related to the original question will be ignored/deleted (not decided yet, as Tom said).&lt;/p&gt;
 &lt;p&gt;As other people said in the comments, personally I too like this idea very much. Earlier, many times, there were questions which started with someone asking about appropriate SGA size, then there were some other twists and discussions and then the thread ended in discussion about good or bad authors or something similar light years away from the original topic.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Official Oracle wiki</title>
-      <link>http://localhost:1313/website-static/oracle/2007/10/15/official-oracle-wiki/</link>
+      <link>http://localhost:1313/oracle/2007/10/15/official-oracle-wiki/</link>
       <pubDate>Mon, 15 Oct 2007 21:12:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/10/15/official-oracle-wiki/</guid>
+      <guid>http://localhost:1313/oracle/2007/10/15/official-oracle-wiki/</guid>
       <description>&lt;p&gt;Today I was checking &lt;a href=&#34;http://awads.net/wp&#34;&gt;Eddie Awad&amp;rsquo;s blog&lt;/a&gt;. From there I came to know that &lt;a href=&#34;http://www.oracle.com/&#34;&gt;Oracle&lt;/a&gt; has started &lt;a href=&#34;http://wiki.oracle.com/&#34;&gt;Official Oracle Wiki&lt;/a&gt; hosted by &lt;a href=&#34;http://www.wetpaint.com/&#34;&gt;Wetpaint&lt;/a&gt;. Check out. I just made my login. Hoping to contribute whatever little I can&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -1228,24 +1242,24 @@ Aman….&lt;/p&gt;</description>
     </item>
     <item>
       <title>UNDO tablespace in Oracle…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/10/09/undo-tablespace-in-oracle/</link>
+      <link>http://localhost:1313/oracle/2007/10/09/undo-tablespace-in-oracle/</link>
       <pubDate>Tue, 09 Oct 2007 19:44:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/10/09/undo-tablespace-in-oracle/</guid>
+      <guid>http://localhost:1313/oracle/2007/10/09/undo-tablespace-in-oracle/</guid>
       <description>&lt;p&gt;Today, I was following &lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?threadID=571079&#34;&gt;a thread&lt;/a&gt; on &lt;a href=&#34;http://forums.oracle.com&#34;&gt;Oracle Forums&lt;/a&gt;. Someone asked a question about UNDO tablespace wrt to a scenario. The question was:&lt;br&gt;
 There is a database and its hot backup is taken on Friday. Now for Saturday, Sunday and Monday there are archive logs but no backups. Suppose the machine crashes on Monday. After we restore the database to Friday (from backup), recovery will happen. As UNDO tablespace is of Friday so it has no information related to transactions that happened on Saturday, Sunday and Monday. So in the end of recovery process when we need to rollback some transactions from where that required information will come ?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google friendliness of …</title>
-      <link>http://localhost:1313/website-static/oracle/2007/09/19/google-friendliness-of/</link>
+      <link>http://localhost:1313/oracle/2007/09/19/google-friendliness-of/</link>
       <pubDate>Wed, 19 Sep 2007 21:29:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/09/19/google-friendliness-of/</guid>
+      <guid>http://localhost:1313/oracle/2007/09/19/google-friendliness-of/</guid>
       <description>&lt;p&gt;Being a new kid on the block, I think, my post will not fire any serious and &amp;ldquo;scary&amp;rdquo; discussion as it has happened many times in the past. Just writing my experience. Whenever I search something related to Oracle in Google there are few sites that are bound to come up in the very first results ( No surety about the relevance and completeness of the content, though). Today I was searching about scheduling new jobs in oracle and I was, sort of, surprised to see &lt;a href=&#34;http://www.google.co.in/search?hl=en&amp;amp;client=firefox-a&amp;amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;amp;hs=JQ1&amp;amp;q=oracle+new+job&amp;amp;btnG=Search&amp;amp;meta=&#34;&gt;the results&lt;/a&gt; [Though, I got from there, what I was looking for &amp;amp; I would like to say Thanks for that]. Many other times also, I have seen these websites pop up like anything.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Learning AWK…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/09/17/learning-awk/</link>
+      <link>http://localhost:1313/oracle/2007/09/17/learning-awk/</link>
       <pubDate>Mon, 17 Sep 2007 23:24:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/09/17/learning-awk/</guid>
+      <guid>http://localhost:1313/oracle/2007/09/17/learning-awk/</guid>
       <description>&lt;p&gt;I was searching for some good tutorials on awk. Found a very nice (brilliant indeed) article on Oracle website by Emmett Dulaney. A very good introduction for beginners. I searched for some other links as well. Have a read:&lt;/p&gt;
 &lt;p&gt;1. &lt;a href=&#34;http://www.oracle.com/technology/pub/articles/dulaney_awk.html&#34;&gt;AWK: The Linux Administrators&amp;rsquo; Wisdom Kit&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;2. &lt;a href=&#34;http://www.vectorsite.net/tsawk_1.html&#34;&gt;A Guided Tour Of Awk&lt;/a&gt;&lt;/p&gt;
@@ -1256,24 +1270,24 @@ There is a database and its hot backup is taken on Friday. Now for Saturday, Sun
     </item>
     <item>
       <title>Tracing Wikipedia…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/09/16/tracing-wikipedia/</link>
+      <link>http://localhost:1313/oracle/2007/09/16/tracing-wikipedia/</link>
       <pubDate>Sun, 16 Sep 2007 23:23:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/09/16/tracing-wikipedia/</guid>
+      <guid>http://localhost:1313/oracle/2007/09/16/tracing-wikipedia/</guid>
       <description>&lt;p&gt;Today &lt;a href=&#34;http://www.stumbleupon.com/&#34;&gt;Stumble&lt;/a&gt; gave me a link to &lt;a href=&#34;http://www.maltastar.com/pages/msFullArt.asp?an=14323&#34;&gt;an article&lt;/a&gt; on a website. That article talks about a guy &lt;a href=&#34;http://virgil.gr/&#34;&gt;Virgil Griffith&lt;/a&gt; who wrote a piece of software to track IP addresses of the people, editing the &lt;a href=&#34;http://en.wikipedia.org/wiki/Virgil_Griffith&#34;&gt;Wikipedia&lt;/a&gt; content. Some really interesting things came up: Apple attacking Microsoft and then Microsoft taking revenge. Have a look at the full article. It makes an interesting read. Read more about this guy on Wikipedia &lt;a href=&#34;http://en.wikipedia.org/wiki/Virgil_Griffith&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;</description>
     </item>
     <item>
       <title>Being an Oracle trainer…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/08/19/being-an-oracle-trainer/</link>
+      <link>http://localhost:1313/oracle/2007/08/19/being-an-oracle-trainer/</link>
       <pubDate>Sun, 19 Aug 2007 15:31:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/08/19/being-an-oracle-trainer/</guid>
+      <guid>http://localhost:1313/oracle/2007/08/19/being-an-oracle-trainer/</guid>
       <description>&lt;p&gt;Few days back, I had to give Oracle DBA training to a group of about 20-25 semi-technical people (Semi-technical, because most of them were not really DBA kinda folks doing all the techie stuff with Oracle, but in-fact having learned some bits &amp;amp; bytes of Oracle sometime back and these days looking into application functionality from technical perspective). I, having just about 10 months of experience with DBA profile, had to cover, everything about Oracle starting from creating database and up to performance tuning :) Its really an interesting job if the audience is good. But not an easy game. You have to know everything and have to be ready to answer people&amp;rsquo;s queries (some stupid &amp;amp; dumb questions also :) I had to cover a total of about 350 slides in a day or less. So at times, really went fast and skipping some of things. It was a nice experience as a whole :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Importing a full database…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/08/18/importing-a-full-database/</link>
+      <link>http://localhost:1313/oracle/2007/08/18/importing-a-full-database/</link>
       <pubDate>Sat, 18 Aug 2007 18:51:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/08/18/importing-a-full-database/</guid>
+      <guid>http://localhost:1313/oracle/2007/08/18/importing-a-full-database/</guid>
       <description>&lt;p&gt;Many times, we are required to restore a database from an export dmp file. Its a simple task but sometimes there are some issues left like invalid objects or some objects missing, in the newly created database. Following steps, followed in order can help in creating an error free database:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -1281,9 +1295,9 @@ There is a database and its hot backup is taken on Friday. Now for Saturday, Sun
     </item>
     <item>
       <title>Oracle 11g…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/08/13/oracle-11g/</link>
+      <link>http://localhost:1313/oracle/2007/08/13/oracle-11g/</link>
       <pubDate>Mon, 13 Aug 2007 22:25:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/08/13/oracle-11g/</guid>
+      <guid>http://localhost:1313/oracle/2007/08/13/oracle-11g/</guid>
       <description>&lt;p&gt;The day when Oracle 11g was made available for download on OTN, there was sort of, flood of posts in the Oracle blogsphere. Here is a quick recap of few of the posts (Whatsoever I could find through &lt;a href=&#34;http://orana.info/&#34;&gt;OraNA&lt;/a&gt; and my &lt;a href=&#34;http://www.netvibes.com/&#34;&gt;Netvibes&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://awads.net/wp/2007/08/09/download-oracle-database-11g-release-1-now/&#34;&gt;Eddie Awad about 11g&lt;/a&gt;, I think he was the first one to post&lt;/p&gt;
 &lt;p&gt;Then Doug Burns &lt;a href=&#34;http://oracledoug.com/serendipity/index.php?/archives/1308-Does-Anyone-Know-When-11g-Will-Be-Released.html&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
@@ -1294,25 +1308,25 @@ There is a database and its hot backup is taken on Friday. Now for Saturday, Sun
     </item>
     <item>
       <title>Why Linux cries about &#34;1024 cylinders thing&#34; at the time of installation…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/08/09/why-linux-cries-about-1024-cylinders-thing-at-the-time-of-installation/</link>
+      <link>http://localhost:1313/oracle/2007/08/09/why-linux-cries-about-1024-cylinders-thing-at-the-time-of-installation/</link>
       <pubDate>Thu, 09 Aug 2007 21:29:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/08/09/why-linux-cries-about-1024-cylinders-thing-at-the-time-of-installation/</guid>
+      <guid>http://localhost:1313/oracle/2007/08/09/why-linux-cries-about-1024-cylinders-thing-at-the-time-of-installation/</guid>
       <description>&lt;p&gt;I have been installing Linux for last 6 years and for more than half the number of times, came across a message something like &amp;ldquo;This partitions is beyond the 1024 cylinder boundary and may not be bootable&amp;rdquo;. But never cared for it much and understood what exactly it meant to say ?&lt;/p&gt;
 &lt;p&gt;Yesterday I was reading &lt;a href=&#34;http://tldp.org/LDP/sag/html/index.html&#34;&gt;System Admin guide to Linux&lt;/a&gt; by Lars Wirzenius (Thanks &lt;a href=&#34;http://www.dizwell.com/prod/node/675&#34;&gt;Howard&lt;/a&gt; for the link :) From there I came to know what exactly that message meant. Quoting from the guide itself:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Plugged-in back to www…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/08/08/plugged-in-back-to-www/</link>
+      <link>http://localhost:1313/oracle/2007/08/08/plugged-in-back-to-www/</link>
       <pubDate>Wed, 08 Aug 2007 23:32:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/08/08/plugged-in-back-to-www/</guid>
+      <guid>http://localhost:1313/oracle/2007/08/08/plugged-in-back-to-www/</guid>
       <description>&lt;p&gt;Last to last week, we shifted to a new house. As there was no internet connection, so we were without any internet access for last 2 weeks. Today we got the new internet connection. Its a DSL one. And the guy who came to do the installation threw a little bit of technical jargon like rebooting the router and so on.&lt;/p&gt;
 &lt;p&gt;It feels so good to be back in the world of www :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving datafiles,control files and log files – Part 1</title>
-      <link>http://localhost:1313/website-static/oracle/2007/07/21/moving-datafiles-control-files-and-log-files-part1/</link>
+      <link>http://localhost:1313/oracle/2007/07/21/moving-datafiles-control-files-and-log-files-part1/</link>
       <pubDate>Sat, 21 Jul 2007 13:44:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/07/21/moving-datafiles-control-files-and-log-files-part1/</guid>
+      <guid>http://localhost:1313/oracle/2007/07/21/moving-datafiles-control-files-and-log-files-part1/</guid>
       <description>&lt;p&gt;Many times you need to move datafiles from one location to another. The simplest approach for this is to take the tablespace offline, copy the datafiles to new location, rename the files with &lt;em&gt;alter database rename file&lt;/em&gt; (Except that you dont have to move the SYSTEM and UNDO tablespace, as you can&amp;rsquo;t take SYSTEM tablespace offline)&lt;/p&gt;
 &lt;p&gt;[sourcecode language=&amp;lsquo;css&amp;rsquo;]&lt;/p&gt;
 &lt;p&gt;SYS@orcl AS SYSDBA&amp;gt; alter tablespace system offline;
@@ -1323,9 +1337,9 @@ ORA-01541: system tablespace cannot be brought offline; shut down if necessary&l
     </item>
     <item>
       <title>Batch file for ftp’ing files…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/07/16/batch-file-for-ftping-files/</link>
+      <link>http://localhost:1313/oracle/2007/07/16/batch-file-for-ftping-files/</link>
       <pubDate>Mon, 16 Jul 2007 21:54:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/07/16/batch-file-for-ftping-files/</guid>
+      <guid>http://localhost:1313/oracle/2007/07/16/batch-file-for-ftping-files/</guid>
       <description>&lt;p&gt;Today I came across a requirement where users needed to ftp files time and again. So ftp&amp;rsquo;ing again and again is not a very good option. I wrote a small batch file for the same. Just sharing the same over here. I created a folder ftp in C drive and a file get_file.bat
 Contents of get_file.bat are:&lt;/p&gt;
 &lt;p&gt;[sourcecode language=&amp;lsquo;css&amp;rsquo;]&lt;/p&gt;
@@ -1340,30 +1354,30 @@ ftp -s:param.cfg 127.0.0.1&lt;/p&gt;</description>
     </item>
     <item>
       <title>Import ORA-01435: user does not exist…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/07/14/import-ora-01435-user-does-not-exist/</link>
+      <link>http://localhost:1313/oracle/2007/07/14/import-ora-01435-user-does-not-exist/</link>
       <pubDate>Sat, 14 Jul 2007 09:29:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/07/14/import-ora-01435-user-does-not-exist/</guid>
+      <guid>http://localhost:1313/oracle/2007/07/14/import-ora-01435-user-does-not-exist/</guid>
       <description>&lt;p&gt;One may encounter this error while importing from a dmp file from older versions of Oracle. Genereally this error is caused by some statement like alter session set current_schema=scott; And the simple reason is that the user scott doesn&amp;rsquo;t exist. Yesterday I came across this error. And the reason was that user was not created. As in case of import we generally create tablespaces first (by creating the DDL using option show=Y) but creation of users is done by import itself. In older versions of Oracle, the temp tablespaces were no different from other tablespaces. But in newer versions temp tablespaces are different. So in dmp files from thoese older versions create user statements are written like create user t1 identified by t1 default tablespace temp temporary tablespace temp. This thing worked fine in older versions but in newer versions we cannot specify the TEMP tablespace as the default tablespace for a user. So the statement create user t2 identified by t2 default tablespace temp temporary tablespace temp throws ORA-12910: cannot specify temporary tablespace as default tablespace. In such cases the users (for which default statement is specified as TEMP) have to be created manually by specifying the appropriate tablespace as default tablespace and then the import should be run with ignore=Y.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hats off…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/07/04/hats-off/</link>
+      <link>http://localhost:1313/oracle/2007/07/04/hats-off/</link>
       <pubDate>Wed, 04 Jul 2007 22:31:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/07/04/hats-off/</guid>
+      <guid>http://localhost:1313/oracle/2007/07/04/hats-off/</guid>
       <description>&lt;p&gt;Since I switched to this new job, my profile has changed. Here I work as a DBA. So my interaction with Oracle &amp;amp; anything related to Oracle has also increased. Started exploring Oracle related forums and websites specially OTN forums (&lt;a href=&#34;http://forums.oracle.com&#34;&gt;http://forums.oracle.com&lt;/a&gt;) This is the only page thats almost always open on my Desktop in office &amp;amp; Laptop at home and I refresh more than my office Lotus Notes. Today I was reading &lt;a href=&#34;http://radiofreetooting.blogspot.com/2007/07/where-does-he-find-time.html&#34;&gt;APCs blog&lt;/a&gt; , that Jonathan Lewis has also started posting on OTN forums and being so busy man, from where he finds the time ? I too think the same. There are so many people having many years of experience in industry, answering the questions on OTN, uesnet groups and various other forums and everything is for free. They are not paid anything for the same thing. Its like taking time out of your time, understand somebody&amp;rsquo;s problem, create same scenario your PC, try out and then post the answer ! I am, sort of new to the forums and sometimes for whole of week, I am unable to post any answers, even knowing something about the issue someone has posted. Just the &amp;ldquo;time&amp;rdquo; thing. These days I am very close to OTN forums, visit for whole of the day and also post answers to the questions I know something about. There are many people who are regular visitors and are answering questions on the daily basis. Hats off ! to all these &amp;ldquo;big bosses&amp;rdquo; of the technology !&lt;/p&gt;</description>
     </item>
     <item>
       <title>Shell script to spool a no of tables into .xls files…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/06/26/shell-script-to-spool-a-no-of-tables-into-xls-files/</link>
+      <link>http://localhost:1313/oracle/2007/06/26/shell-script-to-spool-a-no-of-tables-into-xls-files/</link>
       <pubDate>Tue, 26 Jun 2007 22:38:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/06/26/shell-script-to-spool-a-no-of-tables-into-xls-files/</guid>
-      <description>&lt;p&gt;On OTN someone asked &lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?threadID=523835&amp;amp;tstart=50&#34;&gt;a question&lt;/a&gt; that how to spool data from a table into a xls file. Spooling a single table I discussed in one of the &lt;a href=&#34;http://localhost:1313/website-static/blog/2007/06/16/spool-to-a-xls-excel-file&#34;&gt;previous posts&lt;/a&gt;. We can use the same approach to spool data from more than 1 table also. Well here I will do it through a shell script and assume that you have a text file having list of tables to be spooled (Even if you don&amp;rsquo;t have one, it can be easily made by spooling the names of tables into a simple text file) Here is the shell script that you can use to spool data to various xls files, table wise.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/oracle/2007/06/26/shell-script-to-spool-a-no-of-tables-into-xls-files/</guid>
+      <description>&lt;p&gt;On OTN someone asked &lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?threadID=523835&amp;amp;tstart=50&#34;&gt;a question&lt;/a&gt; that how to spool data from a table into a xls file. Spooling a single table I discussed in one of the &lt;a href=&#34;http://localhost:1313/blog/2007/06/16/spool-to-a-xls-excel-file&#34;&gt;previous posts&lt;/a&gt;. We can use the same approach to spool data from more than 1 table also. Well here I will do it through a shell script and assume that you have a text file having list of tables to be spooled (Even if you don&amp;rsquo;t have one, it can be easily made by spooling the names of tables into a simple text file) Here is the shell script that you can use to spool data to various xls files, table wise.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is multiplication faster than division ?</title>
-      <link>http://localhost:1313/website-static/oracle/2007/06/18/is-multiplication-faster-than-division/</link>
+      <link>http://localhost:1313/oracle/2007/06/18/is-multiplication-faster-than-division/</link>
       <pubDate>Mon, 18 Jun 2007 23:02:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/06/18/is-multiplication-faster-than-division/</guid>
+      <guid>http://localhost:1313/oracle/2007/06/18/is-multiplication-faster-than-division/</guid>
       <description>&lt;p&gt;An interesing post by Laurent. Check out &lt;a href=&#34;http://laurentschneider.com/wordpress/2007/06/to-divide-or-to-multiply.html&#34;&gt;http://laurentschneider.com/wordpress/2007/06/to-divide-or-to-multiply.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;My findings on 10gR2 on Windoze XP&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
@@ -1384,9 +1398,9 @@ SQL&amp;gt; print yY
     </item>
     <item>
       <title>Spool to a .xls (excel) file…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/06/16/spool-to-a-xls-excel-file/</link>
+      <link>http://localhost:1313/oracle/2007/06/16/spool-to-a-xls-excel-file/</link>
       <pubDate>Sat, 16 Jun 2007 00:14:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/06/16/spool-to-a-xls-excel-file/</guid>
+      <guid>http://localhost:1313/oracle/2007/06/16/spool-to-a-xls-excel-file/</guid>
       <description>&lt;p&gt;A small tip, I read on &lt;a href=&#34;http://forums.oracle.com/forums/thread.jspa?messageID=1849526&#34;&gt;OTN&lt;/a&gt; about spooling to a .xls (excel) file:&lt;/p&gt;
 &lt;p&gt;It goes like this&lt;/p&gt;
 &lt;p&gt;[sourcecode language=&amp;lsquo;css&amp;rsquo;]set feed off markup html on
@@ -1410,9 +1424,9 @@ hemu&lt;/p&gt;</description>
     </item>
     <item>
       <title>Oracle concepts…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/06/13/oracle-concepts/</link>
+      <link>http://localhost:1313/oracle/2007/06/13/oracle-concepts/</link>
       <pubDate>Wed, 13 Jun 2007 22:16:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/06/13/oracle-concepts/</guid>
+      <guid>http://localhost:1313/oracle/2007/06/13/oracle-concepts/</guid>
       <description>&lt;p&gt;A very nice series of articles by Howard Rogers about Oracle Concepts. It includes all the basics like what a database, instance is ? Various types of files and all basic stuff. Read it &lt;a href=&#34;http://www.dizwell.com/prod/node/271&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;
 &lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
@@ -1422,32 +1436,32 @@ hemu&lt;/p&gt;</description>
     </item>
     <item>
       <title>IMPORT &amp; EXPORT from/to compressed files directly…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/06/06/import-export-from-to-compressed-files-directly/</link>
+      <link>http://localhost:1313/oracle/2007/06/06/import-export-from-to-compressed-files-directly/</link>
       <pubDate>Wed, 06 Jun 2007 20:57:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/06/06/import-export-from-to-compressed-files-directly/</guid>
+      <guid>http://localhost:1313/oracle/2007/06/06/import-export-from-to-compressed-files-directly/</guid>
       <description>&lt;p&gt;Well, a simple method to import(export) directly to(from) compressed files using pipes. Its for Unix based systems only, as I am not aware of any pipe type functionality in Windows. The biggest advantage is that you can save lots of space as uncompressing a file makes it almost 5 times or more. (Suppose you are uncompressing a file of 20 GB, it will make 100 GB) As a newbie I faced this problem, so thought about writing a post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Burning your &#34;OC&#34;, whyz and howz …</title>
-      <link>http://localhost:1313/website-static/oracle/2007/05/30/burning-your-oc-whyz-and-howz/</link>
+      <link>http://localhost:1313/oracle/2007/05/30/burning-your-oc-whyz-and-howz/</link>
       <pubDate>Wed, 30 May 2007 20:32:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/05/30/burning-your-oc-whyz-and-howz/</guid>
+      <guid>http://localhost:1313/oracle/2007/05/30/burning-your-oc-whyz-and-howz/</guid>
       <description>&lt;p&gt;The very first question that may come to your mind is: what the heck this &amp;ldquo;OC&amp;rdquo; is ? Well if PC stands for Personal Computer then OC stands for Office Computer ;) The story behind all this is:&lt;/p&gt;
 &lt;p&gt;One of my friend (He is working in a non-IT company) called me and asked how to burn a PC so that it no more works :) Why ? because the PC they are given is too slow &amp;amp; old and thats the only way they can get a new one. I thought for a while and 1 or 2 ideas came to my mind. But to dig into little more details I called my friend &lt;a href=&#34;http://rollercoasters-bunker.blogspot.com/&#34;&gt;Vaibhav&lt;/a&gt; ( The guy I call to &amp;ldquo;discuss&amp;rdquo; and &amp;ldquo;know more about&amp;rdquo; all the techie things) He gave some really nice ideas. Combining all the thoughts, here is the summary of all the methods that you can use ;)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tom Kyte…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/05/22/tom-kyte/</link>
+      <link>http://localhost:1313/oracle/2007/05/22/tom-kyte/</link>
       <pubDate>Tue, 22 May 2007 23:13:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/05/22/tom-kyte/</guid>
+      <guid>http://localhost:1313/oracle/2007/05/22/tom-kyte/</guid>
       <description>&lt;p&gt;Well, a really old post on Google groups (uesnet:comp.databases.oracle.server). Someone posted a thread about Tom Kyte and then people responded with their thoughts (perfectly as expected). Read it &lt;a href=&#34;http://groups.google.com/group/comp.databases.oracle.server/browse_thread/thread/e417151ae51e46e3/d342b8b1adfac87d?lnk=gst&amp;amp;q=tom+kyte&amp;amp;rnum=1#d342b8b1adfac87d&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;</description>
     </item>
     <item>
       <title>Run levels in *nix…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/05/14/run-levels-in-nix/</link>
+      <link>http://localhost:1313/oracle/2007/05/14/run-levels-in-nix/</link>
       <pubDate>Mon, 14 May 2007 23:02:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/05/14/run-levels-in-nix/</guid>
+      <guid>http://localhost:1313/oracle/2007/05/14/run-levels-in-nix/</guid>
       <description>&lt;p&gt;If you are crazy@*nix, 2 really interesting posts about run levels in *nix&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://blogs.ittoolbox.com/unix/bsd/archives/no-runlevels-16195&#34;&gt;No runlevels??&lt;/a&gt;&lt;/li&gt;
@@ -1457,16 +1471,16 @@ hemu&lt;/p&gt;</description>
     </item>
     <item>
       <title>Using NTLDR to boot Linux…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/05/06/using-ntldr-to-boot-linux/</link>
+      <link>http://localhost:1313/oracle/2007/05/06/using-ntldr-to-boot-linux/</link>
       <pubDate>Sun, 06 May 2007 09:26:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/05/06/using-ntldr-to-boot-linux/</guid>
+      <guid>http://localhost:1313/oracle/2007/05/06/using-ntldr-to-boot-linux/</guid>
       <description>&lt;p&gt;Sometimes, while installing Linux, installing LILO/GRUB to MBR makes you run into loads of issues, one of the most popular being that after reboot you are not able to boot into either of the OS ;) There is a way to use NTLDR to boot Linux, this way the MBR remains untouched and if you don&amp;rsquo;t want to see the Linux option, what you need to do is, edit your boot.ini and your are done.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Command line history in SQL (for Linux)…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/05/04/command-line-history-in-sql-for-linux/</link>
+      <link>http://localhost:1313/oracle/2007/05/04/command-line-history-in-sql-for-linux/</link>
       <pubDate>Fri, 04 May 2007 20:35:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/05/04/command-line-history-in-sql-for-linux/</guid>
+      <guid>http://localhost:1313/oracle/2007/05/04/command-line-history-in-sql-for-linux/</guid>
       <description>&lt;p&gt;Found a very interesting article on Dizwell&amp;rsquo;s blog. It was about keeping history of the SQL commands in SQL Plus on Linux. It is almost very simple. Just need to download a small utility called rlwrap from &lt;a href=&#34;http://utopia.knoware.nl/%7Ehlub/rlwrap/&#34;&gt;here&lt;/a&gt;. Its a tar.gz file. Download it, un-tar using&lt;/p&gt;
 &lt;p&gt;[sourcecode language=&amp;lsquo;css&amp;rsquo;]
 tar -xvf rlwrap-0.28.tar.gz
@@ -1478,64 +1492,64 @@ tar -xvf rlwrap-0.28.tar.gz
     </item>
     <item>
       <title>Utilities I cant survive without…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/04/16/utilities-i-cant-survive-without/</link>
+      <link>http://localhost:1313/oracle/2007/04/16/utilities-i-cant-survive-without/</link>
       <pubDate>Mon, 16 Apr 2007 14:46:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/04/16/utilities-i-cant-survive-without/</guid>
+      <guid>http://localhost:1313/oracle/2007/04/16/utilities-i-cant-survive-without/</guid>
       <description>&lt;p&gt;Well, here I am listing down the important tools and utilities I seem to use on the daily basis and without them life on internet &amp;amp; laptop really seems to be stuck, sort of :(&lt;/p&gt;
 &lt;p&gt;1. Winamp: No need to say anything. Winamp is possibly the best and lightest mp3 (these days videos also) player. Just run Winamp in the system tray and enjoy&lt;/p&gt;
 &lt;p&gt;2. Winrar: Utility to uncompress compressed files. Earlier winzip was my favorite but recently I swichted to Winrar as Winzip doesn&amp;rsquo;t support rar format. I am pretty happy using it.&lt;/p&gt;</description>
     </item>
     <item>
       <title>NO_DATA_FOUND…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/04/13/no_data_found/</link>
+      <link>http://localhost:1313/oracle/2007/04/13/no_data_found/</link>
       <pubDate>Fri, 13 Apr 2007 13:01:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/04/13/no_data_found/</guid>
+      <guid>http://localhost:1313/oracle/2007/04/13/no_data_found/</guid>
       <description>&lt;p&gt;I was going through &lt;a href=&#34;http://awads.net/wp/&#34;&gt;Eddie Awad&amp;rsquo;s blog&lt;/a&gt;. There was one post about an article about NO_DATA_FOUND exception in Oracle. Both the posts you can find &lt;a href=&#34;http://awads.net/wp/2007/04/10/no_data_found-gotcha/&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://blogs.ittoolbox.com/oracle/guide/archives/minitip-9-no-data-found-bug-or-feature-15602&#34;&gt;here&lt;/a&gt;. Do read. It is really interesting.&lt;/p&gt;
 &lt;p&gt;Sidhu&lt;/p&gt;</description>
     </item>
     <item>
       <title>{ Height of } Helplessness…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/04/01/height-of-helplessness/</link>
+      <link>http://localhost:1313/oracle/2007/04/01/height-of-helplessness/</link>
       <pubDate>Sun, 01 Apr 2007 19:11:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/04/01/height-of-helplessness/</guid>
+      <guid>http://localhost:1313/oracle/2007/04/01/height-of-helplessness/</guid>
       <description>&lt;p&gt;There are times when you just can&amp;rsquo;t do anything, I repeat, you just can&amp;rsquo;t do anything. In the evening I was working on my laptop and everything was fine. Next day in the morning when I got up, switched on the laptop and clicked on IE icon, it happily gave a beautiful error message &amp;ldquo;This application failed to start because msvcrl.dll was not found. Re-installing the application may fix the problem.&amp;rdquo; So it was the time for Googling about the error. Thank God I had Opera installed. After 2-3 hits I came to know that it was a trojan. Finally, there was one dll which needed to be deleted to get rid of this error message :) But after that there was some problem with IE in opening some of the sites. One option was to upgrade to IE 7 but don&amp;rsquo;t know why, I havn&amp;rsquo;t started liking IE 7 yet. So no other option left than restoring windows (I have Windows XP Media Center Edition installed).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Viruses, Intrusion attempts and Norton…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/03/25/viruses-intrusion-attempts-and-norton/</link>
+      <link>http://localhost:1313/oracle/2007/03/25/viruses-intrusion-attempts-and-norton/</link>
       <pubDate>Sun, 25 Mar 2007 23:22:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/03/25/viruses-intrusion-attempts-and-norton/</guid>
+      <guid>http://localhost:1313/oracle/2007/03/25/viruses-intrusion-attempts-and-norton/</guid>
       <description>&lt;p&gt;When I got my Laptop, along with it also got Norton Internet Security and 2 months subscription for updates &amp;amp; all. Whenever I would boot up the laptop Internet Security would open the window for configuration. I kept on cancelling it for 2 weeks or so. But one fine (read not fine :( day I configured it. It was very happy. Said &lt;strong&gt;Thank You&lt;/strong&gt; at the end. But the best was yet to come. After 10-15 days Windows (XP media center is installed on my Laptop) started showing signs of strain ;) It won&amp;rsquo;t start properly, after saying loading your settings it will stuck. Then I had to kill explorer.exe and start it again. With this also one strange problem that no startup items will be loaded :( I was discussing the same with one of my friend. He said that Norton must be the culprit. So I thought about uninstalling it. When I tried to uninstall it gave some strange error. Anyways it also told about one URL from where one could check details of the error. Finally when the uninstall started it gave one beautiful message &amp;ldquo;You still have 39 days of subscription left, if you uninstall the product you will not be able to reuse the subscription&amp;rdquo; :D&lt;/p&gt;</description>
     </item>
     <item>
       <title>Intelligent people, geeks and nerds…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/03/19/intelligent-people-geeks-and-nerds/</link>
+      <link>http://localhost:1313/oracle/2007/03/19/intelligent-people-geeks-and-nerds/</link>
       <pubDate>Mon, 19 Mar 2007 13:46:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/03/19/intelligent-people-geeks-and-nerds/</guid>
+      <guid>http://localhost:1313/oracle/2007/03/19/intelligent-people-geeks-and-nerds/</guid>
       <description>&lt;p&gt;I was checking &lt;a href=&#34;http://tkyte.blogspot.com/&#34;&gt;Tom Kyte&amp;rsquo;s blog&lt;/a&gt;. It was about an &lt;a href=&#34;http://nomadishere.com/2007/03/12/a-note-to-employers-8-things-intelligent-people-geeks-and-nerds-need-to-work-happy&#34;&gt;article&lt;/a&gt; titled A Note To Employers: 8 Things Intelligent People, Geeks and Nerds Need To Work Happily. Well first of all meaning of all three words from &amp;ldquo;define: * in Google&amp;rdquo;&lt;/p&gt;
 &lt;p&gt;1. Intelligent: having the capacity for thought and reason especially to a high degree&lt;/p&gt;
 &lt;p&gt;2. Geek: In computers and the Internet, a geekis a person who is inordinately dedicated to and involved with the technologyto the point of sometimes not appearing to be like the rest of us (non-geeks).Being a geek also implies a capability with the technology.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Running Linux from inside Windows…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/03/16/running-linux-from-inside-windows/</link>
+      <link>http://localhost:1313/oracle/2007/03/16/running-linux-from-inside-windows/</link>
       <pubDate>Fri, 16 Mar 2007 00:44:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/03/16/running-linux-from-inside-windows/</guid>
+      <guid>http://localhost:1313/oracle/2007/03/16/running-linux-from-inside-windows/</guid>
       <description>&lt;p&gt;Running Linux from right inside Windows, just like a normal application !!! Idea looks cool. I was also searching for the same thing. After little bit of Googling got one link &lt;a href=&#34;http://www.lifehack.org/articles/technology/beginners-guide-run-linux-like-any-other-program-in-windows.html&#34;&gt;http://www.lifehack.org/articles/technology/beginners-guide-run-linux-like-any-other-program-in-windows.html&lt;/a&gt; This article explains everything about making it possible. (Thanks Kyle Pott :)&lt;/p&gt;
 &lt;p&gt;I had downloaded Fedore Core 7 Live CD. Tried same with this method. It is working perfectly fine. Rocking Infact !!!I have 1 Gigs of RAM in my laptop. It is giving good performance but will definitly rock with 2 Gigs.This is how it looks like on my laptop .&lt;/p&gt;</description>
     </item>
     <item>
       <title>RSS Feeds…</title>
-      <link>http://localhost:1313/website-static/oracle/2007/03/14/rss-feeds/</link>
+      <link>http://localhost:1313/oracle/2007/03/14/rss-feeds/</link>
       <pubDate>Wed, 14 Mar 2007 12:47:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2007/03/14/rss-feeds/</guid>
+      <guid>http://localhost:1313/oracle/2007/03/14/rss-feeds/</guid>
       <description>&lt;p&gt;For the last 4-5 months I was almost without a PC and internet. This problem was solved when I got my HP laptop last month and then internet connection this month. One thing I had heard much about was RSS feeds and also wanted to try the same because there were many blogs which I used to check regularly. I had an idea about the concept used by RSS feeds that you will need to install a piece of software on your PC, give link of the page you want it to monitor and it will inform you when there is something new since your last visit.(period) Nothing more I knew.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Small things…</title>
-      <link>http://localhost:1313/website-static/oracle/2006/09/27/small-things/</link>
+      <link>http://localhost:1313/oracle/2006/09/27/small-things/</link>
       <pubDate>Wed, 27 Sep 2006 16:18:00 +0530</pubDate>
-      <guid>http://localhost:1313/website-static/oracle/2006/09/27/small-things/</guid>
+      <guid>http://localhost:1313/oracle/2006/09/27/small-things/</guid>
       <description>&lt;p&gt;sometimes even very small things mess up everything in your head&amp;hellip;something similar happened with me also&amp;hellip;had two lists of numbers&amp;hellip;some numbers were missing in one&amp;hellip;wanted to find out thoes..instead of inserting values in tables then using SQL or using diff on Unix&amp;hellip;thought about using Excel for the same&amp;hellip;much heard about function VLOOKUP is there&amp;hellip;which we can use for such scenarios&amp;hellip;so I also tried the same&amp;hellip;.had heard a lot abt vlookup but was generally heard of it&amp;hellip;as when people used to write &amp;ldquo;=vlookup(bla bla bla bla&amp;hellip;)&amp;rdquo;&amp;hellip;i just used to count my heartbeat&amp;hellip;and look around&amp;hellip;so this was the time when i really needed to learn vlookup so as a normal computer geek wud do&amp;hellip;i opened google.com and started searching the same&amp;hellip;what i got was really disappointing&amp;hellip;.everywhere i almost found the same language&amp;hellip;.(oops&amp;hellip;.i also checked microsoft help even dat techie lingo didnt help as when you have messed up the things&amp;hellip;nothing really gets into your head&amp;hellip;.)&amp;hellip;some of that text&amp;hellip;m pasting here with a hope that it wont create copyright issues&amp;hellip;.i really got nothing out of this&amp;hellip;.&lt;br&gt;
 &amp;ldquo;Searches for a value in the leftmost column of a table, and then returns a value in the same row from a column you specify in the table. Use VLOOKUP instead of HLOOKUP when your comparison values are located in a column to the left of the data you want to find.&lt;/p&gt;</description>
     </item>

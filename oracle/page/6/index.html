@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/website-static/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=website-static/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="Oracles - amardeepsidhu.com">
 <meta name="author" content="Amardeep Sidhu">
-<link rel="canonical" href="http://localhost:1313/website-static/oracle/">
-<link crossorigin="anonymous" href="/website-static/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/website-static/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/website-static/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/website-static/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/website-static/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/website-static/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/oracle/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/website-static/oracle/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/website-static/oracle/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/oracle/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/oracle/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +74,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/website-static/" accesskey="h" title="amardeepsidhu.com (Alt + H)">amardeepsidhu.com</a>
+            <a href="http://localhost:1313/" accesskey="h" title="amardeepsidhu.com (Alt + H)">amardeepsidhu.com</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -100,32 +100,32 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/website-static/oracle/" title="Oracle blog">
+                <a href="http://localhost:1313/oracle/" title="Oracle blog">
                     <span class="active">Oracle blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/personal/" title="Personal blog">
+                <a href="http://localhost:1313/personal/" title="Personal blog">
                     <span>Personal blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/categories/" title="categories">
+                <a href="http://localhost:1313/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/tags/" title="tags">
+                <a href="http://localhost:1313/tags/" title="tags">
                     <span>tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/search/" title="search">
+                <a href="http://localhost:1313/search/" title="search">
                     <span>search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/archives/" title="archive">
+                <a href="http://localhost:1313/archives/" title="archive">
                     <span>archive</span>
                 </a>
             </li>
@@ -141,6 +141,33 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">ORA-01422 while compiling objects
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>There was an interesting issue at one of the customer sites. Few tables in the database were altered and the dependent objects became invalid. But the attempts to compile the objects using utlrp.sql or manually were failing. In all the cases it was giving the same error:
+SQL&gt; alter function SCOTT.SOME_FUNCTION compile;alter function SCOTT.SOME_FUNCTION compile*ERROR at line 1:ORA-00604: error occurred at recursive SQL level 1ORA-01422: exact fetch returns more than requested number of rowsORA-06512: at line 27SQL&gt; At first look it sounded like some issue with the dictionary as the error in case of every object (be it a view, function or package) was the same.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2012-07-31 22:04:28 +0530 IST'>July 31, 2012 at 10:04 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;314 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
+  <a class="entry-link" aria-label="post link to ORA-01422 while compiling objects" href="http://localhost:1313/oracle/2012/07/31/ora-01422-while-compiling-objects/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Configure GoldenGate Extract to read from remote logs
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Sometimes you may need to run GoldenGate on some different machine than the one that hosts the database. It is very much possible but some kind of restrictions apply. First is that the Endian order of both the systems should be same and the second is the bit width has to be same. For example it is not possible to run GoldenGate on a 32 bit system to read from a database that runs on some 64 bit platform. Assuming that the environemnt satisfies the above two conditions; we can use the LOGSOURCE option of TRANSLOGOPTIONS to achieve this.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2012-05-26 18:13:02 +0530 IST'>May 26, 2012 at 6:13 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;400 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
+  <a class="entry-link" aria-label="post link to Configure GoldenGate Extract to read from remote logs" href="http://localhost:1313/oracle/2012/05/26/configure-goldengate-extract-to-read-from-remote-logs/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Tuning GoldenGate Extract Pump performance
     </h2>
   </header>
@@ -149,7 +176,7 @@
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2012-05-25 20:38:18 +0530 IST'>May 25, 2012 at 8:38 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;296 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Tuning GoldenGate Extract Pump performance" href="http://localhost:1313/website-static/oracle/2012/05/25/tuning-goldengate-extract-pump-performance/"></a>
+  <a class="entry-link" aria-label="post link to Tuning GoldenGate Extract Pump performance" href="http://localhost:1313/oracle/2012/05/25/tuning-goldengate-extract-pump-performance/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -162,7 +189,7 @@
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-12-22 00:01:11 +0530 IST'>December 22, 2011 at 12:01 AM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;311 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to DML and HCC – Exadata" href="http://localhost:1313/website-static/oracle/2011/12/22/dml-and-hcc-exadata/"></a>
+  <a class="entry-link" aria-label="post link to DML and HCC – Exadata" href="http://localhost:1313/oracle/2011/12/22/dml-and-hcc-exadata/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -176,7 +203,7 @@ Well it was a simple schema to schema replication setup using GoldenGate. We wer
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-11-04 16:38:39 +0530 IST'>November 4, 2011 at 4:38 PM</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;633 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to OGG-01004 Aborted grouped transaction on ‘, Database error 1403 ()" href="http://localhost:1313/website-static/oracle/2011/11/04/ogg-01004-aborted-grouped-transaction-on-database-error-1403/"></a>
+  <a class="entry-link" aria-label="post link to OGG-01004 Aborted grouped transaction on ‘, Database error 1403 ()" href="http://localhost:1313/oracle/2011/11/04/ogg-01004-aborted-grouped-transaction-on-database-error-1403/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -190,7 +217,7 @@ Comments Comment by Chris Fischer on 2011-11-04 19:47:12 &#43;0530 I’ve been w
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-11-04 15:10:26 +0530 IST'>November 4, 2011 at 3:10 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;71 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to expdp not consistent" href="http://localhost:1313/website-static/oracle/2011/11/04/expdp-not-consistent/"></a>
+  <a class="entry-link" aria-label="post link to expdp not consistent" href="http://localhost:1313/oracle/2011/11/04/expdp-not-consistent/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -203,7 +230,7 @@ Comments Comment by Chris Fischer on 2011-11-04 19:47:12 &#43;0530 I’ve been w
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-05-25 16:45:56 +0530 IST'>May 25, 2011 at 4:45 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;383 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to dbc_min_pct and dbc_max_pct in HP-UX" href="http://localhost:1313/website-static/oracle/2011/05/25/dbc_min_pct-and-dbc_max_pct-in-hp-ux/"></a>
+  <a class="entry-link" aria-label="post link to dbc_min_pct and dbc_max_pct in HP-UX" href="http://localhost:1313/oracle/2011/05/25/dbc_min_pct-and-dbc_max_pct-in-hp-ux/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -217,7 +244,7 @@ Scenario was: Oracle is installed from “oracle” user and all runs well. Ther
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-05-18 11:13:08 +0530 IST'>May 18, 2011 at 11:13 AM</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;856 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to ORA-12547: TNS:lost contact" href="http://localhost:1313/website-static/oracle/2011/05/18/ora-12547-tns-lost-contact/"></a>
+  <a class="entry-link" aria-label="post link to ORA-12547: TNS:lost contact" href="http://localhost:1313/oracle/2011/05/18/ora-12547-tns-lost-contact/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -232,7 +259,7 @@ EVENT COUNT(*) ---————————————————————- 
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-03-04 17:19:33 +0530 IST'>March 4, 2011 at 5:19 PM</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;493 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to waiting for resmgr:become active – can’t login" href="http://localhost:1313/website-static/oracle/2011/03/04/waiting-for-resmgr-become-active-cant-login/"></a>
+  <a class="entry-link" aria-label="post link to waiting for resmgr:become active – can’t login" href="http://localhost:1313/oracle/2011/03/04/waiting-for-resmgr-become-active-cant-login/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -246,54 +273,21 @@ Few users in the database were assigned the CREATE SESSION privilege through a p
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2011-01-29 22:30:29 +0530 IST'>January 29, 2011 at 10:30 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;300 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Issues in upgrading from 9i to 10g" href="http://localhost:1313/website-static/oracle/2011/01/29/issues-in-upgrading-from-9i-to-10g/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">ORA-39083: Object type INDEX failed to create with error
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Another let-us-help-Google post ;).
-While running impdp import in 11g, you hit:
-[sql]ORA-39083: Object type INDEX failed to create with error: ORA-14102: only one LOGGING or NOLOGGING clause may be specified[/sql]
-It is related to bug 9015411 where DBMS_METADATA.GET_DDL creates incorrect create index statement by dumping both LOGGING and NO LOGGING clauses. Due to this the CREATE INDEX statement, while running impdp fails with the above error. It applies to 11.2.0.1 (Metalink doc id 1066635.1)
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2010-12-04 17:22:56 +0530 IST'>December 4, 2010 at 5:22 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;111 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to ORA-39083: Object type INDEX failed to create with error" href="http://localhost:1313/website-static/oracle/2010/12/04/ora-39083-object-type-index-failed-to-create-with-error/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">EXP-00056: ORACLE error 28002 encountered
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Yesterday, a friend of mine asked me about an error he was getting while running a schema level export in Oracle 8i:
-[sql]exp system/manager@DB owner=ABC file=ABC.dmp log =ABC.log
-Export: Release 8.1.7.1.0 - Production on Fri Nov 12 04:21:05 2010
-(c) Copyright 2000 Oracle Corporation. All rights reserved.
-EXP-00056: ORACLE error 28002 encountered ORA-28002: the password will expire within 11 days EXP-00056: ORACLE error 24309 encountered ORA-24309: already connected to a server EXP-00000: Export terminated unsuccessfully[/sql]
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2010-11-14 00:24:30 +0530 IST'>November 14, 2010 at 12:24 AM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;255 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to EXP-00056: ORACLE error 28002 encountered" href="http://localhost:1313/website-static/oracle/2010/11/14/exp-00056-oracle-error-28002-encountered/"></a>
+  <a class="entry-link" aria-label="post link to Issues in upgrading from 9i to 10g" href="http://localhost:1313/oracle/2011/01/29/issues-in-upgrading-from-9i-to-10g/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/website-static/oracle/page/5/">
+    <a class="prev" href="http://localhost:1313/oracle/page/5/">
       «&nbsp;Prev&nbsp;
     </a>
-    <a class="next" href="http://localhost:1313/website-static/oracle/page/7/">Next&nbsp;&nbsp;»
+    <a class="next" href="http://localhost:1313/oracle/page/7/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/website-static/">amardeepsidhu.com</a></span> · 
+        <span>&copy; 2024 <a href="http://localhost:1313/">amardeepsidhu.com</a></span> · 
 
     <span>
         Powered by

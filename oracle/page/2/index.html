@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/website-static/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=website-static/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="Oracles - amardeepsidhu.com">
 <meta name="author" content="Amardeep Sidhu">
-<link rel="canonical" href="http://localhost:1313/website-static/oracle/">
-<link crossorigin="anonymous" href="/website-static/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/website-static/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/website-static/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/website-static/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/website-static/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/website-static/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/oracle/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/website-static/oracle/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/website-static/oracle/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/oracle/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/oracle/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +74,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/website-static/" accesskey="h" title="amardeepsidhu.com (Alt + H)">amardeepsidhu.com</a>
+            <a href="http://localhost:1313/" accesskey="h" title="amardeepsidhu.com (Alt + H)">amardeepsidhu.com</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -100,32 +100,32 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/website-static/oracle/" title="Oracle blog">
+                <a href="http://localhost:1313/oracle/" title="Oracle blog">
                     <span class="active">Oracle blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/personal/" title="Personal blog">
+                <a href="http://localhost:1313/personal/" title="Personal blog">
                     <span>Personal blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/categories/" title="categories">
+                <a href="http://localhost:1313/categories/" title="categories">
                     <span>categories</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/tags/" title="tags">
+                <a href="http://localhost:1313/tags/" title="tags">
                     <span>tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/search/" title="search">
+                <a href="http://localhost:1313/search/" title="search">
                     <span>search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/website-static/archives/" title="archive">
+                <a href="http://localhost:1313/archives/" title="archive">
                     <span>archive</span>
                 </a>
             </li>
@@ -141,6 +141,34 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">[FATAL] [INS-44000] Passwordless SSH connectivity is not setup
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Faced this while running installer for setting up a 2 node RAC setup (version 19.8) on an Oracle SuperCluster. The error reported in the log is:
+[FATAL] [INS-44000] Passwordless SSH connectivity is not setup from the local node node1 to the following nodes:[node2][INS-06006] Passwordless SSH connectivity not set up between the following node(s): [node2] From the error it appears that the ssh is not setup between two nodes but actually that is not the case. Here the error message is bit misleading. It turned out to be an issue with scp with openssh version 8.x. Running the setup with -debug option gives the clue:
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-03-10 18:17:34 +0530 IST'>March 10, 2021 at 6:17 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;212 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
+  <a class="entry-link" aria-label="post link to [FATAL] [INS-44000] Passwordless SSH connectivity is not setup" href="http://localhost:1313/oracle/2021/03/10/fatal-ins-44000-passwordless-ssh-connectivity-is-not-setup/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Doing an Exadata mixed cells config with OEDA
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Earlier versions of OEDA didn’t allow you to have mixed cells in the configuration i.e. High Capacity (HC) and Extreme Flash (EF). The way to deal with that configuration was that deploy the system with either HC or EF cells and then manually configure the remaining cells.
+I am not sure when did it change but the newer versions allow you have mixed type of cells in a single OEDA configuration. Once you select the hardware, there is an additional option called Enable Additional Storage, where you can select the other type of cells. The minimum number of cells has to be three to use this option. Also the cells that are at the bottom of the rack physically should be selected as main storage and the other cells should be added as additional storage as that is how OEDA builds the configuration files.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-10-27 18:53:37 +0530 IST'>October 27, 2020 at 6:53 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;285 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
+  <a class="entry-link" aria-label="post link to Doing an Exadata mixed cells config with OEDA" href="http://localhost:1313/oracle/2020/10/27/doing-an-exadata-mixed-cells-config-with-oeda/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Implementing ZDLRA – Part 2
     </h2>
   </header>
@@ -150,7 +178,7 @@ If you are getting two ZDLRAs (one each for primary and standby sites), there ar
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2020-10-06 18:06:53 +0530 IST'>October 6, 2020 at 6:06 PM</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;463 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Implementing ZDLRA – Part 2" href="http://localhost:1313/website-static/oracle/2020/10/06/implementing-zdlra-part-2/"></a>
+  <a class="entry-link" aria-label="post link to Implementing ZDLRA – Part 2" href="http://localhost:1313/oracle/2020/10/06/implementing-zdlra-part-2/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -164,7 +192,7 @@ Error is PRVF-4657 : Name resolution setup check for &#34;db-scan&#34; (IP addre
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2020-09-25 19:41:28 +0530 IST'>September 25, 2020 at 7:41 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;145 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to PRVF-4657 : Name resolution setup check for “db-scan” (IP address: x.x.x.101) failed" href="http://localhost:1313/website-static/oracle/2020/09/25/prvf-4657-name-resolution-setup-check-for-db-scan-ip-address-x-x-x-101-failed/"></a>
+  <a class="entry-link" aria-label="post link to PRVF-4657 : Name resolution setup check for “db-scan” (IP address: x.x.x.101) failed" href="http://localhost:1313/oracle/2020/09/25/prvf-4657-name-resolution-setup-check-for-db-scan-ip-address-x-x-x-101-failed/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -177,7 +205,7 @@ Error is PRVF-4657 : Name resolution setup check for &#34;db-scan&#34; (IP addre
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2020-09-09 18:33:39 +0530 IST'>September 9, 2020 at 6:33 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;350 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Implementing ZDLRA – Part 1" href="http://localhost:1313/website-static/oracle/2020/09/09/implementing-zdlra-part-1/"></a>
+  <a class="entry-link" aria-label="post link to Implementing ZDLRA – Part 1" href="http://localhost:1313/oracle/2020/09/09/implementing-zdlra-part-1/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -190,7 +218,7 @@ Error is PRVF-4657 : Name resolution setup check for &#34;db-scan&#34; (IP addre
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2020-07-17 21:21:03 +0530 IST'>July 17, 2020 at 9:21 PM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;215 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Using Secure Fabric for network isolation in KVM environments on Exadata" href="http://localhost:1313/website-static/oracle/2020/07/17/using-secure-fabric-for-network-isolation-in-kvm-environments-on-exadata/"></a>
+  <a class="entry-link" aria-label="post link to Using Secure Fabric for network isolation in KVM environments on Exadata" href="http://localhost:1313/oracle/2020/07/17/using-secure-fabric-for-network-isolation-in-kvm-environments-on-exadata/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -204,7 +232,7 @@ An existing DB node has crashed and is unrecoverable (due to some failure and no
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2020-05-11 21:31:43 +0530 IST'>May 11, 2020 at 9:31 PM</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;918 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Exadata Virtualized DB node restore" href="http://localhost:1313/website-static/oracle/2020/05/11/exadata-virtualized-db-node-restore/"></a>
+  <a class="entry-link" aria-label="post link to Exadata Virtualized DB node restore" href="http://localhost:1313/oracle/2020/05/11/exadata-virtualized-db-node-restore/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -218,7 +246,7 @@ An existing DB node has crashed and is unrecoverable (due to some failure and no
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2019-12-21 06:37:33 +0530 IST'>December 21, 2019 at 6:37 AM</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;277 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to dbnodeupdate.sh appears to be stuck" href="http://localhost:1313/website-static/oracle/2019/12/21/dbnodeupdate-sh-appears-to-be-stuck/"></a>
+  <a class="entry-link" aria-label="post link to dbnodeupdate.sh appears to be stuck" href="http://localhost:1313/oracle/2019/12/21/dbnodeupdate-sh-appears-to-be-stuck/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -231,7 +259,7 @@ An existing DB node has crashed and is unrecoverable (due to some failure and no
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2019-12-05 20:18:12 +0530 IST'>December 5, 2019 at 8:18 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;145 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to AVDF installation error" href="http://localhost:1313/website-static/oracle/2019/12/05/avdf-installation-error/"></a>
+  <a class="entry-link" aria-label="post link to AVDF installation error" href="http://localhost:1313/oracle/2019/12/05/avdf-installation-error/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -246,49 +274,21 @@ Jonathan Lewis : I don’t think there is anyone on this planet who has even onc
 ...</p>
   </div>
   <footer class="entry-footer"><span title='2019-10-10 19:40:04 +0530 IST'>October 10, 2019 at 7:40 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;142 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to OGB Appreciation Day : Thank you community ! (#ThanksOGB)" href="http://localhost:1313/website-static/oracle/2019/10/10/ogb-appreciation-day-thank-you-community-thanksogb/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Understanding grid disks in Exadata
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Use of Exadata storage cells seems to be a very poorly understood concept. A lot of people have confusions about how exactly ASM makes uses of disks from storage cells. Many folks assume there is some sort of RAID configured in the storage layer whereas there is nothing like that. I will try to explain some of the concepts in this post.
-Let’s take an example of an Exadata quarter rack that has 2 db and 3 storage nodes (node means a server here). Few things to note:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-02-18 18:37:25 +0530 IST'>February 18, 2019 at 6:37 PM</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;564 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to Understanding grid disks in Exadata" href="http://localhost:1313/website-static/oracle/2019/02/18/understanding-grid-disks-in-exadata/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">ORA-04080: trigger ‘PRICE_HISTORY_TRIGGERV1’ does not exist
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>It is actually a dumb one. I was disabling triggers in a schema and ran this SQL to generate the disable statements. (Example from here)
-HR@test&gt; select &#39;alter trigger &#39;||trigger_name|| &#39; disable;&#39; from user_triggers where table_name=&#39;PRODUCT&#39;;&#39;ALTERTRIGGER&#39;||TRIGGER_NAME||&#39;DISABLE;&#39;--------------------------------------------------------------------------------alter trigger PRICE_HISTORY_TRIGGERv1 disable;HR@test&gt; alter trigger PRICE_HISTORY_TRIGGERv1 disable;alter trigger PRICE_HISTORY_TRIGGERv1 disable*ERROR at line 1:ORA-04080: trigger &#39;PRICE_HISTORY_TRIGGERV1&#39; does not existHR@test&gt; WTF ? It is there but the disable didn’t work. I was in hurry, tried to connect through SQL developer and disable and it worked ! Double WTF ! Then i spotted the problem. Someone created it with one letter in the name in small. So to make it work, we need to use double quotes.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-01-22 19:15:51 +0530 IST'>January 22, 2019 at 7:15 PM</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;143 words&nbsp;·&nbsp;Amardeep Sidhu</footer>
-  <a class="entry-link" aria-label="post link to ORA-04080: trigger ‘PRICE_HISTORY_TRIGGERV1’ does not exist" href="http://localhost:1313/website-static/oracle/2019/01/22/ora-04080-trigger-price_history_triggerv1-does-not-exist/"></a>
+  <a class="entry-link" aria-label="post link to OGB Appreciation Day : Thank you community ! (#ThanksOGB)" href="http://localhost:1313/oracle/2019/10/10/ogb-appreciation-day-thank-you-community-thanksogb/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/website-static/oracle/">
+    <a class="prev" href="http://localhost:1313/oracle/">
       «&nbsp;Prev&nbsp;
     </a>
-    <a class="next" href="http://localhost:1313/website-static/oracle/page/3/">Next&nbsp;&nbsp;»
+    <a class="next" href="http://localhost:1313/oracle/page/3/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/website-static/">amardeepsidhu.com</a></span> · 
+        <span>&copy; 2024 <a href="http://localhost:1313/">amardeepsidhu.com</a></span> · 
 
     <span>
         Powered by
