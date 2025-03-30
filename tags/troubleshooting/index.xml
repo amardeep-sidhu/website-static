@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Troubleshooting on amardeepsidhu.com</title><link>https://v2.amardeepsidhu.com/tags/troubleshooting/</link><description>Recent content in Troubleshooting on amardeepsidhu.com</description><generator>Hugo -- 0.135.0</generator><language>en</language><lastBuildDate>Sat, 18 Nov 2017 16:26:02 +0530</lastBuildDate><atom:link href="https://v2.amardeepsidhu.com/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml"/><item><title>Garbled display while running FMW installer on Linux</title><link>https://v2.amardeepsidhu.com/blog/2017/11/18/garbled-display-while-running-fmw-installer-on-linux/</link><pubDate>Sat, 18 Nov 2017 16:26:02 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2017/11/18/garbled-display-while-running-fmw-installer-on-linux/</guid><description>&lt;p>A colleague faced this while running FMW installer on a Linux machine. The display appeared like this&lt;/p>
+&lt;p>&lt;a href="https://v2.amardeepsidhu.com/blog/wp-content/uploads/2017/11/fmw_installer.jpg">&lt;img loading="lazy" src="https://v2.amardeepsidhu.com/blog/wp-content/uploads/2017/11/fmw_installer.jpg">&lt;/a>&lt;a href="https://stackoverflow.com/questions/46270769/weblogic-12c-12-1-3-installation-on-unix-garbled-character-in-gui-over-xming">This thread&lt;/a> gave a clue that it could have something to do with fonts. So I checked what all fonts related stuff was installed.&lt;/p>
+&lt;p>[bash][root@someserver ~]# rpm -aq |grep -i font
+stix-fonts-1.1.0-5.el7.noarch
+xorg-x11-font-utils-7.5-20.el7.x86_64
+xorg-x11-fonts-cyrillic-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-1-75dpi-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-9-100dpi-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-9-75dpi-7.5-9.el7.noarch
+libXfont-1.5.2-1.el7.x86_64
+xorg-x11-fonts-ISO8859-14-100dpi-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-1-100dpi-7.5-9.el7.noarch
+xorg-x11-fonts-75dpi-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-2-100dpi-7.5-9.el7.noarch
+libfontenc-1.1.3-3.el7.x86_64
+xorg-x11-fonts-ethiopic-7.5-9.el7.noarch
+xorg-x11-fonts-100dpi-7.5-9.el7.noarch
+xorg-x11-fonts-misc-7.5-9.el7.noarch
+fontpackages-filesystem-1.44-8.el7.noarch
+fontconfig-2.10.95-11.el7.x86_64
+xorg-x11-fonts-ISO8859-2-75dpi-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-14-75dpi-7.5-9.el7.noarch
+xorg-x11-fonts-Type1-7.5-9.el7.noarch
+xorg-x11-fonts-ISO8859-15-75dpi-7.5-9.el7.noarch
+[root@someserver ~]#[/bash]&lt;/p></description></item><item><title>root.sh fails with CRS-2101:The OLR was formatted using version 3</title><link>https://v2.amardeepsidhu.com/blog/2017/11/18/root-sh-fails-with-crs-2101-the-olr-was-formatted-using-version-3/</link><pubDate>Sat, 18 Nov 2017 16:03:33 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2017/11/18/root-sh-fails-with-crs-2101-the-olr-was-formatted-using-version-3/</guid><description>&lt;p>Got this while trying to install 11.2.0.4 RAC on Redhat Linux 7.2. root.sh fails with a message like&lt;/p>
+&lt;p>[sql]ohasd failed to start
+Failed to start the Clusterware. Last 20 lines of the alert log follow:
+2017-11-09 15:43:37.883:
+[client(37246)]CRS-2101:The OLR was formatted using version 3.[/sql]&lt;/p>
+&lt;p>This is bug 18370031. Need to apply the patch before running root.sh.&lt;/p></description></item><item><title>ORA-01422 while compiling objects</title><link>https://v2.amardeepsidhu.com/blog/2012/07/31/ora-01422-while-compiling-objects/</link><pubDate>Tue, 31 Jul 2012 22:04:28 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2012/07/31/ora-01422-while-compiling-objects/</guid><description>&lt;p>There was an interesting issue at one of the customer sites. Few tables in the database were altered and the dependent objects became invalid. But the attempts to compile the objects using utlrp.sql or manually were failing. In all the cases it was giving the same error:&lt;/p>
+&lt;pre tabindex="0">&lt;code>SQL&amp;gt; alter function SCOTT.SOME_FUNCTION compile;
+alter function SCOTT.SOME_FUNCTION compile
+*
+ERROR at line 1:
+ORA-00604: error occurred at recursive SQL level 1
+ORA-01422: exact fetch returns more than requested number of rows
+ORA-06512: at line 27
+SQL&amp;gt;
+&lt;/code>&lt;/pre>&lt;p>At first look it sounded like some issue with the dictionary as the error in case of every object (be it a view, function or package) was the same.&lt;/p></description></item><item><title>EXP-00008: ORACLE error 600 encountered</title><link>https://v2.amardeepsidhu.com/blog/2008/03/24/exp-00008-oracle-error-600-encountered/</link><pubDate>Mon, 24 Mar 2008 23:06:50 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2008/03/24/exp-00008-oracle-error-600-encountered/</guid><description>&lt;p>Today I was running export of an Oracle 9.2.0.1 database. The export completed but with an ORA-600 error:&lt;/p>
+&lt;p>[sourcecode language=&amp;lsquo;css&amp;rsquo;]&lt;/p>
+&lt;p>EXP-00008: ORACLE error 600 encountered
+ORA-00600: internal error code, arguments: [xsoptloc2], [4], [4], [0], [], [], [], []
+ORA-06512: in &amp;ldquo;SYS.DBMS_AW&amp;rdquo;, line 347
+ORA-06512: in &amp;ldquo;SYS.DBMS_AW&amp;rdquo;, line 470
+ORA-06512: in &amp;ldquo;SYS.DBMS_AW_EXP&amp;rdquo;, line 270
+ORA-06512: in line 1
+EXP-00083: The previous problem occurred when calling SYS.DBMS_AW_EXP.schema_info_exp[/sourcecode]&lt;/p>
+&lt;p>I googled a bit and found that the problem is with applying some patchset. Then metalink confirmed the same. Somebody tried applying a patch to upgrade it to 9.2.0.5 but didn&amp;rsquo;t perform all the steps (missed post installation steps, to be precise). Metalink &lt;a href="https://metalink.oracle.com/metalink/plsql/f?p=130:14:3653505393918947609::::p14_database_id,p14_docid,p14_show_header,p14_show_help,p14_black_frame,p14_font:NOT,300849.1,1,1,1,helvetica">Note 300849.1&lt;/a> covers the issue and also gives the solution. In nutshell startup the database with &lt;strong>startup migrate&lt;/strong> and &lt;strong>run catpatch.sql&lt;/strong>.&lt;/p></description></item><item><title>Missing grants</title><link>https://v2.amardeepsidhu.com/blog/2008/03/03/missing-grants/</link><pubDate>Mon, 03 Mar 2008 20:37:15 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2008/03/03/missing-grants/</guid><description>&lt;p>Today one of my colleague was working on a simple PL/SQL procedure. Based on some logic it was returning count(*) from all_tab_columns for few tables. It gave count incorrectly for one table out of around fifty in total. He just hard coded the table name and ran it but again it showed count as zero.&lt;/p>
+&lt;p>Then he took the code out of procedure and wrote it in DECLARE, BEGIN, END and after running it showed the correct count. But ran as database procedure it always shows incorrectly.&lt;/p></description></item><item><title>ORA-03113 Refresh of a mview in Oracle 10g</title><link>https://v2.amardeepsidhu.com/blog/2008/01/03/ora-03113-refresh-of-a-mview-in-oracle-10g/</link><pubDate>Thu, 03 Jan 2008 07:33:00 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2008/01/03/ora-03113-refresh-of-a-mview-in-oracle-10g/</guid><description>&lt;p>At my workplace we were facing a problem with refresh of a mview. Say it was created in schema of user1 but when I tried to refresh it from user2 it would give ORA-03113: end-of-file on communication channel. Then we raised a SR and have been following up with Oracle support for long but it was not getting anywhere. Yesterday that guy seemed to have reached some point. The mviews that we have created and are having problem with refresh are created on top of both local &amp;amp; remote objects and he said that up to 11gr2 there is no possibility of creating mviews on both local and remote objects. I did validate this thing. All the mviews failing to refresh are created on top of both local &amp;amp; remote objects. But again from the owner the refresh is fine but from another user it gives problem. By the way that guy hinted at &lt;a href="https://metalink.oracle.com/metalink/plsql/f?p=130:15:3284197721413823598::::p15_database_id,p15_docid,p15_show_header,p15_show_help,p15_black_frame,p15_font:BUG,4084125,1,1,1,helvetica">bug 4084125&lt;/a> and also suggested a work around. I haven&amp;rsquo;t tried that yet. Will try and update about the results.&lt;/p></description></item></channel></rss>

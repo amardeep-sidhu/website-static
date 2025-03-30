@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Spool to Excel on amardeepsidhu.com</title><link>https://v2.amardeepsidhu.com/tags/spool-to-excel/</link><description>Recent content in Spool to Excel on amardeepsidhu.com</description><generator>Hugo -- 0.135.0</generator><language>en</language><lastBuildDate>Sat, 16 Jun 2007 00:14:00 +0530</lastBuildDate><atom:link href="https://v2.amardeepsidhu.com/tags/spool-to-excel/index.xml" rel="self" type="application/rss+xml"/><item><title>Spool to a .xls (excel) file…</title><link>https://v2.amardeepsidhu.com/blog/2007/06/16/spool-to-a-xls-excel-file/</link><pubDate>Sat, 16 Jun 2007 00:14:00 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2007/06/16/spool-to-a-xls-excel-file/</guid><description>&lt;p>A small tip, I read on &lt;a href="http://forums.oracle.com/forums/thread.jspa?messageID=1849526">OTN&lt;/a> about spooling to a .xls (excel) file:&lt;/p>
+&lt;p>It goes like this&lt;/p>
+&lt;p>[sourcecode language=&amp;lsquo;css&amp;rsquo;]set feed off markup html on
+spool onspool c:\salgrade.xls
+select * from salgrade;
+spool offset markup html off
+spool off[/sourcecode]&lt;/p>
+&lt;p>And the xls it makes shows up like:&lt;/p>
+&lt;pre tabindex="0">&lt;code>&lt;/code>&lt;/pre>&lt;p>&lt;img loading="lazy" src="file:///C:/DOCUME%7E1/Amardeep/LOCALS%7E1/Temp/moz-screenshot.jpg">Sidhu&lt;/p>
+&lt;h2 id="comments">Comments&lt;/h2>
+&lt;h3 id="comment-by-hemant-on-2007-06-26-164400-0530">Comment by hemant on 2007-06-26 16:44:00 +0530&lt;/h3>
+&lt;p>hi&lt;br>
+i am working for a bank and we are using 10g.&lt;br>
+i am very raw at the oracle and have just started teaching myself through a book i have.&lt;br>
+we have many reports devised by our vendor still we need some that r not available.&lt;br>
+so we wanted the data to be exported in xl wherein i could manipulate to data to our need.&lt;br>
+abt this spooling thing. i have copied down ur script and want to test it… but how do i access the shell prompt(do not know unix either)&lt;br>
+thanks for the help&lt;br>
+extend it bit further for me please&lt;br>
+hemu&lt;/p></description></item></channel></rss>

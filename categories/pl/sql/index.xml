@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>PL/SQL on amardeepsidhu.com</title><link>https://v2.amardeepsidhu.com/categories/pl/sql/</link><description>Recent content in PL/SQL on amardeepsidhu.com</description><generator>Hugo -- 0.135.0</generator><language>en</language><lastBuildDate>Fri, 18 Sep 2009 21:42:00 +0530</lastBuildDate><atom:link href="https://v2.amardeepsidhu.com/categories/pl/sql/index.xml" rel="self" type="application/rss+xml"/><item><title>wrap’ed code and SQL trace</title><link>https://v2.amardeepsidhu.com/blog/2009/09/18/wraped-code-and-sql-trace/</link><pubDate>Fri, 18 Sep 2009 21:42:00 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2009/09/18/wraped-code-and-sql-trace/</guid><description>&lt;p>Yesterday, one of my colleague asked that if he traced a wrap&amp;rsquo;ed PL/SQL procedure, would the SQL statements show up in the trace ? Very simple thing but at that moment i got, sort of into doubt. So i ran a simple test and yes they do show up ;)&lt;/p>
+&lt;p>[sql]CREATE OR REPLACE PROCEDURE wrap1
+AS
+v_today DATE;
+BEGIN
+SELECT SYSDATE
+INTO v_today
+FROM DUAL;
+END;
+/&lt;/p>
+&lt;p>C:\&amp;gt;wrap iname=wrap1.sql&lt;/p>
+&lt;p>PL/SQL Wrapper: Release 10.2.0.1.0- Production on Fri Sep 18 21:07:49 2009&lt;/p></description></item><item><title>DBMS_SCHEDULER, DBMS_RLS and SYS_CONTEXT</title><link>https://v2.amardeepsidhu.com/blog/2009/06/19/dbms_scheduler-dbms_rls-and-sys_context/</link><pubDate>Fri, 19 Jun 2009 23:42:40 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2009/06/19/dbms_scheduler-dbms_rls-and-sys_context/</guid><description>&lt;p>Today one of my colleague was working on development of a screen in Oracle Forms to give the end user an option to schedule a job using dbms_scheduler. With the hope that i would be able to explain it properly, the whole scenario is like this:&lt;/p>
+&lt;ol>
+&lt;li>User will log in to the application with his username (Lets say USER01) and password (basically every application user is a database user).&lt;/li>
+&lt;li>He is provided with a screen where he can enter details about the job and the code behind the button calls a PL/SQL procedure in the main application schema (lets say APP1) which in turn uses DBMS_SCHEDULER.CREATE_JOB to schedule the new job.&lt;/li>
+&lt;li>The ultimate task of the job is to move data from one table in the first database to a table in the second database using a DB Link.&lt;/li>
+&lt;li>There is a VPD policy applied on all the application users to restrict the view of data. Policy function uses SYS_CONTEXT to fetch some information about the logged in user. The main application user APP1 is exempted from policy and can see the whole data.&lt;/li>
+&lt;/ol>
+&lt;p>Things seem to work fine till the schedule part. But when the job runs it hits &lt;em>&lt;strong>ORA-02070: database does not support operator SYS_CONTEXT in this context&lt;/strong>&lt;/em> as SYS_CONTEXT and DB link doesn&amp;rsquo;t go together.&lt;/p></description></item><item><title>Autonomous Transactions in Oracle</title><link>https://v2.amardeepsidhu.com/blog/2008/03/04/autonomous-transactions-in-oracle/</link><pubDate>Tue, 04 Mar 2008 20:33:23 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2008/03/04/autonomous-transactions-in-oracle/</guid><description>&lt;p>I came across a very nice post about Autonomous Transactions in Oracle written by &lt;a href="http://www.orafaq.com/blog/kevin_meade">Kevin Meade&lt;/a> on &lt;a href="http://www.orafaq.com">orafaq&lt;/a>. Thought about sharing &lt;a href="http://www.orafaq.com/node/1915">the link&lt;/a>.&lt;/p>
+&lt;p>His &lt;a href="http://www.orafaq.com/blog/kevin_meade">blog&lt;/a> also has some very nice stuff.&lt;/p>
+&lt;h2 id="comments">Comments&lt;/h2>
+&lt;h3 id="comment-by-aman-on-2008-03-09-122830-0530">Comment by Aman&amp;hellip;. on 2008-03-09 12:28:30 +0530&lt;/h3>
+&lt;p>Nice one Sidhu.learned some thing new about AT.&lt;br>
+🙂&lt;br>
+Cheers,&lt;br>
+Aman….&lt;/p></description></item><item><title>Missing grants</title><link>https://v2.amardeepsidhu.com/blog/2008/03/03/missing-grants/</link><pubDate>Mon, 03 Mar 2008 20:37:15 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2008/03/03/missing-grants/</guid><description>&lt;p>Today one of my colleague was working on a simple PL/SQL procedure. Based on some logic it was returning count(*) from all_tab_columns for few tables. It gave count incorrectly for one table out of around fifty in total. He just hard coded the table name and ran it but again it showed count as zero.&lt;/p>
+&lt;p>Then he took the code out of procedure and wrote it in DECLARE, BEGIN, END and after running it showed the correct count. But ran as database procedure it always shows incorrectly.&lt;/p></description></item></channel></rss>

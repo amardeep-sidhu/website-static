@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ORA-30019 on amardeepsidhu.com</title><link>https://v2.amardeepsidhu.com/tags/ora-30019/</link><description>Recent content in ORA-30019 on amardeepsidhu.com</description><generator>Hugo -- 0.135.0</generator><language>en</language><lastBuildDate>Thu, 09 Jul 2009 23:26:59 +0530</lastBuildDate><atom:link href="https://v2.amardeepsidhu.com/tags/ora-30019/index.xml" rel="self" type="application/rss+xml"/><item><title>ORA-30019: Illegal rollback Segment operation in Automatic Undo mode</title><link>https://v2.amardeepsidhu.com/blog/2009/07/09/ora-30019-illegal-rollback-segment-operation-in-automatic-undo-mode/</link><pubDate>Thu, 09 Jul 2009 23:26:59 +0530</pubDate><guid>https://v2.amardeepsidhu.com/blog/2009/07/09/ora-30019-illegal-rollback-segment-operation-in-automatic-undo-mode/</guid><description>&lt;p>Today i was refreshing a MVIEW (Oracle 9.2.0.1.0 on Windows 2000) and instead of writing&lt;/p>
+&lt;p>[sql]exec dbms_mview.refresh(&amp;lsquo;SCHEMA1.MVIEW1&amp;rsquo;,&amp;lsquo;C&amp;rsquo;); [/sql]&lt;/p>
+&lt;p>i wrote&lt;/p>
+&lt;p>[sql]exec dbms_mview.refresh(&amp;lsquo;SCHEMA1&amp;rsquo;,&amp;lsquo;MVIEW1&amp;rsquo;,&amp;lsquo;C&amp;rsquo;);[/sql]&lt;/p>
+&lt;p>And it gave me:&lt;/p>
+&lt;p>ERROR at line 1:&lt;/p>
+&lt;p>ORA-30019: Illegal rollback Segment operation in Automatic Undo mode&lt;/p>
+&lt;p>ORA-06512: at &amp;ldquo;SYS.DBMS_SNAPSHOT&amp;rdquo;, line 794&lt;/p>
+&lt;p>ORA-06512: at &amp;ldquo;SYS.DBMS_SNAPSHOT&amp;rdquo;, line 851&lt;/p>
+&lt;p>ORA-06512: at &amp;ldquo;SYS.DBMS_SNAPSHOT&amp;rdquo;, line 832&lt;/p>
+&lt;p>ORA-06512: at line 1&lt;/p>
+&lt;p>[sql]ERROR at line 1:
+ORA-30019: Illegal rollback Segment operation in Automatic Undo mode
+ORA-06512: at &amp;ldquo;SYS.DBMS_SNAPSHOT&amp;rdquo;, line 794
+ORA-06512: at &amp;ldquo;SYS.DBMS_SNAPSHOT&amp;rdquo;, line 851
+ORA-06512: at &amp;ldquo;SYS.DBMS_SNAPSHOT&amp;rdquo;, line 832
+ORA-06512: at line 1[/sql]&lt;/p></description></item></channel></rss>
