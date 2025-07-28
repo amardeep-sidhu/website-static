@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tuning on amardeepsidhu.com</title>
+    <link>http://localhost:1313/tags/tuning/</link>
+    <description>Recent content in Tuning on amardeepsidhu.com</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 27 Jul 2025 17:25:12 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tuning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SQL Performance - Tune It or Buy It ?</title>
+      <link>http://localhost:1313/blog/2025/07/sql-performance-tune-it-or-buy-it/</link>
+      <pubDate>Sun, 27 Jul 2025 17:25:12 +0530</pubDate>
+      <guid>http://localhost:1313/blog/2025/07/sql-performance-tune-it-or-buy-it/</guid>
+      <description>&lt;p&gt;I was thinking about this while sitting in Vivek&amp;rsquo;s session at OCYatra in Gurgaon. He was talking about the techniques one can use to optimize badly performing SQLs. All that is great but there does exist the other side of this story i.e. throwing hardware at a problem. Of course, it works till a point only and it can&amp;rsquo;t solve every damn performance problem out there. But it is relatively easier to do (costs money, though) and depending upon where you are hosting your workloads, can be quicker too. You see CPU usage going up or users complaining, simple thing to do is throw more cores at the database. If the system is CPU starved, it is going to give some temporary relief and you can control the situation. Same can be the case with storage IOPS. With systems like Exadata being around which can make even a bad SQL do fairly ok, this lever becomes even more powerful. But is it sustainable or is it the right way to deal with these kind of issues?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
