@@ -1,3 +1,147 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Uncategorized on amardeepsidhu.com</title><link>https://amardeepsidhu.com/categories/uncategorized/</link><description>Recent content in Uncategorized on amardeepsidhu.com</description><generator>Hugo -- 0.147.9</generator><language>en</language><lastBuildDate>Fri, 03 Nov 2017 23:27:13 +0530</lastBuildDate><atom:link href="https://amardeepsidhu.com/categories/uncategorized/index.xml" rel="self" type="application/rss+xml"/><item><title>ORA-15040 ORA-15042 with EXTERNAL redundancy Diskgroup</title><link>https://amardeepsidhu.com/blog/2017/11/ora-15040-ora-15042-with-external-redundancy-diskgroup/</link><pubDate>Fri, 03 Nov 2017 23:27:13 +0530</pubDate><guid>https://amardeepsidhu.com/blog/2017/11/ora-15040-ora-15042-with-external-redundancy-diskgroup/</guid><description>&lt;p>A colleague was working on an ASM issue (Standalone one, Version 11.2.0.3 on AIX) at one of the customer sites. Later on, I also joined him. The issue was that the customer added few news disks to an existing diskgroup. Everything went well and the rebalance kicked in. After some time, something happened and all of a sudden the diskgroup was dismounted. While trying the mount the diskgroup again, it was giving&lt;/p></description></item><item><title>ERROR: SPFile in diskgroup &lt;> does not match the specified spfile</title><link>https://amardeepsidhu.com/blog/2016/09/error-spfile-in-diskgroup-does-not-match-the-specified-spfile/</link><pubDate>Tue, 20 Sep 2016 22:12:50 +0530</pubDate><guid>https://amardeepsidhu.com/blog/2016/09/error-spfile-in-diskgroup-does-not-match-the-specified-spfile/</guid><description>&lt;p>Just a stupid error. Posting it so that someone else googling for the same thing can get a clue.&lt;/p>
 &lt;p>An ASM instance running with default parameters (no pfile, no spfile). Updated spfile for the instance with asmcmd spset command and bounced crs. After reboot also, it still wasn&amp;rsquo;t using spfile. Got puzzled and checked GPnP settings again. All looked good. Then in alert log came across this&lt;/p>
-&lt;p>[text]ERROR: SPFile in diskgroup &amp;lt;&amp;gt; does not match the specified spfile +DATA/asm/asmparameterfile/registry.253.769187275[/text]&lt;/p></description></item></channel></rss>
+&lt;p>[text]ERROR: SPFile in diskgroup &amp;lt;&amp;gt; does not match the specified spfile +DATA/asm/asmparameterfile/registry.253.769187275[/text]&lt;/p></description></item><item><title>aap hain kyon khafa kuch pata to chale</title><link>https://amardeepsidhu.com/personal/2012/07/aap-hain-kyon-khafa-kuch-pata-to-chale/</link><pubDate>Sat, 21 Jul 2012 23:14:54 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2012/07/aap-hain-kyon-khafa-kuch-pata-to-chale/</guid><description>&lt;p>Melody !&lt;/p>
+&lt;p>aap hain kyon &lt;strong>khafa&lt;/strong>, kuch pata to chale&lt;br>
+hai meri kya &lt;strong>khata&lt;/strong>, kuch pata to chale&lt;br>
+&lt;em>(khafa - angry, khata - fault)&lt;/em>&lt;/p>
+&lt;p>aaj chehre pe rang-e-udaasi hai kyon&lt;br>
+ae mere dilruba kuch pata to chale&lt;/p>
+&lt;p>aapke aur mere pyar ke darmiyaan&lt;br>
+kyon hai ye faasila kuch pata to chale&lt;/p>
+&lt;p>main agar bewafa hoon to yun hi sahi&lt;br>
+kaun hai &lt;strong>bawafa&lt;/strong> kuch pata to chale&lt;br>
+&lt;em>(bawafa - faithful)&lt;/em>&lt;/p>
+&lt;p>आप हैं क्यों खफा, कुछ पता तो चले&lt;br>
+है मेरी क्या खता, कुछ पता तो चले&lt;/p></description></item><item><title>kyo tu acha lagta hai</title><link>https://amardeepsidhu.com/personal/2012/02/kyo-tu-acha-lagta-hai/</link><pubDate>Sun, 26 Feb 2012 23:25:18 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2012/02/kyo-tu-acha-lagta-hai/</guid><description>&lt;p>Some amazing poetry at the end of Attaullah Khan&amp;rsquo;s performance of &lt;em>&lt;a href="http://www.youtube.com/watch?v=oRoDbwoeBcQ">pyar naal na sahi&lt;/a>&lt;/em> in Coke Studio season 4.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/bciNIOOMomc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;/div>
+&lt;p>kyo tu acha lagta hai
+waqt mila to sochenge
+tujh mein kya kya dekha hai
+waqt mila to sochenge
+saara shahar &lt;strong>shanaasai&lt;/strong> ka daawedaar to hai lekin
+&lt;em>(shanaasai - Acquaintance)&lt;/em>
+kaun hamara apna hai
+waqt mila to sochenge
+humne usko likha tha
+kuch milne ki &lt;strong>tadbeer&lt;/strong> karo
+&lt;em>(Tadbir - plan, arrangement)&lt;/em>
+usne likhkar bheja hai
+waqt mila to sochenge
+mausam, khusboo, &lt;strong>baad-e-sabaa&lt;/strong>, chand, &lt;strong>shafaq&lt;/strong> aur taaron mein
+&lt;em>(baad-e-sabaa - Morning Breeze, shafaq - rainbow)&lt;/em>
+kaun tumaare jaisa hai
+waqt mila to sochenge
+ya to apne dil ki maano ya fir dunia walon ki
+&lt;strong>mashwara&lt;/strong> uska acha hai
+&lt;em>(mashwara - advice)&lt;/em>
+waqt mila to sochenge
+kyon tu acha lagta hai
+waqt mila to sochenge&lt;/p></description></item><item><title>beqarar tanhaiyon ka silsila reh jayega</title><link>https://amardeepsidhu.com/personal/2012/01/beqarar-tanhaiyon-ka-silsila-reh-jayega/</link><pubDate>Tue, 03 Jan 2012 22:23:43 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2012/01/beqarar-tanhaiyon-ka-silsila-reh-jayega/</guid><description>&lt;p>A very simple and beautiful ghazal by Ghulam Ali. I don&amp;rsquo;t know the name of the writer. If you know please post in the comments. You can listen to it &lt;a href="http://www.dhingana.com/samunder-ghulam-ali/movie/songs/hindi/ghazals/1492">here&lt;/a>.&lt;/p>
+&lt;p>beqarar tanhaiyon ka silsila reh jayega
+tere mere darmiyan bas ek &lt;strong>khala&lt;/strong> reh jayega
+&lt;em>(khala - space, distance, vacuum)&lt;/em>&lt;/p>
+&lt;p>&lt;strong>aks&lt;/strong> beh jayenge saare dhoop ke &lt;strong>sailaab&lt;/strong> mein
+aur koi paanion mein &lt;strong>jhaankta&lt;/strong> reh jayega
+tere mere darmiyan bas ek khala reh jayega
+&lt;em>(aks - image, reflection | sailaab - flood | jhaankta - looking)&lt;/em>&lt;/p></description></item><item><title>wohi palkon ka jhapkana</title><link>https://amardeepsidhu.com/personal/2009/01/wohi-palkon-ka-jhapkana/</link><pubDate>Tue, 13 Jan 2009 20:05:03 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2009/01/wohi-palkon-ka-jhapkana/</guid><description>&lt;p>A wonderul ghazal by Ghulam Ali. I don&amp;rsquo;t know the name of the writer. If you know please leave a comment.&lt;/p>
+&lt;p>wohi palkon ka jhapkana
+wohi jaadu tere
+sare andaaz chura lai hai
+khushbu tere&lt;/p>
+&lt;p>tujh se main jism churata tha
+magar ilam na tha
+mera saaye se lipat jayenge
+baazu tere
+wohi palkon ka jhapkana
+wohi jaadu tere
+sare andaaz chura lai hai
+khushbu tere&lt;/p>
+&lt;p>teri aankhon mein pighalti rahi
+soorat meri
+meri tasveer pe girte rahe
+aansu tere
+wohi palkon ka jhapkana
+wohi jaadu tere
+sare andaaz chura lai hai
+khushbu tere&lt;/p></description></item><item><title>har chand sahara hai tere pyar ka dil ko</title><link>https://amardeepsidhu.com/personal/2008/12/har-chand-sahara-hai-tere-pyar-ka-dil-ko/</link><pubDate>Tue, 02 Dec 2008 03:09:22 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2008/12/har-chand-sahara-hai-tere-pyar-ka-dil-ko/</guid><description>&lt;p>A wonderful ghazal by Nayara Noor.&lt;/p>
+&lt;p>har chand sahara hai tere pyar ka dil ko
+rehta hai magar ik ajab khauf sa dil ko&lt;/p>
+&lt;p>woh khawab k dekha na kabhi
+le uda neendein
+woh dard k utha na kabhi
+kha gaya dil ko
+rehta hai magar ik ajab khauf sa dil ko&lt;/p>
+&lt;p>yahan saans ka lena b guzar jana hai jee se
+yahan marka-e-ishq bhi ik khel qatil ko
+rehta hai magar ik ajab khauf sa dil ko&lt;/p></description></item><item><title>kade pattian di gal...</title><link>https://amardeepsidhu.com/personal/2008/08/kade-pattian-di-gal/</link><pubDate>Sun, 24 Aug 2008 10:03:11 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2008/08/kade-pattian-di-gal/</guid><description>&lt;p>An awesome poetry. I don&amp;rsquo;t know the name of the writer. Gurdeep Singh sung this in his second album &lt;a href="http://music.pz10.com/album/3859/Hook-Gurdeep%20Singh.html">&lt;strong>Hook&lt;/strong>&lt;/a>. The whole album is a must listen. Awesome poetry and voice !&lt;/p>
+&lt;p>kade pattian gi gal
+kade tahnian di gal
+sanu das ja ni vaaye sade hanian di gal
+kade pattian di gal&amp;hellip;&lt;/p>
+&lt;p>kade soorjan ton puchan
+kade tarian ton puchan
+maruthal te jhana de kinarian ton puchan
+koi dasda na lang chukke panian di gal
+kade pattian di gal&amp;hellip;&lt;/p></description></item><item><title>chale to kat hi jeyga safar...</title><link>https://amardeepsidhu.com/personal/2008/06/chale-to-kat-hi-jeyga-safar/</link><pubDate>Sat, 14 Jun 2008 11:51:32 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2008/06/chale-to-kat-hi-jeyga-safar/</guid><description>&lt;p>One of my all time favourite songs. Beautifully sung by Musarrat Nazir. Awesome lyrics:&lt;/p>
+&lt;p>chale to kat hi jeyga safar
+ahista ahista&lt;/p>
+&lt;p>hum uske paas jate the
+magar ahista ahista&lt;/p>
+&lt;p>abi taaron se khelo
+chand ki kirno se &lt;strong>ithlao&lt;/strong>
+milegi uske chehre ki sahar
+ahista ahista&lt;/p>
+&lt;p>&lt;em>(ithlao - play with)&lt;/em>&lt;/p>
+&lt;p>&lt;strong>dareecho&lt;/strong> ko to dekho
+&lt;strong>chilmanon&lt;/strong> ke raaz to samjho
+uthayenge parda haye &lt;strong>baam-o-dar&lt;/strong>
+ahista ahista&lt;/p>
+&lt;p>(dareecho - ?,chilmanon - ?, baam - housetop or roof, dar - door)&lt;/p></description></item><item><title>Punjab</title><link>https://amardeepsidhu.com/personal/2008/01/punjab/</link><pubDate>Mon, 07 Jan 2008 20:09:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2008/01/punjab/</guid><description>&lt;p>One of my friend sent some paintings in a mail. Just reminded me of those golden old days. So thought about posting here.&lt;/p>
+&lt;p>A kite flying scene from a village where 3 kids are getting ready to fly their machine in the air. These ready made kites are today&amp;rsquo;s play. In those days kids used to make kites on their own, either from polythene bags or newspapers.&lt;/p>
+&lt;p>&lt;a href="http://bp3.blogger.com/_cX21i_8-MT4/R4I8O2P0dQI/AAAAAAAAAHE/Pp_-DqZKw8Y/s1600-h/patang.jpg">&lt;img loading="lazy" src="http://bp3.blogger.com/_cX21i_8-MT4/R4I8O2P0dQI/AAAAAAAAAHE/Pp_-DqZKw8Y/s400/patang.jpg">&lt;/a>---&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-&lt;br>
+A young boy tie&amp;rsquo;ing his turban. See how he has adjusted the mirror :)&lt;/p></description></item><item><title>lazzat-e-gam bada deejiye...</title><link>https://amardeepsidhu.com/personal/2007/11/lazzat-e-gam-bada-deejiye/</link><pubDate>Sun, 18 Nov 2007 00:01:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2007/11/lazzat-e-gam-bada-deejiye/</guid><description>&lt;p>This one is sung by Munni Begum. I couldn&amp;rsquo;t find the name of the writer. You can listen to it &lt;a href="http://music.pz10.com/album/9098/Best%20Of%20Munni%20Begum-Munni%20Begum.html">here&lt;/a> on pz10.&lt;/p>
+&lt;p>lazzat-e-gam bada deejiye
+aap yun muskara deejiye&amp;hellip;&lt;/p>
+&lt;p>keemat-e-dil bata deejiye
+khaaq le kar uda deejiye&amp;hellip;&lt;/p>
+&lt;p>aap andhere mein kab tak rahein
+fer koi ghar jala deejiye&amp;hellip;&lt;/p>
+&lt;p>chand kab tak gehan mein rahe
+aap zulfein hata deejiye&amp;hellip;&lt;/p>
+&lt;p>mera daaman bahut saaf hai
+koi tohmat laga deejiye&amp;hellip;&lt;/p>
+&lt;p>ik samundar ne avaaz di
+mujhko paani pila deejiye&lt;/p></description></item><item><title>oh bada be-lihaaz...</title><link>https://amardeepsidhu.com/personal/2007/11/oh-bada-be-lihaaz/</link><pubDate>Sat, 17 Nov 2007 10:59:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2007/11/oh-bada-be-lihaaz/</guid><description>&lt;p>A beautiful song by Surinder Kaur. I don&amp;rsquo;t know the writer&amp;rsquo;s name. You can listen to it &lt;a href="http://music.pz10.com/album/24/Best%20of%20Asa%20Singh%20Mastana%20&amp;amp;%20Surinder%20Kaur-Asa%20Singh%20Mastana.html">here&lt;/a>.&lt;/p>
+&lt;p>oh bada be-lihaaz ki kariye
+bewafa da ilaaz ki kariye&amp;hellip;&lt;/p>
+&lt;p>tere gam da b ki bharosa e
+shai begani mizaz ki kariye&amp;hellip;&lt;/p>
+&lt;p>daadhe vikhre ne pyar de painde
+dil je na aave na baaz ki kariye&amp;hellip;&lt;/p>
+&lt;p>kache ghadian ne paar ki launae
+lagge ishqe nu laaz ki kariye&amp;hellip;&lt;/p>
+&lt;p>tainu bhulna tan kujh nahi mushkil
+jhalle dil da ilaaz ki kariye&amp;hellip;&lt;/p></description></item><item><title>Amin Malik</title><link>https://amardeepsidhu.com/personal/2007/11/amin-malik/</link><pubDate>Fri, 02 Nov 2007 17:05:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2007/11/amin-malik/</guid><description>&lt;p>I have been a big fan of Amin Malik and his writings since the days when I started reading Punjabi newspapers which generally use to carry his writings. I always felt that he translates emotions into words and his writings can make you cry. From whatever little I know about him I also seem to carry a dim expression in my mind that some people also have some issues with him because he writes, says and speaks nothing but &amp;ldquo;truth&amp;rdquo; which seems to be creating trouble.&lt;/p></description></item><item><title>hamein to ab bhi woh...</title><link>https://amardeepsidhu.com/personal/2007/09/hamein-to-ab-bhi-woh/</link><pubDate>Tue, 11 Sep 2007 21:12:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2007/09/hamein-to-ab-bhi-woh/</guid><description>&lt;p>This one is by Ghulam Ali. It was in the album Tere Shahar Mein. It was one of the first albums of Ghulam Ali to be released in India. Its available online on musicindiaonline and can be listened to, &lt;a href="http://www.musicindiaonline.com/music/ghazals/s/artist.409/">here&lt;/a>&lt;/p>
+&lt;p>hamein to ab bhi woh guzra zamana yaad aata hai
+tumhe bhi kya kabi koi dewana yaad aata hai&amp;hellip;&lt;/p>
+&lt;p>hawaein tej thi, baarish bhi thi, tufan bhi tha lekin
+tera aise main bhi waada nibhana yaad aata hai&lt;/p></description></item><item><title>yaaro kisi kaatil se...</title><link>https://amardeepsidhu.com/personal/2007/06/yaaro-kisi-kaatil-se/</link><pubDate>Fri, 29 Jun 2007 22:46:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2007/06/yaaro-kisi-kaatil-se/</guid><description>&lt;p>This one is sung by Mehdi Hassan. Simply awesome. Very simple wording and just beautiful. At the moment I don&amp;rsquo;t know the name of the poet. Will try to find out.&lt;/p>
+&lt;p>yaaro kisi kaatil se kabi pyar na mango
+apne hi gale ke liye talwaar na mango&lt;/p>
+&lt;p>gir jauge tum apne maseeha ki nazar se
+mar kar bhi ilaaz-e-dil-e-bimar na mango&lt;/p>
+&lt;p>sach baat pe milta hai sada zeher ka pyala
+jeena hai to fir jurrat-e-izhaar na mango&lt;/p></description></item><item><title>main bulbula c...</title><link>https://amardeepsidhu.com/personal/2007/06/main-bulbula-c/</link><pubDate>Sat, 23 Jun 2007 23:12:00 +0530</pubDate><guid>https://amardeepsidhu.com/personal/2007/06/main-bulbula-c/</guid><description>&lt;p>I dont know who wrote these lines, got it from internet only. Beautiful&amp;hellip;&lt;/p>
+&lt;p>main bulbula c ik paani da
+do pal jee ke mukk challia
+main raat di akh da athru c
+suraj di kiran pai
+te main sukk challia
+aas rakhda c suhaane mausam di
+aj hanerian de vich lukk chalia
+ek supna dekhia c akh meri ne
+jihda adh vichale tut challia
+main jag rusa ke yaar manaya
+te aj oh b chandra russ challia&amp;hellip;&lt;/p></description></item></channel></rss>
